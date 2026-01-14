@@ -1,0 +1,863 @@
+{
+    "Zombie": {
+        "ClassName": "Zombie",
+        "KodFile": null,
+        "EnglishName": "zombie",
+        "GermanName": "Der Zombie",
+        "DmCommand": "dm monster der zombie"
+    },
+    "ZiXeochicatl": {
+        "ClassName": "ZiXeochicatl",
+        "KodFile": null,
+        "EnglishName": "zi'xeochicatl",
+        "GermanName": "Der zi'Xeochicatl",
+        "DmCommand": "dm monster der zi'xeochicatl"
+    },
+    "Yeti": {
+        "ClassName": "Yeti",
+        "KodFile": null,
+        "EnglishName": "yeti",
+        "GermanName": "Der Yeti",
+        "DmCommand": "dm monster der yeti"
+    },
+    "Wolf": {
+        "ClassName": "Wolf",
+        "KodFile": null,
+        "EnglishName": "wolf",
+        "GermanName": "Der Wolf",
+        "DmCommand": "dm monster der wolf"
+    },
+    "Wendigo": {
+        "ClassName": "Wendigo",
+        "KodFile": null,
+        "EnglishName": "wendigo",
+        "GermanName": "Der Wendigo",
+        "DmCommand": "dm monster der wendigo"
+    },
+    "Vitkhul": {
+        "ClassName": "Vitkhul",
+        "KodFile": null,
+        "EnglishName": "vitkhul",
+        "GermanName": "Vitkhul",
+        "DmCommand": "dm monster vitkhul"
+    },
+    "VeXeochicatl": {
+        "ClassName": "VeXeochicatl",
+        "KodFile": null,
+        "EnglishName": "ve'xeochicatl",
+        "GermanName": "Der Ve'xeochicatl",
+        "DmCommand": "dm monster der ve'xeochicatl"
+    },
+    "StosszahnSkelett": {
+        "ClassName": "StosszahnSkelett",
+        "KodFile": null,
+        "EnglishName": "tusked skeleton",
+        "GermanName": "Das Stoßzahn Skelett",
+        "DmCommand": "dm monster das stoßzahn skelett"
+    },
+    "Tundra": {
+        "ClassName": "Tundra",
+        "KodFile": null,
+        "EnglishName": "Tundra",
+        "GermanName": "Der Tundra",
+        "DmCommand": "dm monster der tundra"
+    },
+    "Troll": {
+        "ClassName": "Troll",
+        "KodFile": null,
+        "EnglishName": "troll",
+        "GermanName": "Der Troll",
+        "DmCommand": "dm monster der troll"
+    },
+    "Zerstoerer": {
+        "ClassName": "Zerstoerer",
+        "KodFile": null,
+        "EnglishName": "thrasher",
+        "GermanName": "Der Zerstörer",
+        "DmCommand": "dm monster der zerstörer"
+    },
+    "TeXeochicatl": {
+        "ClassName": "TeXeochicatl",
+        "KodFile": null,
+        "EnglishName": "te'xeochicatl",
+        "GermanName": "Der Te'Xeochicatl",
+        "DmCommand": "dm monster der te'xeochicatl"
+    },
+    "Steintroll": {
+        "ClassName": "Steintroll",
+        "KodFile": null,
+        "EnglishName": "stone troll",
+        "GermanName": "Der Steintroll",
+        "DmCommand": "dm monster der steintroll"
+    },
+    "Stachelwirbler": {
+        "ClassName": "Stachelwirbler",
+        "KodFile": null,
+        "EnglishName": "spinebeast behemoth",
+        "GermanName": "Der Stachelwirbler",
+        "DmCommand": "dm monster der stachelwirbler"
+    },
+    "Stachelbestie": {
+        "ClassName": "Stachelbestie",
+        "KodFile": null,
+        "EnglishName": "spinebeast",
+        "GermanName": "Die Stachelbestie",
+        "DmCommand": "dm monster die stachelbestie"
+    },
+    "KleineStachelbestie": {
+        "ClassName": "KleineStachelbestie",
+        "KodFile": null,
+        "EnglishName": "spine beast",
+        "GermanName": "Die kleine Stachelbestie",
+        "DmCommand": "dm monster die kleine stachelbestie"
+    },
+    "Riesenspinne": {
+        "ClassName": "Riesenspinne",
+        "KodFile": null,
+        "EnglishName": "spider",
+        "GermanName": "Die Riesenspinne",
+        "DmCommand": "dm monster die riesenspinne"
+    },
+    "GefalleneSeele": {
+        "ClassName": "GefalleneSeele",
+        "KodFile": null,
+        "EnglishName": "spectral mummy",
+        "GermanName": "Die Gefallene Seele",
+        "DmCommand": "dm monster die gefallene seele"
+    },
+    "SoldatDerArmeeDerPrinzessin": {
+        "ClassName": "SoldatDerArmeeDerPrinzessin",
+        "KodFile": null,
+        "EnglishName": "soldier of the Princess' army",
+        "GermanName": "Ein Soldat der Armee der Prinzessin",
+        "DmCommand": "dm monster ein soldat der armee der prinzessin"
+    },
+    "SoldatDerArmeeDesHerzogs": {
+        "ClassName": "SoldatDerArmeeDesHerzogs",
+        "KodFile": null,
+        "EnglishName": "soldier of the Duke's army",
+        "GermanName": "Ein Soldat der Armee des Herzogs",
+        "DmCommand": "dm monster ein soldat der armee des herzogs"
+    },
+    "Schneemann": {
+        "ClassName": "Schneemann",
+        "KodFile": null,
+        "EnglishName": "snowman",
+        "GermanName": "Der Schneemann",
+        "DmCommand": "dm monster der schneemann"
+    },
+    "Schneeratte": {
+        "ClassName": "Schneeratte",
+        "KodFile": null,
+        "EnglishName": "snow rat",
+        "GermanName": "Die Schneeratte",
+        "DmCommand": "dm monster die schneeratte"
+    },
+    "KleineRatte": {
+        "ClassName": "KleineRatte",
+        "KodFile": null,
+        "EnglishName": "small rat",
+        "GermanName": "Die Kleine Ratte",
+        "DmCommand": "dm monster die kleine ratte"
+    },
+    "KleineTausendfuessler": {
+        "ClassName": "KleineTausendfuessler",
+        "KodFile": null,
+        "EnglishName": "small centipede",
+        "GermanName": "Der kleine Tausendfüßler",
+        "DmCommand": "dm monster der kleine tausendfüßler"
+    },
+    "Schleim": {
+        "ClassName": "Schleim",
+        "KodFile": null,
+        "EnglishName": "slime",
+        "GermanName": "Der Schleim",
+        "DmCommand": "dm monster der schleim"
+    },
+    "Skelett": {
+        "ClassName": "Skelett",
+        "KodFile": null,
+        "EnglishName": "skeleton",
+        "GermanName": "Das Skelett",
+        "DmCommand": "dm monster das skelett"
+    },
+    "SiXeochicatl": {
+        "ClassName": "SiXeochicatl",
+        "KodFile": null,
+        "EnglishName": "si'xeochicatl",
+        "GermanName": "Der si'Xeochicatl",
+        "DmCommand": "dm monster der si'xeochicatl"
+    },
+    "Schattenbestie": {
+        "ClassName": "Schattenbestie",
+        "KodFile": null,
+        "EnglishName": "shadowbeast",
+        "GermanName": "Die Schattenbestie",
+        "DmCommand": "dm monster die schattenbestie"
+    },
+    "Schattenmumie": {
+        "ClassName": "Schattenmumie",
+        "KodFile": null,
+        "EnglishName": "shadow mummy",
+        "GermanName": "Die Schattenmumie",
+        "DmCommand": "dm monster die schattenmumie"
+    },
+    "Kanalratte": {
+        "ClassName": "Kanalratte",
+        "KodFile": null,
+        "EnglishName": "sewer rat",
+        "GermanName": "Die Kanalratte",
+        "DmCommand": "dm monster die kanalratte"
+    },
+    "RoXeochicatl": {
+        "ClassName": "RoXeochicatl",
+        "KodFile": null,
+        "EnglishName": "ro'xeochicatl",
+        "GermanName": "Der Ro'Xeochicatl",
+        "DmCommand": "dm monster der ro'xeochicatl"
+    },
+    "Rebellensoldat": {
+        "ClassName": "Rebellensoldat",
+        "KodFile": null,
+        "EnglishName": "rebel soldier",
+        "GermanName": "Ein Rebellensoldat",
+        "DmCommand": "dm monster ein rebellensoldat"
+    },
+    "ReXeochicatl": {
+        "ClassName": "ReXeochicatl",
+        "KodFile": null,
+        "EnglishName": "re'xeochicatl",
+        "GermanName": "Der re'xeochicatl",
+        "DmCommand": "dm monster der re'xeochicatl"
+    },
+    "Rattensoldat": {
+        "ClassName": "Rattensoldat",
+        "KodFile": null,
+        "EnglishName": "rat soldier",
+        "GermanName": "Der Rattensoldat",
+        "DmCommand": "dm monster der rattensoldat"
+    },
+    "Rattenkoenig": {
+        "ClassName": "Rattenkoenig",
+        "KodFile": null,
+        "EnglishName": "rat king",
+        "GermanName": "Der Rattenkönig",
+        "DmCommand": "dm monster der rattenkönig"
+    },
+    "Ranunculus": {
+        "ClassName": "Ranunculus",
+        "KodFile": null,
+        "EnglishName": "ranunculus",
+        "GermanName": "Der Ranunculus",
+        "DmCommand": "dm monster der ranunculus"
+    },
+    "KoeniginVenyaCyr": {
+        "ClassName": "KoeniginVenyaCyr",
+        "KodFile": null,
+        "EnglishName": "Queen Venya'cyr",
+        "GermanName": "Die Königin Venya'cyr",
+        "DmCommand": "dm monster die königin venya'cyr"
+    },
+    "Spinnenkoenigin": {
+        "ClassName": "Spinnenkoenigin",
+        "KodFile": null,
+        "EnglishName": "queen spider",
+        "GermanName": "Die Spinnenkönigin",
+        "DmCommand": "dm monster die spinnenkönigin"
+    },
+    "Poltergeist": {
+        "ClassName": "Poltergeist",
+        "KodFile": null,
+        "EnglishName": "poltergeist",
+        "GermanName": "Der Poltergeist",
+        "DmCommand": "dm monster der poltergeist"
+    },
+    "ZahmeDrachenfliege": {
+        "ClassName": "ZahmeDrachenfliege",
+        "KodFile": null,
+        "EnglishName": "pet dragonfly",
+        "GermanName": "Zahme Drachenfliege",
+        "DmCommand": "dm monster zahme drachenfliege"
+    },
+    "AvarKriegerVomStammeDerPiPiep": {
+        "ClassName": "AvarKriegerVomStammeDerPiPiep",
+        "KodFile": null,
+        "EnglishName": "peet-seeeep avar warrior",
+        "GermanName": "Der Avar-Krieger vom Stamme der Pi-Piep",
+        "DmCommand": "dm monster der avar-krieger vom stamme der pi-piep"
+    },
+    "AvarSchamane": {
+        "ClassName": "AvarSchamane",
+        "KodFile": null,
+        "EnglishName": "peet-seeeep avar shaman",
+        "GermanName": "Der Avar-Schamane",
+        "DmCommand": "dm monster der avar-schamane"
+    },
+    "AvarHaeuptlingDerPiPiep": {
+        "ClassName": "AvarHaeuptlingDerPiPiep",
+        "KodFile": null,
+        "EnglishName": "peet-seeeep avar chieftain",
+        "GermanName": "Der Avar-Häuptling der Pi-Piep",
+        "DmCommand": "dm monster der avar-häuptling der pi-piep"
+    },
+    "OrkZauberer": {
+        "ClassName": "OrkZauberer",
+        "KodFile": null,
+        "EnglishName": "orc wizard",
+        "GermanName": "Der Ork-Zauberer",
+        "DmCommand": "dm monster der ork-zauberer"
+    },
+    "OrkSklave": {
+        "ClassName": "OrkSklave",
+        "KodFile": null,
+        "EnglishName": "orc slave",
+        "GermanName": "Der Ork-Sklave",
+        "DmCommand": "dm monster der ork-sklave"
+    },
+    "Orkhaeuptling": {
+        "ClassName": "Orkhaeuptling",
+        "KodFile": null,
+        "EnglishName": "orc pit boss",
+        "GermanName": "Der Orkhäuptling",
+        "DmCommand": "dm monster der orkhäuptling"
+    },
+    "Ork": {
+        "ClassName": "Ork",
+        "KodFile": null,
+        "EnglishName": "orc",
+        "GermanName": "Der Ork",
+        "DmCommand": "dm monster der ork"
+    },
+    "Nyrphling": {
+        "ClassName": "Nyrphling",
+        "KodFile": null,
+        "EnglishName": "nyrphling",
+        "GermanName": "Der Nyrphling",
+        "DmCommand": "dm monster der nyrphling"
+    },
+    "Nerudittroll": {
+        "ClassName": "Nerudittroll",
+        "KodFile": null,
+        "EnglishName": "nerudite troll",
+        "GermanName": "Der Nerudittroll",
+        "DmCommand": "dm monster der nerudittroll"
+    },
+    "Neruditgolem": {
+        "ClassName": "Neruditgolem",
+        "KodFile": null,
+        "EnglishName": "nerudite golem",
+        "GermanName": "Der Neruditgolem",
+        "DmCommand": "dm monster der neruditgolem"
+    },
+    "SoldatDerNekromanten": {
+        "ClassName": "SoldatDerNekromanten",
+        "KodFile": null,
+        "EnglishName": "necromancer soldier",
+        "GermanName": "Ein Soldat der Nekromanten",
+        "DmCommand": "dm monster ein soldat der nekromanten"
+    },
+    "Nekromant": {
+        "ClassName": "Nekromant",
+        "KodFile": null,
+        "EnglishName": "necromancer",
+        "GermanName": "Ein Nekromant",
+        "DmCommand": "dm monster ein nekromant"
+    },
+    "NeXeochicatl": {
+        "ClassName": "NeXeochicatl",
+        "KodFile": null,
+        "EnglishName": "ne'xeochicatl",
+        "GermanName": "Der ne'Xeochicatl",
+        "DmCommand": "dm monster der ne'xeochicatl"
+    },
+    "Natterwurm": {
+        "ClassName": "Natterwurm",
+        "KodFile": null,
+        "EnglishName": "narthyl worm",
+        "GermanName": "Der Natterwurm",
+        "DmCommand": "dm monster der natterwurm"
+    },
+    "MutierteRiesenratte": {
+        "ClassName": "MutierteRiesenratte",
+        "KodFile": null,
+        "EnglishName": "mutated giant rat",
+        "GermanName": "Die mutierte Riesenratte",
+        "DmCommand": "dm monster die mutierte riesenratte"
+    },
+    "RoteAmeise": {
+        "ClassName": "RoteAmeise",
+        "KodFile": null,
+        "EnglishName": "mutant ant",
+        "GermanName": "Die rote Ameise",
+        "DmCommand": "dm monster die rote ameise"
+    },
+    "Mumienfuerst": {
+        "ClassName": "Mumienfuerst",
+        "KodFile": null,
+        "EnglishName": "mummy lord",
+        "GermanName": "Der Mumienfürst",
+        "DmCommand": "dm monster der mumienfürst"
+    },
+    "Mumie": {
+        "ClassName": "Mumie",
+        "KodFile": null,
+        "EnglishName": "mummy",
+        "GermanName": "Die Mumie",
+        "DmCommand": "dm monster die mumie"
+    },
+    "Panzermolch": {
+        "ClassName": "Panzermolch",
+        "KodFile": null,
+        "EnglishName": "mollusk creature",
+        "GermanName": "Der Panzermolch",
+        "DmCommand": "dm monster der panzermolch"
+    },
+    "Minotaurus": {
+        "ClassName": "Minotaurus",
+        "KodFile": null,
+        "EnglishName": "minotaur",
+        "GermanName": "Der Minotaurus",
+        "DmCommand": "dm monster der minotaurus"
+    },
+    "MagierDerArmeeDerPrinzessin": {
+        "ClassName": "MagierDerArmeeDerPrinzessin",
+        "KodFile": null,
+        "EnglishName": "mage of the Princess' army",
+        "GermanName": "Ein Magier der Armee der Prinzessin",
+        "DmCommand": "dm monster ein magier der armee der prinzessin"
+    },
+    "MagierDerArmeeDesHerzogs": {
+        "ClassName": "MagierDerArmeeDesHerzogs",
+        "KodFile": null,
+        "EnglishName": "mage of the Duke's army",
+        "GermanName": "Ein Magier der Armee des Herzogs",
+        "DmCommand": "dm monster ein magier der armee des herzogs"
+    },
+    "MaXeochicatl": {
+        "ClassName": "MaXeochicatl",
+        "KodFile": null,
+        "EnglishName": "ma'xeochicatl",
+        "GermanName": "Der Ma'Xeochicatl",
+        "DmCommand": "dm monster der ma'xeochicatl"
+    },
+    "LupoggKoenig": {
+        "ClassName": "LupoggKoenig",
+        "KodFile": null,
+        "EnglishName": "lupogg king",
+        "GermanName": "Der Lupogg-König",
+        "DmCommand": "dm monster der lupogg-könig"
+    },
+    "Lupogg": {
+        "ClassName": "Lupogg",
+        "KodFile": null,
+        "EnglishName": "lupogg",
+        "GermanName": "Der Lupogg",
+        "DmCommand": "dm monster der lupogg"
+    },
+    "Waldschrat": {
+        "ClassName": "Waldschrat",
+        "KodFile": null,
+        "EnglishName": "living tree",
+        "GermanName": "Der Waldschrat",
+        "DmCommand": "dm monster der waldschrat"
+    },
+    "LebendigeStatue": {
+        "ClassName": "LebendigeStatue",
+        "KodFile": null,
+        "EnglishName": "living statue",
+        "GermanName": "Eine lebendige Statue",
+        "DmCommand": "dm monster eine lebendige statue"
+    },
+    "AvarKriegerVomStammeDerKiKiKrii": {
+        "ClassName": "AvarKriegerVomStammeDerKiKiKrii",
+        "KodFile": null,
+        "EnglishName": "kyip-kyip-kreeet avar warrior",
+        "GermanName": "Der Avar-Krieger vom Stamme der Ki-Ki-Krii",
+        "DmCommand": "dm monster der avar-krieger vom stamme der ki-ki-krii"
+    },
+    "AvarSchamaneDesStammesDerKiKiKrii": {
+        "ClassName": "AvarSchamaneDesStammesDerKiKiKrii",
+        "KodFile": null,
+        "EnglishName": "kyip-kyip-kreeet avar shaman",
+        "GermanName": "Der Avar-Schamane des Stammes der Ki-Ki-Krii",
+        "DmCommand": "dm monster der avar-schamane des stammes der ki-ki-krii"
+    },
+    "AvarHaeuptlingDerKiKiKrii": {
+        "ClassName": "AvarHaeuptlingDerKiKiKrii",
+        "KodFile": null,
+        "EnglishName": "kyip-kyip-kreeet avar chieftain",
+        "GermanName": "Der Avar-Häuptling der Ki-Ki-Krii",
+        "DmCommand": "dm monster der avar-häuptling der ki-ki-krii"
+    },
+    "Kriipa": {
+        "ClassName": "Kriipa",
+        "KodFile": null,
+        "EnglishName": "kriipa",
+        "GermanName": "Die Kriipa",
+        "DmCommand": "dm monster die kriipa"
+    },
+    "Killerhase": {
+        "ClassName": "Killerhase",
+        "KodFile": null,
+        "EnglishName": "killer bunny",
+        "GermanName": "Der Killerhase",
+        "DmCommand": "dm monster der killerhase"
+    },
+    "Kangi": {
+        "ClassName": "Kangi",
+        "KodFile": null,
+        "EnglishName": "Kangi",
+        "GermanName": "Der Kangi",
+        "DmCommand": "dm monster der kangi"
+    },
+    "Inferno": {
+        "ClassName": "Inferno",
+        "KodFile": null,
+        "EnglishName": "Inferno",
+        "GermanName": "Der Inferno",
+        "DmCommand": "dm monster der inferno"
+    },
+    "Eisgolem": {
+        "ClassName": "Eisgolem",
+        "KodFile": null,
+        "EnglishName": "ice golem",
+        "GermanName": "Der Eisgolem",
+        "DmCommand": "dm monster der eisgolem"
+    },
+    "Frostelementar": {
+        "ClassName": "Frostelementar",
+        "KodFile": null,
+        "EnglishName": "ice creature",
+        "GermanName": "Das Frostelementar",
+        "DmCommand": "dm monster das frostelementar"
+    },
+    "Human": {
+        "ClassName": "Human",
+        "KodFile": null,
+        "EnglishName": "human",
+        "GermanName": "human",
+        "DmCommand": "dm monster human"
+    },
+    "Wachkuh": {
+        "ClassName": "Wachkuh",
+        "KodFile": null,
+        "EnglishName": "guard cow",
+        "GermanName": "Die Wachkuh",
+        "DmCommand": "dm monster die wachkuh"
+    },
+    "GrundwurmKoenigin": {
+        "ClassName": "GrundwurmKoenigin",
+        "KodFile": null,
+        "EnglishName": "groundworm queen",
+        "GermanName": "Grundwurm Königin",
+        "DmCommand": "dm monster grundwurm königin"
+    },
+    "GrundwurmLarve": {
+        "ClassName": "GrundwurmLarve",
+        "KodFile": null,
+        "EnglishName": "groundworm larva",
+        "GermanName": "Grundwurm Larve",
+        "DmCommand": "dm monster grundwurm larve"
+    },
+    "Grundwurm": {
+        "ClassName": "Grundwurm",
+        "KodFile": null,
+        "EnglishName": "groundworm",
+        "GermanName": "Der Grundwurm",
+        "DmCommand": "dm monster der grundwurm"
+    },
+    "Riesenschleim": {
+        "ClassName": "Riesenschleim",
+        "KodFile": null,
+        "EnglishName": "greater slime",
+        "GermanName": "Der Riesenschleim",
+        "DmCommand": "dm monster der riesenschleim"
+    },
+    "Skorpion": {
+        "ClassName": "Skorpion",
+        "KodFile": null,
+        "EnglishName": "giant scorpion",
+        "GermanName": "Der Skorpion",
+        "DmCommand": "dm monster der skorpion"
+    },
+    "Riesenratte": {
+        "ClassName": "Riesenratte",
+        "KodFile": null,
+        "EnglishName": "giant rat",
+        "GermanName": "Die Riesenratte",
+        "DmCommand": "dm monster die riesenratte"
+    },
+    "RiesenDaemonenskelett": {
+        "ClassName": "RiesenDaemonenskelett",
+        "KodFile": null,
+        "EnglishName": "giant daemon skeleton",
+        "GermanName": "Das Riesen Dämonenskelett",
+        "DmCommand": "dm monster das riesen dämonenskelett"
+    },
+    "Riesenkaefer": {
+        "ClassName": "Riesenkaefer",
+        "KodFile": null,
+        "EnglishName": "giant beetle",
+        "GermanName": "Der Riesenkäfer",
+        "DmCommand": "dm monster der riesenkäfer"
+    },
+    "FarNohlsGeist": {
+        "ClassName": "FarNohlsGeist",
+        "KodFile": null,
+        "EnglishName": "ghost of Far'Nohl",
+        "GermanName": "Far'Nohls Geist",
+        "DmCommand": "dm monster far'nohls geist"
+    },
+    "Geist": {
+        "ClassName": "Geist",
+        "KodFile": null,
+        "EnglishName": "ghost",
+        "GermanName": "Geist",
+        "DmCommand": "dm monster geist"
+    },
+    "Pilzwesen": {
+        "ClassName": "Pilzwesen",
+        "KodFile": null,
+        "EnglishName": "fungus beast",
+        "GermanName": "Das Pilzwesen",
+        "DmCommand": "dm monster das pilzwesen"
+    },
+    "Froschmensch": {
+        "ClassName": "Froschmensch",
+        "KodFile": null,
+        "EnglishName": "frogman",
+        "GermanName": "Der Froschmensch",
+        "DmCommand": "dm monster der froschmensch"
+    },
+    "Charlie": {
+        "ClassName": "Charlie",
+        "KodFile": null,
+        "EnglishName": "follower",
+        "GermanName": "Charlie",
+        "DmCommand": "dm monster charlie"
+    },
+    "SchwebendeAuge": {
+        "ClassName": "SchwebendeAuge",
+        "KodFile": null,
+        "EnglishName": "floating eyeball",
+        "GermanName": "Das schwebende Auge",
+        "DmCommand": "dm monster das schwebende auge"
+    },
+    "Feuergolem": {
+        "ClassName": "Feuergolem",
+        "KodFile": null,
+        "EnglishName": "fire golem",
+        "GermanName": "Der Feuergolem",
+        "DmCommand": "dm monster der feuergolem"
+    },
+    "FeyElhai": {
+        "ClassName": "FeyElhai",
+        "KodFile": null,
+        "EnglishName": "fey elhai",
+        "GermanName": "Der Fey Elhai",
+        "DmCommand": "dm monster der fey elhai"
+    },
+    "FeyDirhai": {
+        "ClassName": "FeyDirhai",
+        "KodFile": null,
+        "EnglishName": "fey dirhai",
+        "GermanName": "Der Fey Dirhai",
+        "DmCommand": "dm monster der fey dirhai"
+    },
+    "Elefant": {
+        "ClassName": "Elefant",
+        "KodFile": null,
+        "EnglishName": "elephant",
+        "GermanName": "Der Elefant",
+        "DmCommand": "dm monster der elefant"
+    },
+    "Osterhase": {
+        "ClassName": "Osterhase",
+        "KodFile": null,
+        "EnglishName": "easter bunny",
+        "GermanName": "Der Osterhase",
+        "DmCommand": "dm monster der osterhase"
+    },
+    "Erdgolem": {
+        "ClassName": "Erdgolem",
+        "KodFile": null,
+        "EnglishName": "earth golem",
+        "GermanName": "Der Erdgolem",
+        "DmCommand": "dm monster der erdgolem"
+    },
+    "SchwarzeRatte": {
+        "ClassName": "SchwarzeRatte",
+        "KodFile": null,
+        "EnglishName": "dusk rat",
+        "GermanName": "Schwarze Ratte",
+        "DmCommand": "dm monster schwarze ratte"
+    },
+    "Drachenfliegenkoenigin": {
+        "ClassName": "Drachenfliegenkoenigin",
+        "KodFile": null,
+        "EnglishName": "dragonfly queen",
+        "GermanName": "Die Drachenfliegenkönigin",
+        "DmCommand": "dm monster die drachenfliegenkönigin"
+    },
+    "Drachenfliege": {
+        "ClassName": "Drachenfliege",
+        "KodFile": null,
+        "EnglishName": "dragonfly",
+        "GermanName": "Die Drachenfliege",
+        "DmCommand": "dm monster die drachenfliege"
+    },
+    "Drache": {
+        "ClassName": "Drache",
+        "KodFile": null,
+        "EnglishName": "dragon",
+        "GermanName": "der Drache",
+        "DmCommand": "dm monster der drache"
+    },
+    "VerdorbeneWaldschrat": {
+        "ClassName": "VerdorbeneWaldschrat",
+        "KodFile": null,
+        "EnglishName": "diseased tree",
+        "GermanName": "Der verdorbene Waldschrat",
+        "DmCommand": "dm monster der verdorbene waldschrat"
+    },
+    "Dreck": {
+        "ClassName": "Dreck",
+        "KodFile": null,
+        "EnglishName": "Dirt",
+        "GermanName": "Der Dreck",
+        "DmCommand": "dm monster der dreck"
+    },
+    "DunkleEngel": {
+        "ClassName": "DunkleEngel",
+        "KodFile": null,
+        "EnglishName": "dark angel",
+        "GermanName": "Der Dunkle Engel",
+        "DmCommand": "dm monster der dunkle engel"
+    },
+    "Daemonenskelett": {
+        "ClassName": "Daemonenskelett",
+        "KodFile": null,
+        "EnglishName": "daemon skeleton",
+        "GermanName": "Das Dämonenskelett",
+        "DmCommand": "dm monster das dämonenskelett"
+    },
+    "Kuh": {
+        "ClassName": "Kuh",
+        "KodFile": null,
+        "EnglishName": "cow",
+        "GermanName": "Die Kuh",
+        "DmCommand": "dm monster die kuh"
+    },
+    "CiXeochicatl": {
+        "ClassName": "CiXeochicatl",
+        "KodFile": null,
+        "EnglishName": "ci'xeochicatl",
+        "GermanName": "Der ci'xeochicatl",
+        "DmCommand": "dm monster der ci'xeochicatl"
+    },
+    "KriegerDesTschiTschilpStammes": {
+        "ClassName": "KriegerDesTschiTschilpStammes",
+        "KodFile": null,
+        "EnglishName": "chyup-tewee faction warrior",
+        "GermanName": "Der Krieger des Tschi-Tschilp-Stammes",
+        "DmCommand": "dm monster der krieger des tschi-tschilp-stammes"
+    },
+    "Chupacabra": {
+        "ClassName": "Chupacabra",
+        "KodFile": null,
+        "EnglishName": "chupacabra",
+        "GermanName": "Der Chupacabra",
+        "DmCommand": "dm monster der chupacabra"
+    },
+    "Tausendfuessler": {
+        "ClassName": "Tausendfuessler",
+        "KodFile": null,
+        "EnglishName": "centipede",
+        "GermanName": "Der Tausendfüßler",
+        "DmCommand": "dm monster der tausendfüßler"
+    },
+    "Hoehlenork": {
+        "ClassName": "Hoehlenork",
+        "KodFile": null,
+        "EnglishName": "cave orc",
+        "GermanName": "Der Höhlenork",
+        "DmCommand": "dm monster der höhlenork"
+    },
+    "Hase": {
+        "ClassName": "Hase",
+        "KodFile": null,
+        "EnglishName": "bunny",
+        "GermanName": "Der Hase",
+        "DmCommand": "dm monster der hase"
+    },
+    "GehoernteAmeise": {
+        "ClassName": "GehoernteAmeise",
+        "KodFile": null,
+        "EnglishName": "bull ant",
+        "GermanName": "Die gehörnte Ameise",
+        "DmCommand": "dm monster die gehörnte ameise"
+    },
+    "SchamaneDerKnochengruppe": {
+        "ClassName": "SchamaneDerKnochengruppe",
+        "KodFile": null,
+        "EnglishName": "bone faction shaman",
+        "GermanName": "Der Schamane der Knochengruppe",
+        "DmCommand": "dm monster der schamane der knochengruppe"
+    },
+    "SchwarzeSpinne": {
+        "ClassName": "SchwarzeSpinne",
+        "KodFile": null,
+        "EnglishName": "black spider",
+        "GermanName": "Die schwarze Spinne",
+        "DmCommand": "dm monster die schwarze spinne"
+    },
+    "ZerschlageneSkelett": {
+        "ClassName": "ZerschlageneSkelett",
+        "KodFile": null,
+        "EnglishName": "battered skeleton",
+        "GermanName": "Das Zerschlagene Skelett",
+        "DmCommand": "dm monster das zerschlagene skelett"
+    },
+    "Bogenschuetze": {
+        "ClassName": "Bogenschuetze",
+        "KodFile": null,
+        "EnglishName": "bandit sniper",
+        "GermanName": "Der Bogenschütze",
+        "DmCommand": "dm monster der bogenschütze"
+    },
+    "BanditenAnfuehrer": {
+        "ClassName": "BanditenAnfuehrer",
+        "KodFile": null,
+        "EnglishName": "bandit captain",
+        "GermanName": "Der Banditen Anführer",
+        "DmCommand": "dm monster der banditen anführer"
+    },
+    "Bandit": {
+        "ClassName": "Bandit",
+        "KodFile": null,
+        "EnglishName": "bandit",
+        "GermanName": "Der Bandit",
+        "DmCommand": "dm monster der bandit"
+    },
+    "Spinne": {
+        "ClassName": "Spinne",
+        "KodFile": null,
+        "EnglishName": "baby spider",
+        "GermanName": "Die Spinne",
+        "DmCommand": "dm monster die spinne"
+    },
+    "AvarHaeuptlingDerKnochengruppe": {
+        "ClassName": "AvarHaeuptlingDerKnochengruppe",
+        "KodFile": null,
+        "EnglishName": "avar leader of the bone faction",
+        "GermanName": "Der Avar-Häuptling der Knochengruppe",
+        "DmCommand": "dm monster der avar-häuptling der knochengruppe"
+    },
+    "Riesenameise": {
+        "ClassName": "Riesenameise",
+        "KodFile": null,
+        "EnglishName": "ant",
+        "GermanName": "Die Riesenameise",
+        "DmCommand": "dm monster die riesenameise"
+    }
+}

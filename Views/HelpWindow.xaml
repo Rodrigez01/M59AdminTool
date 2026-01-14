@@ -1,0 +1,68 @@
+<Window x:Class="M59AdminTool.Views.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:services="clr-namespace:M59AdminTool.Services"
+        xmlns:vm="clr-namespace:M59AdminTool.ViewModels"
+        Title="{services:Loc Window_Help_Title}"
+        Height="520" Width="700"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+    <Grid Background="#F0F0F0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="0" Margin="10,10,5,10" Background="White" BorderBrush="#CCCCCC" BorderThickness="1">
+            <ListBox ItemsSource="{Binding Sections}"
+                     SelectedItem="{Binding SelectedSection}"
+                     BorderThickness="0"
+                     Background="White">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Padding" Value="4,2"/>
+                        <Setter Property="Margin" Value="2,1"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#E8F0FE"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#F5F5F5"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate DataType="{x:Type vm:HelpSection}">
+                        <TextBlock Text="{Binding Title}" Margin="8,6"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+
+        <Border Grid.Row="0" Grid.Column="1" Margin="5,10,10,10" Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Padding="12">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock Text="{Binding SelectedSection.Title}"
+                               Foreground="#1E88E5"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,0,0,10"/>
+                    <TextBlock Text="{Binding SelectedSection.Content}"
+                               TextWrapping="Wrap"
+                               FontSize="12"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Content="{services:Loc Button_Close}" Width="110" Click="Close_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

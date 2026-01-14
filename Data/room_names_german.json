@@ -1,0 +1,1682 @@
+{
+    "RID_D6":  {
+                   "EnglishName":  "Deep in the Forest of Farol",
+                   "GermanName":  "Tief im Farolwald",
+                   "KodFile":  "d6.kod"
+               },
+    "RID_BAR_HALL":  {
+                         "EnglishName":  "Adventurer\u0027s Hall of Barloque",
+                         "GermanName":  "Gemeinschaftshalle von Barloque",
+                         "KodFile":  "barhall.kod"
+                     },
+    "RID_TOS_EAST":  {
+                         "EnglishName":  "East Ende",
+                         "GermanName":  "Ostviertel von Tos",
+                         "KodFile":  "easttos.kod"
+                     },
+    "RID_BERG_8":  {
+                       "EnglishName":  "Northern Kardde\u0027s Pass",
+                       "GermanName":  "Nördlicher Kardde Pass",
+                       "KodFile":  "berg8.kod"
+                   },
+    "RID_NECROAREA2":  {
+                           "EnglishName":  "Ancient Graveyard of Brax",
+                           "GermanName":  "Der uralte Friedhof von Brax",
+                           "KodFile":  "necarea2.kod"
+                       },
+    "RID_COR_UNIV":  {
+                         "EnglishName":  "The University of Cor Noth",
+                         "GermanName":  "Die Universität von Cor Noth",
+                         "KodFile":  "coruniv.kod"
+                     },
+    "RID_BERG_GRAVE":  {
+                           "EnglishName":  "Clandestine Tombs",
+                           "GermanName":  "Geheime Gräber",
+                           "KodFile":  "berg_grave.kod"
+                       },
+    "RID_MAR_CRYPT1":  {
+                           "EnglishName":  "The crypt in Marion",
+                           "GermanName":  "Die Krypta von Marion",
+                           "KodFile":  "marcryp1.kod"
+                       },
+    "RID_HERMITHUT":  {
+                          "EnglishName":  "The Hermit\u0027s Hut",
+                          "GermanName":  "Die Hütte des Eremiten",
+                          "KodFile":  "hermhut.kod"
+                      },
+    "RID_TOS_FORGET":  {
+                           "EnglishName":  "Hall of the Forgotten Heroes",
+                           "GermanName":  "Halle der vergessenen Helden",
+                           "KodFile":  "tosforgt.kod"
+                       },
+    "RID_RATCAVE1":  {
+                         "EnglishName":  "Dark Caves",
+                         "GermanName":  "Dunkle Höhlen",
+                         "KodFile":  "ratcave1.kod"
+                     },
+    "RID_FOREST2":  {
+                        "EnglishName":  "The Forests of Meridian",
+                        "GermanName":  "Die Wälder von Meridian",
+                        "KodFile":  "forest2.kod"
+                    },
+    "RID_C4":  {
+                   "EnglishName":  "Deep Woods of Ileria",
+                   "GermanName":  "Die tiefen Wälder von Ileria",
+                   "KodFile":  "c4.kod"
+               },
+    "RID_BERG_2":  {
+                       "EnglishName":  "A Flowing River",
+                       "GermanName":  "Ein fließender Fluss",
+                       "KodFile":  "berg2.kod"
+                   },
+    "RID_KD2":  {
+                    "EnglishName":  "Territory of the Noble Avars",
+                    "GermanName":  "Gebiet der edlen Avare",
+                    "KodFile":  "kd2.kod"
+                },
+    "RID_JIXA_4":  {
+                       "EnglishName":  "Outskirts of Jixa",
+                       "GermanName":  "Außenbezirk von Jixa",
+                       "KodFile":  "jixa4.kod"
+                   },
+    "RID_JAS_ELDER_HUT":  {
+                              "EnglishName":  "The Home of the Wise Man",
+                              "GermanName":  "Heim des weisen Mannes",
+                              "KodFile":  "jaselder.kod"
+                          },
+    "RID_KC5":  {
+                    "EnglishName":  "Outside the Mad Scientist\u0027s Hut",
+                    "GermanName":  "An der Hütte des verrückten Wissenschaftlers",
+                    "KodFile":  "kc5.kod"
+                },
+    "RID_MARION":  {
+                       "EnglishName":  "Marion",
+                       "GermanName":  "Marion",
+                       "KodFile":  "marion.kod"
+                   },
+    "RID_E2":  {
+                   "EnglishName":  "The Great Ocean",
+                   "GermanName":  "Das große Meer",
+                   "KodFile":  "e2.kod"
+               },
+    "RID_NECROAREA3":  {
+                           "EnglishName":  "Decaying City of Brax",
+                           "GermanName":  "Die verfallende Stadt von Brax",
+                           "KodFile":  "necarea3.kod"
+                       },
+    "RID_BERG_JALA":  {
+                          "EnglishName":  "The Temple of Jala",
+                          "GermanName":  "Der Tempel von Jala",
+                          "KodFile":  "berg_jala.kod"
+                      },
+    "RID_C1":  {
+                   "EnglishName":  "The Fey\u0027s Crossing",
+                   "GermanName":  "Die Feenkreuzung",
+                   "KodFile":  "c1.kod"
+               },
+    "RID_GUILDH11":  {
+                         "EnglishName":  "The home of the Friends of the Forest",
+                         "GermanName":  "Versteck der Waldläufer",
+                         "KodFile":  "guildh11.kod"
+                     },
+    "RID_GUILDH20":  {
+                         "EnglishName":  "Muskgate Post",
+                         "GermanName":  "Der Muskgate-Posten",
+                         "KodFile":  "guildh20.kod"
+                     },
+    "RID_OLD_MARION":  {
+                           "EnglishName":  "Historic Marion",
+                           "GermanName":  "Das historische Marion",
+                           "KodFile":  "oldmar.kod"
+                       },
+    "RID_J3_1":  {
+                     "EnglishName":  "Crown Point",
+                     "GermanName":  "Die Kronenspitze",
+                     "KodFile":  "j3_1.kod"
+                 },
+    "RID_JAS_AB3":  {
+                        "EnglishName":  "Old Schoolhouse",
+                        "GermanName":  "Altes Schulhaus",
+                        "KodFile":  "jasab3.kod"
+                    },
+    "RID_KOC_SMITHY":  {
+                           "EnglishName":  "The Chimney House",
+                           "GermanName":  "Das Schornsteinhaus",
+                           "KodFile":  "kocblack.kod"
+                       },
+    "RID_TOSEAST_MG":  {
+                           "EnglishName":  "Eastern gate to the city of Tos",
+                           "GermanName":  "Das Östliche Haupttor zur Stadt Tos",
+                           "KodFile":  "toseast_mg.kod"
+                       },
+    "RID_FAROL_WEST":  {
+                           "EnglishName":  "Western Edge of the Forest of Farol",
+                           "GermanName":  "Westlicher Randbezirk des Farolwaldes",
+                           "KodFile":  "farolwest.kod"
+                       },
+    "RID_J3_2":  {
+                     "EnglishName":  "The Queen\u0027s Path",
+                     "GermanName":  "Der Weg der Königin",
+                     "KodFile":  "j3_2.kod"
+                 },
+    "RID_DVALLEY_5":  {
+                          "EnglishName":  "Crumbling Ruins",
+                          "GermanName":  "Verfallende Ruinen",
+                          "KodFile":  "dvalley5.kod"
+                      },
+    "RID_GM_HALL":  {
+                        "EnglishName":  "The Guildmaster\u0027s Hall",
+                        "GermanName":  "Halle des Gildenmeisters",
+                        "KodFile":  "gmhall.kod"
+                    },
+    "RID_NECROAREA5":  {
+                           "EnglishName":  "Ruins of Castle Brax",
+                           "GermanName":  "Die Ruinen von Brax",
+                           "KodFile":  "necarea5.kod"
+                       },
+    "RID_E5":  {
+                   "EnglishName":  "The Forest Shrine",
+                   "GermanName":  "Der Waldschrein",
+                   "KodFile":  "e5.kod"
+               },
+    "RID_F4":  {
+                   "EnglishName":  "East Merchant Way",
+                   "GermanName":  "Östliche Handelsroute",
+                   "KodFile":  "f4.kod"
+               },
+    "RID_KA5":  {
+                    "EnglishName":  "Outside the Guard Tower",
+                    "GermanName":  "Am Wachturm",
+                    "KodFile":  "ka5.kod"
+                },
+    "RID_B2":  {
+                   "EnglishName":  "Lower Elhadrim",
+                   "GermanName":  "Nieder-Elhadrim",
+                   "KodFile":  "b2.kod"
+               },
+    "RID_ORC_PIT_B":  {
+                          "EnglishName":  "Brog\u0027s Antechamber",
+                          "GermanName":  "Brogs Vorkammer",
+                          "KodFile":  "orcpitb.kod"
+                      },
+    "RID_JUNGLE_BOWMAKER_HUT":  {
+                                    "EnglishName":  "The Bowmaker\u0027s Hut",
+                                    "GermanName":  "Die Hütte der Bogenmacherin",
+                                    "KodFile":  "bowhut.kod"
+                                },
+    "RID_CORNOTH":  {
+                        "EnglishName":  "Cor Noth",
+                        "GermanName":  "Cor Noth",
+                        "KodFile":  "cornoth.kod"
+                    },
+    "RID_BERG_1":  {
+                       "EnglishName":  "Trader\u0027s Route",
+                       "GermanName":  "Die Händlerroute",
+                       "KodFile":  "berg1.kod"
+                   },
+    "RID_H6":  {
+                   "EnglishName":  "Main gate to the city of Tos",
+                   "GermanName":  "Das Haupttor zur Stadt Tos",
+                   "KodFile":  "h6.kod"
+               },
+    "RID_D6E6":  {
+                     "EnglishName":  "Deep in the Forest of Farol",
+                     "GermanName":  "Tief im Farolwald",
+                     "KodFile":  "d6e6.kod"
+                 },
+    "RID_JAS_HALL":  {
+                         "EnglishName":  "Adventurer\u0027s Hall of Jasper",
+                         "GermanName":  "Gemeinschaftshalle von Jasper",
+                         "KodFile":  "jashall.kod"
+                     },
+    "RID_TOS_FORGOTTEN":  {
+                              "EnglishName":  "Forgotten Lover\u0027s Tryst",
+                              "GermanName":  "Vergessenes Liebesnest",
+                              "KodFile":  "toslover.kod"
+                          },
+    "RID_DVALLEY_3":  {
+                          "EnglishName":  "Hopeless Slopes",
+                          "GermanName":  "Dünen der schwindenden Hoffnung",
+                          "KodFile":  "dvalley3.kod"
+                      },
+    "RID_JIXA_1":  {
+                       "EnglishName":  "The forlorn path to Jixa",
+                       "GermanName":  "Der verschollene Pfad nach Jixa",
+                       "KodFile":  "jixa1.kod"
+                   },
+    "RID_KA2":  {
+                    "EnglishName":  "The Jungle Cliffs",
+                    "GermanName":  "Die Dschungel-Klippen",
+                    "KodFile":  "ka2.kod"
+                },
+    "RID_JAS_SMITHY":  {
+                           "EnglishName":  "Quintor\u0027s Smithy",
+                           "GermanName":  "Quintors Schmiede",
+                           "KodFile":  "jassmith.kod"
+                       },
+    "RID_JIXA_HALL":  {
+                          "EnglishName":  "The Adventurer\u0027s Hall of Jixa",
+                          "GermanName":  "Gemeinschaftshalle von Jixa",
+                          "KodFile":  "jixa_hall.kod"
+                      },
+    "RID_K5":  {
+                   "EnglishName":  "The Badlands",
+                   "GermanName":  "Das Ödland",
+                   "KodFile":  "k5.kod"
+               },
+    "RID_CASTLE2A":  {
+                         "EnglishName":  "Banquet Hall of the Bourgeois Castle",
+                         "GermanName":  "Bankettsaal von Schloss Bourgeois",
+                         "KodFile":  "castle2a.kod"
+                     },
+    "RID_JIXA_SMITH":  {
+                           "EnglishName":  "Between Hammer and Anvil",
+                           "GermanName":  "Zwischen Hammer und Amboss",
+                           "KodFile":  "jixa_smith.kod"
+                       },
+    "RID_I7":  {
+                   "EnglishName":  "The Twisted Wood",
+                   "GermanName":  "Das Dickicht",
+                   "KodFile":  "i7.kod"
+               },
+    "RID_BERG_7":  {
+                       "EnglishName":  "Valley Crossing",
+                       "GermanName":  "Die Talkreuzung",
+                       "KodFile":  "berg7.kod"
+                   },
+    "RID_TOS_DEATH_ARENA":  {
+                                "EnglishName":  "The Arena of Death",
+                                "GermanName":  "Die Arena des Todes",
+                                "KodFile":  "tosdeatharena.kod"
+                            },
+    "RID_FIELD1":  {
+                       "EnglishName":  "The Fields",
+                       "GermanName":  "Die Felder",
+                       "KodFile":  "field1.kod"
+                   },
+    "RID_H5":  {
+                   "EnglishName":  "The border of the Badlands",
+                   "GermanName":  "Die Grenze zum Ödland",
+                   "KodFile":  "h5.kod"
+               },
+    "RID_BAR_SEWER":  {
+                          "EnglishName":  "The Sewers of Barloque",
+                          "GermanName":  "Kanalisation von Barloque",
+                          "KodFile":  "barlsew.kod"
+                      },
+    "RID_EMGTOSWAMP":  {
+                           "EnglishName":  "The Duke\u0027s Way",
+                           "GermanName":  "Weg des Herzogs",
+                           "KodFile":  "emgtoswamp.kod"
+                       },
+    "RID_DESERTRIVER2":  {
+                             "EnglishName":  "Abyssal Bore",
+                             "GermanName":  "Abyssal Bore",
+                             "KodFile":  "desertriver2.kod"
+                         },
+    "RID_NECROAREA4":  {
+                           "EnglishName":  "Within the Walls of Castle Brax",
+                           "GermanName":  "Innerhalb der Mauern von Brax",
+                           "KodFile":  "necarea4.kod"
+                       },
+    "RID_JAS_SEWER1":  {
+                           "EnglishName":  "The Sewers of Jasper",
+                           "GermanName":  "Die Kanalisation von Jasper",
+                           "KodFile":  "jassew1.kod"
+                       },
+    "RID_BAR_VAULT":  {
+                          "EnglishName":  "Office of the Barloque Vaultman",
+                          "GermanName":  "Das Büro des Lagerverwalters von Barloque",
+                          "KodFile":  "barvault.kod"
+                      },
+    "RID_B6":  {
+                   "EnglishName":  "Druid Hills",
+                   "GermanName":  "Druidenhügel",
+                   "KodFile":  "b6.kod"
+               },
+    "RID_GUILDH14":  {
+                         "EnglishName":  "The Bookmaker\u0027s Guild House",
+                         "GermanName":  "Das Gildenhaus der Buchmacher",
+                         "KodFile":  "guildh14.kod"
+                     },
+    "RID_OLD_JASPER":  {
+                           "EnglishName":  "Historic Jasper",
+                           "GermanName":  "Das historische Jasper",
+                           "KodFile":  "oldjas.kod"
+                       },
+    "RID_BAZMANS_ROOM":  {
+                             "EnglishName":  "The Councilors\u0027 Chamber",
+                             "GermanName":  "Kammer der Ratsmitglieder",
+                             "KodFile":  "bazmans.kod"
+                         },
+    "RID_TOS_BANK":  {
+                         "EnglishName":  "First Royal Bank of Tos",
+                         "GermanName":  "Königliche Bank von Tos",
+                         "KodFile":  "tosbank.kod"
+                     },
+    "RID_D4":  {
+                   "EnglishName":  "Valley of Ileria",
+                   "GermanName":  "Tal von Ileria",
+                   "KodFile":  "d4.kod"
+               },
+    "RID_SWAMP2":  {
+                       "EnglishName":  "The desolate Mire",
+                       "GermanName":  "Das verlassene Moor",
+                       "KodFile":  "swamp2.kod"
+                   },
+    "RID_KOC_SOUTH":  {
+                          "EnglishName":  "Ko\u0027catan, the Island Settlement",
+                          "GermanName":  "Ko\u0027catan, die Insel-Siedlung",
+                          "KodFile":  "kocsouth.kod"
+                      },
+    "RID_COR_TAILOR":  {
+                           "EnglishName":  "The Spindle and the Spinster",
+                           "GermanName":  "Die Spindel und die Jungfer",
+                           "KodFile":  "cortail.kod"
+                       },
+    "RID_FOREST4":  {
+                        "EnglishName":  "The Deep Dark Woods of Tos",
+                        "GermanName":  "Die dunklen Wälder von Tos",
+                        "KodFile":  "forest4.kod"
+                    },
+    "RID_BAR_JAIL":  {
+                         "EnglishName":  "Old Jailhouse",
+                         "GermanName":  "Das alte Gefängnis",
+                         "KodFile":  "barjail.kod"
+                     },
+    "RID_JAS_AB12":  {
+                         "EnglishName":  "Old Barracks",
+                         "GermanName":  "Alte Kasernen",
+                         "KodFile":  "jasab12.kod"
+                     },
+    "RID_ICE_CAVE1":  {
+                          "EnglishName":  "The Dreaded Caves of Ice",
+                          "GermanName":  "Die gefürchteten Eishöhlen",
+                          "KodFile":  "icecave1.kod"
+                      },
+    "RID_TOS_ARENA":  {
+                          "EnglishName":  "The Arena of Kraanan",
+                          "GermanName":  "Die Arena von Kraanan",
+                          "KodFile":  "tosarena.kod"
+                      },
+    "RID_DUKE3":  {
+                      "EnglishName":  "The Chambers of Duke Kalior",
+                      "GermanName":  "Die Gemächer von Herzog Kalior",
+                      "KodFile":  "duke3.kod"
+                  },
+    "RID_TOS_STORAGE":  {
+                            "EnglishName":  "Abandoned Storage Room",
+                            "GermanName":  "Die verlassende Lagerhalle",
+                            "KodFile":  "tosstorage.kod"
+                        },
+    "RID_D2":  {
+                   "EnglishName":  "Lower Dirhadrim",
+                   "GermanName":  "Nieder-Dirhadrim",
+                   "KodFile":  "d2.kod"
+               },
+    "RID_NECROAREA1":  {
+                           "EnglishName":  "Winding Caverns",
+                           "GermanName":  "Die schlängelnden Höhlen",
+                           "KodFile":  "necarea1.kod"
+                       },
+    "RID_DUKE1":  {
+                      "EnglishName":  "The Courtyard of Blackstone Keep",
+                      "GermanName":  "Der Hof von Burg Schwarzstein",
+                      "KodFile":  "duke1.kod"
+                  },
+    "RID_A1":  {
+                   "EnglishName":  "North Quilicia Wood",
+                   "GermanName":  "Nord Quilicia Wald",
+                   "KodFile":  "a1.kod"
+               },
+    "RID_MAR_CRYPT2":  {
+                           "EnglishName":  "Resting place of Marion\u0027s ancestors",
+                           "GermanName":  "Die Ruhestätte der Ahnen Marions",
+                           "KodFile":  "marcryp2.kod"
+                       },
+    "RID_COR_MUSEUM":  {
+                           "EnglishName":  "The Meridian 59 Museum",
+                           "GermanName":  "Das Museum von Meridian 59",
+                           "KodFile":  "cormuseum.kod"
+                       },
+    "RID_JAS_AB10":  {
+                         "EnglishName":  "Disused Shop",
+                         "GermanName":  "Verlassenes Geschäft",
+                         "KodFile":  "jasab10.kod"
+                     },
+    "RID_GUILDH13":  {
+                         "EnglishName":  "The Hall of the Slaughtered Command",
+                         "GermanName":  "Die Halle der Gefallenen Kommandanten",
+                         "KodFile":  "guildh13.kod"
+                     },
+    "RID_RAZA_HALL":  {
+                          "EnglishName":  "The Adventurer\u0027s Hall of Raza",
+                          "GermanName":  "Gemeinschaftshalle von Raza",
+                          "KodFile":  "razahall.kod"
+                      },
+    "RID_DESERTBRIDGE":  {
+                             "EnglishName":  "Collapsed Causeway",
+                             "GermanName":  "Collapsed Causeway",
+                             "KodFile":  "desertbridge.kod"
+                         },
+    "RID_JASWEST":  {
+                        "EnglishName":  "West Jasper",
+                        "GermanName":  "West Jasper",
+                        "KodFile":  "jaswest.kod"
+                    },
+    "RID_KC3":  {
+                    "EnglishName":  "Ruins of the Riija Temple",
+                    "GermanName":  "Ruinen des Riija-Tempels",
+                    "KodFile":  "kc3.kod"
+                },
+    "RID_SWAMPTOJIXA":  {
+                            "EnglishName":  "Eastern Duke\u0027s Way",
+                            "GermanName":  "Östlicher Weg des Herzogs",
+                            "KodFile":  "swamptojixa.kod"
+                        },
+    "RID_JAS_AB13":  {
+                         "EnglishName":  "Dusty Chamber",
+                         "GermanName":  "Staubige Kammer",
+                         "KodFile":  "jasab13.kod"
+                     },
+    "RID_JAS_AB7":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "jasab7.kod"
+                    },
+    "RID_H3":  {
+                   "EnglishName":  "Outskirts of Barloque",
+                   "GermanName":  "Außenbezirk von Barloque",
+                   "KodFile":  "h3.kod"
+               },
+    "RID_JAS_AB8":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "jasab8.kod"
+                    },
+    "RID_BAR_SEWER2":  {
+                           "EnglishName":  "The Sewers of Barloque",
+                           "GermanName":  "Kanalisation von Barloque",
+                           "KodFile":  "barlsew2.kod"
+                       },
+    "RID_G4":  {
+                   "EnglishName":  "Main gate to Cor Noth",
+                   "GermanName":  "Das Haupttor von Cor Noth",
+                   "KodFile":  "g4.kod"
+               },
+    "RID_MAR_ELDER_HUT":  {
+                              "EnglishName":  "The home of the elder",
+                              "GermanName":  "Das Heim des Alten",
+                              "KodFile":  "marelder.kod"
+                          },
+    "RID_DUNGEON":  {
+                        "EnglishName":  "Underbasement of Victoria",
+                        "GermanName":  "Gewölbe von Schloss Viktoria",
+                        "KodFile":  "dungeon.kod"
+                    },
+    "RID_KOC_BANK":  {
+                         "EnglishName":  "The Hungry Vaults",
+                         "GermanName":  "Der hungrige Geldspeicher",
+                         "KodFile":  "kocbank.kod"
+                     },
+    "RID_KOC_INN":  {
+                        "EnglishName":  "The Aerie Guest House",
+                        "GermanName":  "Das Gästehaus",
+                        "KodFile":  "kocinn.kod"
+                    },
+    "RID_DESERTCLIFFNOACCESS2":  {
+                                     "EnglishName":  "Sandbreak Cliffs",
+                                     "GermanName":  "Sandbreak Cliffs",
+                                     "KodFile":  "desertcliffnoaccess2.kod"
+                                 },
+    "RID_UNIVERSITY":  {
+                           "EnglishName":  "Meridian University",
+                           "GermanName":  "Universität von Meridian",
+                           "KodFile":  "univ.kod"
+                       },
+    "RID_F2":  {
+                   "EnglishName":  "The sandy shores of the Great Ocean",
+                   "GermanName":  "Der Sandstrand am großen Meer",
+                   "KodFile":  "f2.kod"
+               },
+    "RID_GUILDH12":  {
+                         "EnglishName":  "West Tower Guild Hall in Ko\u0027catan",
+                         "GermanName":  "Westturm-Gildenhalle von Ko\u0027catan",
+                         "KodFile":  "guildh12.kod"
+                     },
+    "RID_GUILDH4":  {
+                        "EnglishName":  "The Wryn\u0027s Keep",
+                        "GermanName":  "Die Feste der Wryn",
+                        "KodFile":  "guildh4.kod"
+                    },
+    "RID_TOS_OLD_TAVERN":  {
+                               "EnglishName":  "Abandoned Fountain Tavern",
+                               "GermanName":  "Verlassene Brunnenkneipe",
+                               "KodFile":  "tostavern.kod"
+                           },
+    "RID_BERG_MG":  {
+                        "EnglishName":  "The Main Gate to the City of Berg",
+                        "GermanName":  "Das Stadttor von Berg",
+                        "KodFile":  "bergmg.kod"
+                    },
+    "RID_GUILDH5":  {
+                        "EnglishName":  "Konima\u0027s Abandoned Dwelling",
+                        "GermanName":  "Konimas versteckte Zuflucht",
+                        "KodFile":  "guildh5.kod"
+                    },
+    "RID_JIXA_2":  {
+                       "EnglishName":  "Chupacabra Territory",
+                       "GermanName":  "Das Gebiet der Chupacabra",
+                       "KodFile":  "jixa2.kod"
+                   },
+    "RID_JAS_INN":  {
+                        "EnglishName":  "Yonder Inn of Jasper",
+                        "GermanName":  "Zum Zwergenhammer",
+                        "KodFile":  "jasinn.kod"
+                    },
+    "RID_JAS_AB6":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "jasab6.kod"
+                    },
+    "RID_BAR_SOUTH":  {
+                          "EnglishName":  "South Barloque",
+                          "GermanName":  "Süd-Barloque",
+                          "KodFile":  "barls.kod"
+                      },
+    "RID_DVALLEY_1":  {
+                          "EnglishName":  "Into the Valley of Death",
+                          "GermanName":  "Zum Tal des Todes",
+                          "KodFile":  "dvalley1.kod"
+                      },
+    "RID_RAZA_APOTH":  {
+                           "EnglishName":  "Ravi\u0027s Magicks of Raza",
+                           "GermanName":  "Ravins Zaubersachen von Raza",
+                           "KodFile":  "razashop.kod"
+                       },
+    "RID_BERG_LEADER":  {
+                            "EnglishName":  "Outside the Palace of the Mountain King",
+                            "GermanName":  "Vor dem Palast des Bergkönigs",
+                            "KodFile":  "bergleader.kod"
+                        },
+    "RID_ORC_CAVE3":  {
+                          "EnglishName":  "The Archaic Hollows",
+                          "GermanName":  "Die uralten Höhlen",
+                          "KodFile":  "orccave3.kod"
+                      },
+    "RID_BAR_SEWER3":  {
+                           "EnglishName":  "The Sewers of Barloque",
+                           "GermanName":  "Kanalisation von Barloque",
+                           "KodFile":  "barlsew3.kod"
+                       },
+    "RID_F8":  {
+                   "EnglishName":  "Lake of Jala\u0027s Song",
+                   "GermanName":  "See Jalas Lied",
+                   "KodFile":  "f8.kod"
+               },
+    "RID_J3":  {
+                   "EnglishName":  "The Queen\u0027s Way",
+                   "GermanName":  "Der Weg der Königin",
+                   "KodFile":  "j3.kod"
+               },
+    "RID_JAS_AB14":  {
+                         "EnglishName":  "Warm Haven ",
+                         "GermanName":  "Traute Zuflucht",
+                         "KodFile":  "jasab14.kod"
+                     },
+    "RID_KOC_TAVERN":  {
+                           "EnglishName":  "The Barking Monster",
+                           "GermanName":  "Zum bellenden Monstrum",
+                           "KodFile":  "koctav.kod"
+                       },
+    "RID_G6":  {
+                   "EnglishName":  "The King\u0027s Way",
+                   "GermanName":  "Weg des Königs",
+                   "KodFile":  "g6.kod"
+               },
+    "RID_H7":  {
+                   "EnglishName":  "Western border of the Twisted Wood",
+                   "GermanName":  "Die westliche Grenze des Dickichts",
+                   "KodFile":  "h7.kod"
+               },
+    "RID_NECROAREA3a":  {
+                            "EnglishName":  "Ancient Building",
+                            "GermanName":  "Ein uraltes Gemäuer",
+                            "KodFile":  "necare3a.kod"
+                        },
+    "RID_BANDIT_CAMP":  {
+                            "EnglishName":  "Bandit Camp",
+                            "GermanName":  "Das Banditenlager",
+                            "KodFile":  "banditcamp.kod"
+                        },
+    "RID_F3":  {
+                   "EnglishName":  "Source of the River Ille",
+                   "GermanName":  "Die Quelle des Flusses Ille",
+                   "KodFile":  "f3.kod"
+               },
+    "RID_ORC_CAVE1_EXT":  {
+                              "EnglishName":  "A Tranquil Place",
+                              "GermanName":  "Ein ruhiger Ort",
+                              "KodFile":  "orccav1x.kod"
+                          },
+    "RID_DVALLEY_2":  {
+                          "EnglishName":  "A Bone Dry Wasteland",
+                          "GermanName":  "Knochentrockenes Ödland",
+                          "KodFile":  "dvalley2.kod"
+                      },
+    "RID_KA3":  {
+                    "EnglishName":  "A notch in the jungle",
+                    "GermanName":  "Eine Lichtung im Dschungel",
+                    "KodFile":  "ka3.kod"
+                },
+    "RID_C2":  {
+                   "EnglishName":  "The Vale of Sorrows",
+                   "GermanName":  "Das Tal der Trauer",
+                   "KodFile":  "c2.kod"
+               },
+    "RID_ORC_PIT":  {
+                        "EnglishName":  "Lair of the Orc Pit Boss",
+                        "GermanName":  "Lager des Orkhäuptlings",
+                        "KodFile":  "orcpit1.kod"
+                    },
+    "RID_GUILDH1":  {
+                        "EnglishName":  "Mercenary Alley",
+                        "GermanName":  "Söldner-Treffpunkt",
+                        "KodFile":  "guildh1.kod"
+                    },
+    "RID_BERG_6":  {
+                       "EnglishName":  "Southern Kardde\u0027s Pass",
+                       "GermanName":  "Südlicher Kardde Pass",
+                       "KodFile":  "berg6.kod"
+                   },
+    "RID_DESERTSHORE3":  {
+                             "EnglishName":  "Solitary Shoreline",
+                             "GermanName":  "Solitary Shoreline",
+                             "KodFile":  "desertshore3.kod"
+                         },
+    "RID_TOS_APOTH":  {
+                          "EnglishName":  "Frisconar\u0027s Mysticals",
+                          "GermanName":  "Frisconars Kräuterladen",
+                          "KodFile":  "tosapoth.kod"
+                      },
+    "RID_KE4":  {
+                    "EnglishName":  "Avar Village",
+                    "GermanName":  "Avar-Dorf",
+                    "KodFile":  "ke4.kod"
+                },
+    "RID_TEMPLE_KRAANAN":  {
+                               "EnglishName":  "The Temple of Kraanan",
+                               "GermanName":  "Der Kraanan Tempel",
+                               "KodFile":  "tempkra.kod"
+                           },
+    "RID_BERG_SMITH":  {
+                           "EnglishName":  "The Smoldering Forge",
+                           "GermanName":  "Die Rauchende Schmiede",
+                           "KodFile":  "bergsmith.kod"
+                       },
+    "RID_JAS_SEWER2":  {
+                           "EnglishName":  "The Sewers of Jasper",
+                           "GermanName":  "Die Kanalisation von Jasper",
+                           "KodFile":  "jassew2.kod"
+                       },
+    "RID_BERG_MINE":  {
+                          "EnglishName":  "The mines of Berg",
+                          "GermanName":  "Die Minen von Berg",
+                          "KodFile":  "bergmine.kod"
+                      },
+    "RID_BAR_COURT":  {
+                          "EnglishName":  "Office of the Justicar",
+                          "GermanName":  "Büro des Justiziars",
+                          "KodFile":  "barcourt.kod"
+                      },
+    "RID_NECROAREA3b":  {
+                            "EnglishName":  "Ancient Building",
+                            "GermanName":  "Ein uraltes Gemäuer",
+                            "KodFile":  "necare3b.kod"
+                        },
+    "RID_MAR_CRYPT3A":  {
+                            "EnglishName":  "Affirmation of the Forsaken",
+                            "GermanName":  "Die Bestätigung der Verlassenen",
+                            "KodFile":  "marcry3a.kod"
+                        },
+    "RID_C3":  {
+                   "EnglishName":  "Quilicia Wood",
+                   "GermanName":  "Die Quilicia Wälder",
+                   "KodFile":  "c3.kod"
+               },
+    "RID_BERG_HALL":  {
+                          "EnglishName":  "The Adventurer\u0027s Hall of Berg",
+                          "GermanName":  "Gemeinschaftshalle von Berg",
+                          "KodFile":  "berghall.kod"
+                      },
+    "RID_KB2":  {
+                    "EnglishName":  "Headquarters for the Avar Warriors",
+                    "GermanName":  "Hauptquartier der Avar-Krieger",
+                    "KodFile":  "kb2.kod"
+                },
+    "RID_CASTLE2B":  {
+                         "EnglishName":  "Bourgeois Castle",
+                         "GermanName":  "Schloss Bourgeois",
+                         "KodFile":  "castle2b.kod"
+                     },
+    "RID_BERG_INN":  {
+                         "EnglishName":  "Murky Fork Bar",
+                         "GermanName":  "Trübe Gabelstange",
+                         "KodFile":  "berginn.kod"
+                     },
+    "RID_TOS_CRYPT":  {
+                          "EnglishName":  "The Crypt",
+                          "GermanName":  "Die Gruft",
+                          "KodFile":  "toscrypt.kod"
+                      },
+    "RID_MAR_HEALER_SHOP":  {
+                                "EnglishName":  "Lady Aftyn\u0027s Sanctuary",
+                                "GermanName":  "Lady Aftyns Heiligtum",
+                                "KodFile":  "marhlshp.kod"
+                            },
+    "RID_DESERTPATH1":  {
+                            "EnglishName":  "A harrowing cleft",
+                            "GermanName":  "A harrowing cleft",
+                            "KodFile":  "desertpath1.kod"
+                        },
+    "RID_FOREST5":  {
+                        "EnglishName":  "The Deep Dark Woods of Marion",
+                        "GermanName":  "Die dunklen Wälder von Marion",
+                        "KodFile":  "forest5.kod"
+                    },
+    "RID_BAR_INN":  {
+                        "EnglishName":  "Brownestone Inn",
+                        "GermanName":  "Kneipe zum Bernstein",
+                        "KodFile":  "barinn.kod"
+                    },
+    "RID_GOLEM_DUNGEON":  {
+                              "EnglishName":  "Caverns of Ancient Rock",
+                              "GermanName":  "Uralte Felshöhlen",
+                              "KodFile":  "golem_dungeon.kod"
+                          },
+    "RID_BAR_PORT":  {
+                         "EnglishName":  "The Ports of Barloque",
+                         "GermanName":  "Der Hafen von Barloque",
+                         "KodFile":  "barlport.kod"
+                     },
+    "RID_KD4":  {
+                    "EnglishName":  "The Clearing of the Trading Post",
+                    "GermanName":  "Die Lichtung des Handelspostens",
+                    "KodFile":  "kd4.kod"
+                },
+    "RID_JAS_AB11":  {
+                         "EnglishName":  "Abandoned Counting Room",
+                         "GermanName":  "Verlassendes Lagerhaus",
+                         "KodFile":  "jasab11.kod"
+                     },
+    "RID_DUKE2":  {
+                      "EnglishName":  "Blackstone Keep",
+                      "GermanName":  "Burg Schwarzstein",
+                      "KodFile":  "duke2.kod"
+                  },
+    "RID_D1":  {
+                   "EnglishName":  "Dirhadrim",
+                   "GermanName":  "Dirhadrim",
+                   "KodFile":  "d1.kod"
+               },
+    "RID_BERG_VAULT":  {
+                           "EnglishName":  "Golden Crocodile Vault",
+                           "GermanName":  "Goldenes Krokodilgewölbe",
+                           "KodFile":  "bergvault.kod"
+                       },
+    "RID_KB3":  {
+                    "EnglishName":  "Camp of the Warrior Avars",
+                    "GermanName":  "Lager der Avar-Krieger",
+                    "KodFile":  "kb3.kod"
+                },
+    "RID_KOC_HALL_OF_HEROES_B":  {
+                                     "EnglishName":  "The Hall of Heroes East",
+                                     "GermanName":  "Die Halle der Helden (Osten)",
+                                     "KodFile":  "kochohb.kod"
+                                 },
+    "RID_TOS_GRAVEYARD":  {
+                              "EnglishName":  "The Graveyard of Tos",
+                              "GermanName":  "Der Friedhof von Tos",
+                              "KodFile":  "tosgrave.kod"
+                          },
+    "RID_JAS_VAULT":  {
+                          "EnglishName":  "The Vault of Jasper",
+                          "GermanName":  "Das Lager von Jasper",
+                          "KodFile":  "jasvault.kod"
+                      },
+    "RID_ORC_CAVE6":  {
+                          "EnglishName":  "Konima\u0027s Ascension",
+                          "GermanName":  "Konimas Aufstieg",
+                          "KodFile":  "orccave6.kod"
+                      },
+    "RID_RAZA_MAUSOLEUM":  {
+                               "EnglishName":  "Mausoleum",
+                               "GermanName":  "Mausoleum",
+                               "KodFile":  "razacrypt.kod"
+                           },
+    "RID_BERG_DEVROOM":  {
+                             "EnglishName":  "The Hall of Developers",
+                             "GermanName":  "Die Halle der Entwickler",
+                             "KodFile":  "berg_devroom.kod"
+                         },
+    "RID_ORC_CAVE5_EXT":  {
+                              "EnglishName":  "A spring of vitality",
+                              "GermanName":  "Ein Quell der Lebenskraft",
+                              "KodFile":  "orccav5x.kod"
+                          },
+    "RID_OLD_CORNOTH":  {
+                            "EnglishName":  "Historic Cor Noth",
+                            "GermanName":  "Das historische Cor Noth",
+                            "KodFile":  "oldcornoth.kod"
+                        },
+    "RID_BERG_CITY":  {
+                          "EnglishName":  "Berg",
+                          "GermanName":  "Berg",
+                          "KodFile":  "bergcity.kod"
+                      },
+    "RID_JAS_AB2":  {
+                        "EnglishName":  "Icehouse",
+                        "GermanName":  "Kühlhaus",
+                        "KodFile":  "jasab2.kod"
+                    },
+    "RID_C7":  {
+                   "EnglishName":  "Faronath, home of the TreeFolk",
+                   "GermanName":  "Faronath, Heimat der Waldschrate",
+                   "KodFile":  "c7.kod"
+               },
+    "RID_GUILDH7":  {
+                        "EnglishName":  "The Old Dwarven Hall",
+                        "GermanName":  "Die Zwergenbinge",
+                        "KodFile":  "guildh7.kod"
+                    },
+    "RID_BADLAND2":  {
+                         "EnglishName":  "Kardde\u0027s Canyon",
+                         "GermanName":  "Kardes Schlucht",
+                         "KodFile":  "badland2.kod"
+                     },
+    "RID_JAS_AB4":  {
+                        "EnglishName":  "Deserted Eating House",
+                        "GermanName":  "Verlassene Essstube",
+                        "KodFile":  "jasab4.kod"
+                    },
+    "RID_KC2":  {
+                    "EnglishName":  "Turf of the Warrior Avars",
+                    "GermanName":  "Revier der Avar-Krieger",
+                    "KodFile":  "kc2.kod"
+                },
+    "RID_CASTLE2E":  {
+                         "EnglishName":  "Madelia\u0027s Fine Peacockeries",
+                         "GermanName":  "Madelias Feine Pfauen",
+                         "KodFile":  "castle2e.kod"
+                     },
+    "RID_BERG_JAIL":  {
+                          "EnglishName":  "Bouldergate Prison",
+                          "GermanName":  "Gerölltor Gefängnis",
+                          "KodFile":  "bergjail.kod"
+                      },
+    "RID_TOS_GREY":  {
+                         "EnglishName":  "Abandoned Building",
+                         "GermanName":  "Verlassenes Gebäude",
+                         "KodFile":  "tosgrey.kod"
+                     },
+    "RID_A6":  {
+                   "EnglishName":  "The Hills",
+                   "GermanName":  "Die Hügel",
+                   "KodFile":  "a6.kod"
+               },
+    "RID_G5":  {
+                   "EnglishName":  "Outskirts of Cor Noth",
+                   "GermanName":  "Weg des Königs",
+                   "KodFile":  "g5.kod"
+               },
+    "RID_BAR_MERCHANT":  {
+                             "EnglishName":  "The Sparkling Stone Shop",
+                             "GermanName":  "Zum funkelnden Edelstein",
+                             "KodFile":  "barmerch.kod"
+                         },
+    "RID_E7":  {
+                   "EnglishName":  "The Sweet Grass Prairies",
+                   "GermanName":  "Die Süßgrasprärie",
+                   "KodFile":  "e7.kod"
+               },
+    "RID_JUNGLE_TRADING_POST":  {
+                                    "EnglishName":  "The Remote Trading Post of Wulfgang zax\u0027Ak",
+                                    "GermanName":  "Der entlegene Handelsposten von Wulfgang zax\u0027Ak",
+                                    "KodFile":  "tpost1.kod"
+                                },
+    "RID_DESERTCLIFFNOACCESS3":  {
+                                     "EnglishName":  "Sandbreak Cliffs",
+                                     "GermanName":  "Sandbreak Cliffs",
+                                     "KodFile":  "desertcliffnoaccess3.kod"
+                                 },
+    "RID_B1":  {
+                   "EnglishName":  "Elhadrim",
+                   "GermanName":  "Elhadrim",
+                   "KodFile":  "b1.kod"
+               },
+    "RID_RAZA_BANK":  {
+                          "EnglishName":  "Royal Bank of Raza",
+                          "GermanName":  "Königliche Bank von Raza",
+                          "KodFile":  "razabank.kod"
+                      },
+    "RID_COR_GEN_HALL":  {
+                             "EnglishName":  "The Hall of Genealogy",
+                             "GermanName":  "Die Halle der Ahnen",
+                             "KodFile":  "corgenhall.kod"
+                         },
+    "RID_GUILDH9":  {
+                        "EnglishName":  "The Abandoned Warehouse",
+                        "GermanName":  "Verlassene Lagerhalle",
+                        "KodFile":  "guildh9.kod"
+                    },
+    "RID_H9":  {
+                   "EnglishName":  "Under the shadow of the Sentinel",
+                   "GermanName":  "Unter den Augen des Wächters",
+                   "KodFile":  "h9.kod"
+               },
+    "RID_GODROOM":  {
+                        "EnglishName":  "The meeting place of the Gods",
+                        "GermanName":  "Der Treffpunkt der Götter",
+                        "KodFile":  "godroom.kod"
+                    },
+    "RID_JAS_AB9":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "jasab9.kod"
+                    },
+    "RID_BERG_AUC":  {
+                         "EnglishName":  "The Gilded Gavel",
+                         "GermanName":  "Der Goldene Hammer",
+                         "KodFile":  "bergauc.kod"
+                     },
+    "RID_KC1":  {
+                    "EnglishName":  "The Chasm",
+                    "GermanName":  "Der Abgrund",
+                    "KodFile":  "kc1.kod"
+                },
+    "RID_COR_INN":  {
+                        "EnglishName":  "Cibilo Creek Inn",
+                        "GermanName":  "Kneipe zum Bach",
+                        "KodFile":  "corinn.kod"
+                    },
+    "RID_KOC_HALL_OF_HEROES_A":  {
+                                     "EnglishName":  "The Hall of Heroes West",
+                                     "GermanName":  "Die Halle der Helden (Westen)",
+                                     "KodFile":  "kochoha.kod"
+                                 },
+    "RID_ASSHQ":  {
+                      "EnglishName":  "A shadowy corner",
+                      "GermanName":  "Eine finstere Ecke",
+                      "KodFile":  "asshq.kod"
+                  },
+    "RID_ORC_CAVE2":  {
+                          "EnglishName":  "An Enigmatic Chamber",
+                          "GermanName":  "Eine rätselhafte Kammer",
+                          "KodFile":  "orccave2.kod"
+                      },
+    "RID_E6":  {
+                   "EnglishName":  "Deep Forest of Farol",
+                   "GermanName":  "Der tiefe Wald von Farol",
+                   "KodFile":  "e6.kod"
+               },
+    "RID_F7":  {
+                   "EnglishName":  "Off the beaten path",
+                   "GermanName":  "Abseits der ausgetretenen Pfade",
+                   "KodFile":  "f7.kod"
+               },
+    "RID_RAZA_ELDER":  {
+                           "EnglishName":  "The Home of Roderic D\u0027Stane",
+                           "GermanName":  "Das Haus von Roderic D\u0027Stane",
+                           "KodFile":  "razahut.kod"
+                       },
+    "RID_KB4":  {
+                    "EnglishName":  "Path to the Ruins",
+                    "GermanName":  "Pfad zu den Ruinen",
+                    "KodFile":  "kb4.kod"
+                },
+    "RID_COR_WEAPONSMASTER":  {
+                                  "EnglishName":  "The Weapon Master\u0027s Abode",
+                                  "GermanName":  "Der Wohnsitz des Schwertmeisters",
+                                  "KodFile":  "corwepm.kod"
+                              },
+    "RID_CANYON1":  {
+                        "EnglishName":  "The Berdonne Canyons",
+                        "GermanName":  "Die Berdonnische Schlucht",
+                        "KodFile":  "canyon1.kod"
+                    },
+    "RID_GUILDH3":  {
+                        "EnglishName":  "The Den of Shadows",
+                        "GermanName":  "Lange Schatten",
+                        "KodFile":  "guildh3.kod"
+                    },
+    "RID_BERG_4":  {
+                       "EnglishName":  "Outskirts of Berg",
+                       "GermanName":  "Außenbezirk von Berg",
+                       "KodFile":  "berg4.kod"
+                   },
+    "RID_DUKE4":  {
+                      "EnglishName":  "The Duke\u0027s Feast Hall",
+                      "GermanName":  "Die Herzögliche Festhalle",
+                      "KodFile":  "duke4.kod"
+                  },
+    "RID_DESERTSHORE1":  {
+                             "EnglishName":  "Solitary Shoreline",
+                             "GermanName":  "Solitary Shoreline",
+                             "KodFile":  "desertshore1.kod"
+                         },
+    "RID_MOCKERS_ROOM":  {
+                             "EnglishName":  "Chamber of the Mocker",
+                             "GermanName":  "Kammer der Diebe",
+                             "KodFile":  "mockers.kod"
+                         },
+    "RID_THRONE2":  {
+                        "EnglishName":  "The Throne Room of Castle Victoria ",
+                        "GermanName":  "Der Thronsaal von Schloss Viktoria",
+                        "KodFile":  "throne2.kod"
+                    },
+    "RID_TOS_TAN":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "tostan.kod"
+                    },
+    "RID_DESERTRIVER1":  {
+                             "EnglishName":  "Cliffbound River",
+                             "GermanName":  "Cliffbound River",
+                             "KodFile":  "desertriver1.kod"
+                         },
+    "RID_BERG_LEADER_HALL":  {
+                                 "EnglishName":  "The Royal Palace of Berg",
+                                 "GermanName":  "Der königliche Palast von Berg",
+                                 "KodFile":  "bergleader_hall.kod"
+                             },
+    "RID_D5":  {
+                   "EnglishName":  "West Merchant Way",
+                   "GermanName":  "Westliche Handelsroute",
+                   "KodFile":  "d5.kod"
+               },
+    "RID_KOC_GUARDTOWER_EAST":  {
+                                    "EnglishName":  "The East Tower",
+                                    "GermanName":  "Der Ostturm",
+                                    "KodFile":  "koctower.kod"
+                                },
+    "RID_KOC_SEWER2":  {
+                           "EnglishName":  "Up Chuk Creek without a paddle",
+                           "GermanName":  "Oben am Chuk-Bach ohne Paddel",
+                           "KodFile":  "kocsew2.kod"
+                       },
+    "RID_JAS_TAVERN":  {
+                           "EnglishName":  "Pietro\u0027s Wicked Brews",
+                           "GermanName":  "Pietros süffiges Gebräu",
+                           "KodFile":  "jastavrn.kod"
+                       },
+    "RID_BERG_5":  {
+                       "EnglishName":  "Kardde\u0027s Path",
+                       "GermanName":  "Karddes Weg",
+                       "KodFile":  "berg5.kod"
+                   },
+    "RID_DUKE5":  {
+                      "EnglishName":  "The Duke\u0027s Grand Ballroom",
+                      "GermanName":  "Der Herzögliche Ballsaal",
+                      "KodFile":  "duke5.kod"
+                  },
+    "RID_jixa_dye":  {
+                         "EnglishName":  "The Rainbow Forge",
+                         "GermanName":  "Regenbogen Schmiede",
+                         "KodFile":  "jixa_dye.kod"
+                     },
+    "RID_RAZA_INN":  {
+                         "EnglishName":  "The Inn of Raza",
+                         "GermanName":  "Razas Taverne",
+                         "KodFile":  "razainn.kod"
+                     },
+    "RID_DESERTSHORE2":  {
+                             "EnglishName":  "Solitary Shoreline",
+                             "GermanName":  "Solitary Shoreline",
+                             "KodFile":  "desertshore2.kod"
+                         },
+    "RID_SWAMP1":  {
+                       "EnglishName":  "The Marsh",
+                       "GermanName":  "Der Sumpf",
+                       "KodFile":  "swamp1.kod"
+                   },
+    "RID_TOS_SMITHY":  {
+                           "EnglishName":  "The Freelance Merchant and Menders Shop",
+                           "GermanName":  "Laden Freier Händler und Flicker",
+                           "KodFile":  "tossmith.kod"
+                       },
+    "RID_BAR_APOTH":  {
+                          "EnglishName":  "Joguer\u0027s Herbs and Roots",
+                          "GermanName":  "Koldors Kräuter und Wurzeln",
+                          "KodFile":  "barapoth.kod"
+                      },
+    "RID_DESERTCLIFFACCESS":  {
+                                  "EnglishName":  "Sandbreak Cliffs",
+                                  "GermanName":  "Sandbreak Cliffs",
+                                  "KodFile":  "desertcliffaccess.kod"
+                              },
+    "RID_OLD_COR_UNIV":  {
+                             "EnglishName":  "The Historic Hall of Genealogy",
+                             "GermanName":  "Die historische Halle der Ahnen",
+                             "KodFile":  "oldcoruniv.kod"
+                         },
+    "RID_COR_GROCER":  {
+                           "EnglishName":  "Solomon\u0027s Edibles",
+                           "GermanName":  "Solomons Fressalien",
+                           "KodFile":  "corgroc.kod"
+                       },
+    "RID_JAS_SEWER3":  {
+                           "EnglishName":  "The Sewers of Jasper",
+                           "GermanName":  "Die Kanalisation von Jasper",
+                           "KodFile":  "jassew3.kod"
+                       },
+    "RID_GUILDH8":  {
+                        "EnglishName":  "The Sewer Hideout",
+                        "GermanName":  "Versteck in der Kanalisation",
+                        "KodFile":  "guildh8.kod"
+                    },
+    "RID_MAR_HALL":  {
+                         "EnglishName":  "The Adventurer\u0027s Hall of Marion",
+                         "GermanName":  "Gemeinschaftshalle von Marion",
+                         "KodFile":  "marhall.kod"
+                     },
+    "RID_CANYON2":  {
+                        "EnglishName":  "Martyr\u0027s Battleground",
+                        "GermanName":  "Schlachtfeld der Märtyrer",
+                        "KodFile":  "canyon2.kod"
+                    },
+    "RID_OLD_BAR_NORTH":  {
+                              "EnglishName":  "Historic North Barloque",
+                              "GermanName":  "Das historische Nord-Barloque",
+                              "KodFile":  "oldbarln.kod"
+                          },
+    "RID_JIXA_3":  {
+                       "EnglishName":  "Archaic Obelisk",
+                       "GermanName":  "Archaischer Obelisk",
+                       "KodFile":  "jixa3.kod"
+                   },
+    "RID_TOS_ARENA2":  {
+                           "EnglishName":  "The Arena foyer",
+                           "GermanName":  "Die Arena von Kraanan",
+                           "KodFile":  "tosaren2.kod"
+                       },
+    "RID_D7":  {
+                   "EnglishName":  "Deep in the Forest of Farol",
+                   "GermanName":  "Tief im Farolwald",
+                   "KodFile":  "d7.kod"
+               },
+    "RID_TOS_SECRET_PASSAGE":  {
+                                   "EnglishName":  "Secret Passage",
+                                   "GermanName":  "Geheime Passage",
+                                   "KodFile":  "toshidden.kod"
+                               },
+    "RID_JUNGLE_TRADING_POST_CELLAR":  {
+                                           "EnglishName":  "The Cellar Rooms",
+                                           "GermanName":  "Die Kellerräume",
+                                           "KodFile":  "tpost2.kod"
+                                       },
+    "RID_KA1":  {
+                    "EnglishName":  "Cliff Hive",
+                    "GermanName":  "Klippen",
+                    "KodFile":  "ka1.kod"
+                },
+    "RID_KB5":  {
+                    "EnglishName":  "Into the Jungle",
+                    "GermanName":  "In den Dschungel",
+                    "KodFile":  "kb5.kod"
+                },
+    "RID_KE2":  {
+                    "EnglishName":  "Headquarters of the Noble Avars",
+                    "GermanName":  "Hauptquartier der edlen Avare",
+                    "KodFile":  "ke2.kod"
+                },
+    "RID_JAS_AB1":  {
+                        "EnglishName":  "Old Granary ",
+                        "GermanName":  "Der alte Getreidespeicher",
+                        "KodFile":  "jasab1.kod"
+                    },
+    "RID_SEWER_KING":  {
+                           "EnglishName":  "The Ancient Smuggler\u0027s Crossing",
+                           "GermanName":  "Die uralte Schmuggler-Kreuzung",
+                           "KodFile":  "sewking.kod"
+                       },
+    "RID_ORC_CAVE4":  {
+                          "EnglishName":  "Aqueducts of Merb",
+                          "GermanName":  "Die Aquädukte von Merb",
+                          "KodFile":  "orccave4.kod"
+                      },
+    "RID_BAR_NORTH":  {
+                          "EnglishName":  "North Barloque",
+                          "GermanName":  "Nord-Barloque",
+                          "KodFile":  "barln.kod"
+                      },
+    "RID_RATCAVE2":  {
+                         "EnglishName":  "Abandoned Outpost",
+                         "GermanName":  "Verlassener Außenposten",
+                         "KodFile":  "ratcave2.kod"
+                     },
+    "RID_KA0":  {
+                    "EnglishName":  "A dark, humid cavern",
+                    "GermanName":  "Eine dunkle, feuchte Höhle",
+                    "KodFile":  "ka0.kod"
+                },
+    "RID_TOS_INN_CELLAR":  {
+                               "EnglishName":  "The Cellar",
+                               "GermanName":  "Die Kellerräume",
+                               "KodFile":  "toscellar.kod"
+                           },
+    "RID_FOREST1":  {
+                        "EnglishName":  "The Forests of Meridian",
+                        "GermanName":  "Die Wälder von Meridian",
+                        "KodFile":  "forest1.kod"
+                    },
+    "RID_H4":  {
+                   "EnglishName":  "The Flatlands",
+                   "GermanName":  "Die Ebene",
+                   "KodFile":  "h4.kod"
+               },
+    "RID_JIXA_INN":  {
+                         "EnglishName":  "The Wandering Fiddler Pub",
+                         "GermanName":  "Der wandernde Geiger",
+                         "KodFile":  "jixa_inn.kod"
+                     },
+    "RID_C5":  {
+                   "EnglishName":  "West Merchant Way through Ilerian Woods",
+                   "GermanName":  "Westliche Handelsroute durch die Ilerischen Wälder",
+                   "KodFile":  "c5.kod"
+               },
+    "RID_KD1":  {
+                    "EnglishName":  "Lair of the Bone Priestess",
+                    "GermanName":  "Lager der Knochenpriesterin",
+                    "KodFile":  "kd1.kod"
+                },
+    "RID_NEST1":  {
+                      "EnglishName":  "The Spider Nest",
+                      "GermanName":  "Das Spinnennest",
+                      "KodFile":  "nest1.kod"
+                  },
+    "RID_KOCATAN":  {
+                        "EnglishName":  "Ko\u0027catan, the Island Settlement",
+                        "GermanName":  "Ko\u0027catan, die Insel-Siedlung",
+                        "KodFile":  "kocatan.kod"
+                    },
+    "RID_WAYLAYOASIS":  {
+                            "EnglishName":  "Waylay Oasis",
+                            "GermanName":  "Waylay Oasis",
+                            "KodFile":  "waylayoasis.kod"
+                        },
+    "RID_UNDERWORLD":  {
+                           "EnglishName":  "The Underworld",
+                           "GermanName":  "Die Unterwelt",
+                           "KodFile":  "uworld.kod"
+                       },
+    "RID_GUILDH10":  {
+                         "EnglishName":  "Jaarba\u0027s Abode",
+                         "GermanName":  "Jaarbas Versteck",
+                         "KodFile":  "guildh10.kod"
+                     },
+    "RID_TOS":  {
+                    "EnglishName":  "The Streets of Tos",
+                    "GermanName":  "Die Straßen von Tos",
+                    "KodFile":  "tos.kod"
+                },
+    "RID_ORC_CAVE5":  {
+                          "EnglishName":  "Obfal\u0027s Sepulchre",
+                          "GermanName":  "Obfals Grabstätte",
+                          "KodFile":  "orccave5.kod"
+                      },
+    "RID_SURVIVAL_ARENA":  {
+                               "EnglishName":  "The Hallowed Training Grounds",
+                               "GermanName":  "Die heiligen Übungsplätze",
+                               "KodFile":  "survivalarena.kod"
+                           },
+    "RID_TEMPLE_QOR":  {
+                           "EnglishName":  "The Temple of Qor",
+                           "GermanName":  "Der Qor Tempel",
+                           "KodFile":  "tempqor.kod"
+                       },
+    "RID_RATCAVE3":  {
+                         "EnglishName":  "Rumbling Cavern",
+                         "GermanName":  "Grollende Höhle",
+                         "KodFile":  "ratcave3.kod"
+                     },
+    "RID_DVALLEY_5B":  {
+                           "EnglishName":  "Chamber of the Crying Serpent",
+                           "GermanName":  "Kammer der weinenden Schlange",
+                           "KodFile":  "dvalley5B.kod"
+                       },
+    "RID_DVALLEY_TEMPLE":  {
+                               "EnglishName":  "Pantheon of the Arcane Arts",
+                               "GermanName":  "Pantheon der Arkanen Künste",
+                               "KodFile":  "dvalley_temple.kod"
+                           },
+    "RID_KOC_APOTH":  {
+                          "EnglishName":  "Two Lizards Magic Shop",
+                          "GermanName":  "Zwei Echsen Magie-Laden",
+                          "KodFile":  "kocapoth.kod"
+                      },
+    "RID_RAZA_SMITH":  {
+                           "EnglishName":  "The Blacksmith of Raza",
+                           "GermanName":  "Razas Schmied",
+                           "KodFile":  "razasmith.kod"
+                       },
+    "RID_C6":  {
+                   "EnglishName":  "Forest of Farol",
+                   "GermanName":  "Farolwald",
+                   "KodFile":  "c6.kod"
+               },
+    "RID_GUILDH6":  {
+                        "EnglishName":  "The Ivory Chapel",
+                        "GermanName":  "Die Elfenbeinkapelle",
+                        "KodFile":  "guildh6.kod"
+                    },
+    "RID_BERG_BANK":  {
+                          "EnglishName":  "Berg Treasury",
+                          "GermanName":  "Berg Schatzkammer",
+                          "KodFile":  "bergbank.kod"
+                      },
+    "RID_JAS_AB5":  {
+                        "EnglishName":  "Abandoned Building",
+                        "GermanName":  "Verlassenes Gebäude",
+                        "KodFile":  "jasab5.kod"
+                    },
+    "RID_DVALLEY_4":  {
+                          "EnglishName":  "A Parched and Barren Stretch of Land",
+                          "GermanName":  "Ein vertrockneter und verlassener Landstrich",
+                          "KodFile":  "dvalley4.kod"
+                      },
+    "RID_G9":  {
+                   "EnglishName":  "An ancient place, its origin forgotten",
+                   "GermanName":  "Eine uralte Stätte, ihre Herkunft lange vergessen",
+                   "KodFile":  "g9.kod"
+               },
+    "RID_BAR_BAR":  {
+                        "EnglishName":  "The Bhrama \u0026 Falcon",
+                        "GermanName":  "Zum fröhlichen Mönch",
+                        "KodFile":  "barlbar1.kod"
+                    },
+    "RID_A5":  {
+                   "EnglishName":  "Seafarer\u0027s Peak",
+                   "GermanName":  "Ausguck der Seefahrer",
+                   "KodFile":  "a5.kod"
+               },
+    "RID_COR_HALL":  {
+                         "EnglishName":  "The Adventurer\u0027s Hall of Cor Noth",
+                         "GermanName":  "Gemeinschaftshalle von Cor Noth",
+                         "KodFile":  "corhall.kod"
+                     },
+    "RID_JIXA":  {
+                     "EnglishName":  "Hidden Village of Jixa",
+                     "GermanName":  "Jixa, das verborgene Dorf",
+                     "KodFile":  "jixa.kod"
+                 },
+    "RID_DESERTCLIFFNOACCESS1":  {
+                                     "EnglishName":  "Sandbreak Cliffs",
+                                     "GermanName":  "Sandbreak Cliffs",
+                                     "KodFile":  "desertcliffnoaccess1.kod"
+                                 },
+    "RID_E4":  {
+                   "EnglishName":  "East Merchant Way through Ilerian Woods",
+                   "GermanName":  "Östliche Handelsroute durch die Ilerischen Wälder",
+                   "KodFile":  "e4.kod"
+               },
+    "RID_KA4":  {
+                    "EnglishName":  "Into the Jungle",
+                    "GermanName":  "In den Dschungel",
+                    "KodFile":  "ka4.kod"
+                },
+    "RID_RAZA_BAR":  {
+                         "EnglishName":  "Eric\u0027s Stout Spirits",
+                         "GermanName":  "Eriks Spirituosen",
+                         "KodFile":  "razabar.kod"
+                     },
+    "RID_D6E6ULAKE":  {
+                          "EnglishName":  "Underground Lake - Home of the Mollusk",
+                          "GermanName":  "Unterirdischer See - Heimat der Panzermolche",
+                          "KodFile":  "d6e6ulake.kod"
+                      },
+    "RID_BERG_3_CAVE":  {
+                            "EnglishName":  "A Dark Place",
+                            "GermanName":  "Ein dunkler Ort",
+                            "KodFile":  "berg3cave.kod"
+                        },
+    "RID_RAZA_MUSEUM":  {
+                            "EnglishName":  "The Grand Museum of Raza",
+                            "GermanName":  "Das Große Museum von Raza",
+                            "KodFile":  "razamuseum.kod"
+                        },
+    "RID_RAZA":  {
+                     "EnglishName":  "Raza",
+                     "GermanName":  "Raza",
+                     "KodFile":  "raza.kod"
+                 },
+    "RID_GALLERY":  {
+                        "EnglishName":  "object gallery",
+                        "GermanName":  "Objekt-Gallerie",
+                        "KodFile":  "gallery.kod"
+                    },
+    "RID_G8":  {
+                   "EnglishName":  "The Cragged Mountains",
+                   "GermanName":  "Die zerklüfteten Berge",
+                   "KodFile":  "g8.kod"
+               },
+    "RID_ORC_CAVE1":  {
+                          "EnglishName":  "Ugol\u0027s Warren Entrance",
+                          "GermanName":  "Ugols Labyrinth-Eingang",
+                          "KodFile":  "orccave1.kod"
+                      },
+    "RID_BRAX_ARENA":  {
+                           "EnglishName":  "Goad\u0027s Grinder",
+                           "GermanName":  "Goads Schlachthaus",
+                           "KodFile":  "necarena.kod"
+                       },
+    "RID_JAS_STORE":  {
+                          "EnglishName":  "General Store of Jasper",
+                          "GermanName":  "Warenlager von Jasper",
+                          "KodFile":  "jasstore.kod"
+                      },
+    "RID_GUILDH19":  {
+                         "EnglishName":  "The Wetland Fortress",
+                         "GermanName":  "Alte Festung",
+                         "KodFile":  "guildh19.kod"
+                     },
+    "RID_TEMPLE_RIIJA":  {
+                             "EnglishName":  "The Temple of Riija",
+                             "GermanName":  "Der Riija Tempel",
+                             "KodFile":  "temprii.kod"
+                         },
+    "RID_F6":  {
+                   "EnglishName":  "Off the beaten path",
+                   "GermanName":  "Abseits der ausgetretenen Pfade",
+                   "KodFile":  "f6.kod"
+               },
+    "RID_I8":  {
+                   "EnglishName":  "The Cragged Mountains",
+                   "GermanName":  "Die zerklüfteten Berge",
+                   "KodFile":  "i8.kod"
+               },
+    "RID_CASTLE2C":  {
+                         "EnglishName":  "The Assembly Chamber",
+                         "GermanName":  "Die Versammlungshalle",
+                         "KodFile":  "castle2c.kod"
+                     },
+    "RID_CASTLE2D":  {
+                         "EnglishName":  "Royal Library of the Bourgeois Castle",
+                         "GermanName":  "Die königliche Bibliothek von Schloss Bourgeois",
+                         "KodFile":  "castle2d.kod"
+                     },
+    "RID_GUILDH2":  {
+                        "EnglishName":  "The Hall of Explorers",
+                        "GermanName":  "Halle der Entdecker",
+                        "KodFile":  "guildh2.kod"
+                    },
+    "RID_BERG_3":  {
+                       "EnglishName":  "The Jagged Hills",
+                       "GermanName":  "Die gezackten Hügel",
+                       "KodFile":  "berg3.kod"
+                   },
+    "RID_OUTOFGRACE":  {
+                           "EnglishName":  "Out of Grace with the Higher Powers",
+                           "GermanName":  "Der Schuldturm",
+                           "KodFile":  "outgrace.kod"
+                       },
+    "RID_MAR_SMITHY":  {
+                           "EnglishName":  "Ye Olde Slasher Salesman",
+                           "GermanName":  "Zum alten Hufschmied",
+                           "KodFile":  "marsmith.kod"
+                       },
+    "RID_KC4":  {
+                    "EnglishName":  "Origin of the Kriipa",
+                    "GermanName":  "Ursprung der Kriipa",
+                    "KodFile":  "kc4.kod"
+                },
+    "RID_KOC_STORE":  {
+                          "EnglishName":  "The Neglected Arsenal",
+                          "GermanName":  "Das verlassene Waffenlager",
+                          "KodFile":  "kocstore.kod"
+                      },
+    "RID_JAS_BANK":  {
+                         "EnglishName":  "The Royal Bank of Jasper",
+                         "GermanName":  "Königliche Bank von Jasper",
+                         "KodFile":  "jasbank.kod"
+                     },
+    "RID_THRONE1":  {
+                        "EnglishName":  "The Antechamber of  Castle Victoria",
+                        "GermanName":  "Der Thronsaal von Schloss Viktoria",
+                        "KodFile":  "throne1.kod"
+                    },
+    "RID_KOC_HALL_OF_HEROES":  {
+                                   "EnglishName":  "The Hall of Heroes",
+                                   "GermanName":  "Die Halle der Helden",
+                                   "KodFile":  "kochoh.kod"
+                               },
+    "RID_OLD_BAR_SOUTH":  {
+                              "EnglishName":  "Historic South Barloque",
+                              "GermanName":  "Das historische Süd-Barloque",
+                              "KodFile":  "oldbarls.kod"
+                          },
+    "RID_RAZA_VAULT":  {
+                           "EnglishName":  "Raza Vaults",
+                           "GermanName":  "Das BÃ¼ro des Lagerverwalters von Raza",
+                           "KodFile":  "razavault.kod"
+                       },
+    "RID_TEMPLE":  {
+                       "EnglishName":  "The Temple of Shal\u0027ille",
+                       "GermanName":  "Der Sha-Lill Tempel",
+                       "KodFile":  "temple.kod"
+                   },
+    "RID_CAVE2":  {
+                      "EnglishName":  "A Deep, Dark, Spooky, Icky Cave",
+                      "GermanName":  "Eine tiefe, dunkle und unheimliche Höhle",
+                      "KodFile":  "cave2.kod"
+                  },
+    "RID_ORC_PIT_A":  {
+                          "EnglishName":  "Grog\u0027s Antechamber",
+                          "GermanName":  "Grogs Vorkammer",
+                          "KodFile":  "orcpita.kod"
+                      },
+    "RID_MAR_INN":  {
+                        "EnglishName":  "The Limping Toad Inn and Tavern",
+                        "GermanName":  "Kneipe zur Lahmen Kröte",
+                        "KodFile":  "marinn.kod"
+                    },
+    "RID_BERG_STORE":  {
+                           "EnglishName":  "Runes and Relics",
+                           "GermanName":  "Runen und Relikte",
+                           "KodFile":  "bergstore.kod"
+                       },
+    "RID_KOC_SEWER1":  {
+                           "EnglishName":  "A foul place to wander",
+                           "GermanName":  "Kein besonders guter Ort",
+                           "KodFile":  "kocsew1.kod"
+                       },
+    "RID_I9":  {
+                   "EnglishName":  "Ukgoth, Holy Land of Trolls",
+                   "GermanName":  "Ukgot, heiliges Land der Trolle",
+                   "KodFile":  "i9.kod"
+               },
+    "RID_I6":  {
+                   "EnglishName":  "Outskirts of Tos",
+                   "GermanName":  "Außenbezirk von Tos",
+                   "KodFile":  "i6.kod"
+               },
+    "RID_TOS_INN":  {
+                        "EnglishName":  "Familiars",
+                        "GermanName":  "Brunnenkneipe",
+                        "KodFile":  "tosinn.kod"
+                    },
+    "RID_KOC_TAILOR":  {
+                           "EnglishName":  "The Crooked Hem Garment Shop",
+                           "GermanName":  "Der Kleiderladen Zum Schiefen Saum",
+                           "KodFile":  "koctail.kod"
+                       },
+    "RID_CASTLE1B":  {
+                         "EnglishName":  "Upstairs in Castle Victoria",
+                         "GermanName":  "Obergeschoss von Schloss Viktoria",
+                         "KodFile":  "castle1b.kod"
+                     },
+    "RID_INNERSAN":  {
+                         "EnglishName":  "Inner Sanctum of Queen Venya\u0027cyr",
+                         "GermanName":  "Das Allerheiligste von Königin Venya\u0027cyr",
+                         "KodFile":  "innersanc.kod"
+                     },
+    "RID_FOREST3":  {
+                        "EnglishName":  "The Forests of Meridian",
+                        "GermanName":  "Die Wälder von Meridian",
+                        "KodFile":  "forest3.kod"
+                    },
+    "RID_TOS_HALL":  {
+                         "EnglishName":  "The Adventurer\u0027s Hall of Tos",
+                         "GermanName":  "Gemeinschaftshalle von Tos",
+                         "KodFile":  "toshall.kod"
+                     },
+    "RID_BAR_SMITHY":  {
+                           "EnglishName":  "The Royal Blacksmith of Barloque",
+                           "GermanName":  "Königlicher Hofschmied von Barloque",
+                           "KodFile":  "barsmith.kod"
+                       },
+    "RID_cave3":  {
+                      "EnglishName":  "The Underground Lake",
+                      "GermanName":  "Der unterirdische See",
+                      "KodFile":  "cave3.kod"
+                  },
+    "RID_MAD_SCIENTIST_HUT":  {
+                                  "EnglishName":  "Hut of the Mad Scientist",
+                                  "GermanName":  "Hütte des verrückten Wissenschaftlers",
+                                  "KodFile":  "kmadscih.kod"
+                              },
+    "RID_RAZA_FOREST":  {
+                            "EnglishName":  "Outskirts of Raza",
+                            "GermanName":  "Stadtrand von Raza",
+                            "KodFile":  "razaforest.kod"
+                        },
+    "RID_JASPER":  {
+                       "EnglishName":  "East Jasper",
+                       "GermanName":  "Ost-Jasper",
+                       "KodFile":  "jasper.kod"
+                   },
+    "RID_KD3":  {
+                    "EnglishName":  "Deep in the Jungle",
+                    "GermanName":  "Tief im Dschungel",
+                    "KodFile":  "kd3.kod"
+                },
+    "RID_BANDIT_CAVE":  {
+                            "EnglishName":  "Hideout of the Eastern Bandits",
+                            "GermanName":  "Die Banditenhöhle",
+                            "KodFile":  "banditcave.kod"
+                        },
+    "RID_CASTLE1":  {
+                        "EnglishName":  "Castle Victoria",
+                        "GermanName":  "Schloss Viktoria",
+                        "KodFile":  "castle1.kod"
+                    },
+    "RID_FORGOTTEN_TOO":  {
+                              "EnglishName":  "Chamber of the Forgotten Heroes",
+                              "GermanName":  "Kammer der vergessenen Helden",
+                              "KodFile":  "forgot2.kod"
+                          },
+    "RID_KB1":  {
+                    "EnglishName":  "The Cliffs",
+                    "GermanName":  "Die Klippen",
+                    "KodFile":  "kb1.kod"
+                }
+}

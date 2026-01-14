@@ -1,0 +1,2593 @@
+{
+    "angelwings": {
+        "ClassName": "angelwings",
+        "EnglishName": "angel wings",
+        "GermanName": "angel wings",
+        "DmCommand": "dm item angel wings",
+        "Category": "Armor and Clothes"
+    },
+    "antmask": {
+        "ClassName": "antmask",
+        "EnglishName": "ant mask",
+        "GermanName": "Die Ameisenmaske",
+        "DmCommand": "dm item ant mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "antmask.kod"
+    },
+    "blackmetalarmor": {
+        "ClassName": "blackmetalarmor",
+        "EnglishName": "black metal armor",
+        "GermanName": "black metal armor",
+        "DmCommand": "dm item black metal armor",
+        "Category": "Armor and Clothes"
+    },
+    "chainarmor": {
+        "ClassName": "chainarmor",
+        "EnglishName": "chain armor",
+        "GermanName": "Das Kettenhemd",
+        "DmCommand": "dm item chain armor",
+        "Category": "Armor and Clothes",
+        "KodFile": "chain.kod"
+    },
+    "circlet": {
+        "ClassName": "circlet",
+        "EnglishName": "circlet",
+        "GermanName": "Das Diadem",
+        "DmCommand": "dm item circlet",
+        "Category": "Armor and Clothes",
+        "KodFile": "circlet.kod"
+    },
+    "cowmask": {
+        "ClassName": "cowmask",
+        "EnglishName": "cow mask",
+        "GermanName": "Die Kuhmaske",
+        "DmCommand": "dm item cow mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "cowmask.kod"
+    },
+    "daemonhelm": {
+        "ClassName": "daemonhelm",
+        "EnglishName": "daemon helm",
+        "GermanName": "daemon helm",
+        "DmCommand": "dm item daemon helm",
+        "Category": "Armor and Clothes"
+    },
+    "daemonskeletonmask": {
+        "ClassName": "daemonskeletonmask",
+        "EnglishName": "daemon skeleton mask",
+        "GermanName": "Die D\u00e4monenskelettmaske",
+        "DmCommand": "dm item daemon skeleton mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "daemmask.kod"
+    },
+    "duskratmask": {
+        "ClassName": "duskratmask",
+        "EnglishName": "dusk rat mask",
+        "GermanName": "Die schwarze Rattenmaske",
+        "DmCommand": "dm item dusk rat mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "dratmask.kod"
+    },
+    "feymask": {
+        "ClassName": "feymask",
+        "EnglishName": "fey mask",
+        "GermanName": "fey mask",
+        "DmCommand": "dm item fey mask",
+        "Category": "Armor and Clothes"
+    },
+    "goldroundshield": {
+        "ClassName": "goldroundshield",
+        "EnglishName": "gold round shield",
+        "GermanName": "Das Goldschild",
+        "DmCommand": "dm item gold round shield",
+        "Category": "Armor and Clothes",
+        "KodFile": "goldshld.kod"
+    },
+    "helm": {
+        "ClassName": "helm",
+        "EnglishName": "helm",
+        "GermanName": "Der Helm",
+        "DmCommand": "dm item helm",
+        "Category": "Armor and Clothes",
+        "KodFile": "simphelm.kod"
+    },
+    "heraldshield": {
+        "ClassName": "heraldshield",
+        "EnglishName": "herald shield",
+        "GermanName": "Das Gildenschild",
+        "DmCommand": "dm item herald shield",
+        "Category": "Armor and Clothes",
+        "KodFile": "guilshld.kod"
+    },
+    "ivycirclet": {
+        "ClassName": "ivycirclet",
+        "EnglishName": "ivy circlet",
+        "GermanName": "Das Efeu-Diadem",
+        "DmCommand": "dm item ivy circlet",
+        "Category": "Armor and Clothes",
+        "KodFile": "ivycircl.kod"
+    },
+    "knightsshield": {
+        "ClassName": "knightsshield",
+        "EnglishName": "knight's shield",
+        "GermanName": "Das Ritterschild",
+        "DmCommand": "dm item knight's shield",
+        "Category": "Armor and Clothes",
+        "KodFile": "knhtshld.kod"
+    },
+    "kriipamask": {
+        "ClassName": "kriipamask",
+        "EnglishName": "kriipa mask",
+        "GermanName": "Die Kriipamaske",
+        "DmCommand": "dm item kriipa mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "kriipmsk.kod"
+    },
+    "lantern": {
+        "ClassName": "lantern",
+        "EnglishName": "lantern",
+        "GermanName": "lantern",
+        "DmCommand": "dm item lantern",
+        "Category": "Armor and Clothes"
+    },
+    "leatherarmor": {
+        "ClassName": "leatherarmor",
+        "EnglishName": "leather armor",
+        "GermanName": "Die Lederr\u00fcstung",
+        "DmCommand": "dm item leather armor",
+        "Category": "Armor and Clothes",
+        "KodFile": "leather.kod"
+    },
+    "lightjerkin": {
+        "ClassName": "lightjerkin",
+        "EnglishName": "light jerkin",
+        "GermanName": "Der leichte Wams",
+        "DmCommand": "dm item light jerkin",
+        "Category": "Armor and Clothes",
+        "KodFile": "tanktop.kod"
+    },
+    "lightrobes": {
+        "ClassName": "lightrobes",
+        "EnglishName": "light robes",
+        "GermanName": "leichte Robe",
+        "DmCommand": "dm item light robes",
+        "Category": "Armor and Clothes",
+        "KodFile": "lghtrobe.kod"
+    },
+    "lightrobesofthedisciple": {
+        "ClassName": "lightrobesofthedisciple",
+        "EnglishName": "light robes of the disciple",
+        "GermanName": "light robes of the disciple",
+        "DmCommand": "dm item light robes of the disciple",
+        "Category": "Armor and Clothes"
+    },
+    "longskirt": {
+        "ClassName": "longskirt",
+        "EnglishName": "long skirt",
+        "GermanName": "Der lange Rock",
+        "DmCommand": "dm item long skirt",
+        "Category": "Armor and Clothes",
+        "KodFile": "skirt.kod"
+    },
+    "magicspirithelmet": {
+        "ClassName": "magicspirithelmet",
+        "EnglishName": "magic spirit helmet",
+        "GermanName": "Der magische Helm",
+        "DmCommand": "dm item magic spirit helmet",
+        "Category": "Armor and Clothes",
+        "KodFile": "helm.kod"
+    },
+    "mummymask": {
+        "ClassName": "mummymask",
+        "EnglishName": "mummy mask",
+        "GermanName": "Die Mumienmaske",
+        "DmCommand": "dm item mummy mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "mummymsk.kod"
+    },
+    "mysticarmor": {
+        "ClassName": "mysticarmor",
+        "EnglishName": "mystic armor",
+        "GermanName": "mystic armor",
+        "DmCommand": "dm item mystic armor",
+        "Category": "Armor and Clothes"
+    },
+    "neruditearmor": {
+        "ClassName": "neruditearmor",
+        "EnglishName": "nerudite armor",
+        "GermanName": "Die Nerudit-R\u00fcstung",
+        "DmCommand": "dm item nerudite armor",
+        "Category": "Armor and Clothes",
+        "KodFile": "neruarmr.kod"
+    },
+    "orcshield": {
+        "ClassName": "orcshield",
+        "EnglishName": "orc shield",
+        "GermanName": "Der Ork-Schild",
+        "DmCommand": "dm item orc shield",
+        "Category": "Armor and Clothes",
+        "KodFile": "orcshld.kod"
+    },
+    "pants": {
+        "ClassName": "pants",
+        "EnglishName": "pants",
+        "GermanName": "Die Hose",
+        "DmCommand": "dm item pants",
+        "Category": "Armor and Clothes",
+        "KodFile": "pants.kod"
+    },
+    "pilgrimhat": {
+        "ClassName": "pilgrimhat",
+        "EnglishName": "pilgrim hat",
+        "GermanName": "pilgrim hat",
+        "DmCommand": "dm item pilgrim hat",
+        "Category": "Armor and Clothes",
+        "KodFile": "pilgrimhat.kod"
+    },
+    "plaguedoctormask": {
+        "ClassName": "plaguedoctormask",
+        "EnglishName": "plague doctor mask",
+        "GermanName": "Die Maske des Hexendoktors",
+        "DmCommand": "dm item plague doctor mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "plaguemask.kod"
+    },
+    "platearmor": {
+        "ClassName": "platearmor",
+        "EnglishName": "plate armor",
+        "GermanName": "Der Plattenpanzer",
+        "DmCommand": "dm item plate armor",
+        "Category": "Armor and Clothes",
+        "KodFile": "plate.kod"
+    },
+    "pumpkinmask": {
+        "ClassName": "pumpkinmask",
+        "EnglishName": "pumpkin mask",
+        "GermanName": "Die K\u00fcrbismaske",
+        "DmCommand": "dm item pumpkin mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "pumpkinmask.kod"
+    },
+    "qormashelm": {
+        "ClassName": "qormashelm",
+        "EnglishName": "qormas helm",
+        "GermanName": "qormas helm",
+        "DmCommand": "dm item qormas helm",
+        "Category": "Armor and Clothes"
+    },
+    "ratmask": {
+        "ClassName": "ratmask",
+        "EnglishName": "rat mask",
+        "GermanName": "Die Rattenmaske",
+        "DmCommand": "dm item rat mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "ratmask.kod"
+    },
+    "robes": {
+        "ClassName": "robes",
+        "EnglishName": "robes",
+        "GermanName": "robes",
+        "DmCommand": "dm item robes",
+        "Category": "Armor and Clothes"
+    },
+    "robesofthedisciple": {
+        "ClassName": "robesofthedisciple",
+        "EnglishName": "robes of the disciple",
+        "GermanName": "robes of the disciple",
+        "DmCommand": "dm item robes of the disciple",
+        "Category": "Armor and Clothes"
+    },
+    "royalshirt": {
+        "ClassName": "royalshirt",
+        "EnglishName": "royal shirt",
+        "GermanName": "Das k\u00f6nigliche Hemd",
+        "DmCommand": "dm item royal shirt",
+        "Category": "Armor and Clothes",
+        "KodFile": "royalsht.kod"
+    },
+    "rubicitearmor": {
+        "ClassName": "rubicitearmor",
+        "EnglishName": "rubicite armor",
+        "GermanName": "rubicite armor",
+        "DmCommand": "dm item rubicite armor",
+        "Category": "Armor and Clothes"
+    },
+    "scalearmor": {
+        "ClassName": "scalearmor",
+        "EnglishName": "scale armor",
+        "GermanName": "Der Schuppenpanzer",
+        "DmCommand": "dm item scale armor",
+        "Category": "Armor and Clothes",
+        "KodFile": "scale.kod"
+    },
+    "shirt": {
+        "ClassName": "shirt",
+        "EnglishName": "shirt",
+        "GermanName": "shirt",
+        "DmCommand": "dm item shirt",
+        "Category": "Armor and Clothes",
+        "KodFile": "shirt.kod"
+    },
+    "shortskirt": {
+        "ClassName": "shortskirt",
+        "EnglishName": "short skirt",
+        "GermanName": "Der kurze Rock",
+        "DmCommand": "dm item short skirt",
+        "Category": "Armor and Clothes",
+        "KodFile": "shrtskrt.kod"
+    },
+    "shrunkenheadmask": {
+        "ClassName": "shrunkenheadmask",
+        "EnglishName": "shrunken head mask",
+        "GermanName": "Die Schrumpfkopfmaske",
+        "DmCommand": "dm item shrunken head mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "shrnkmsk.kod"
+    },
+    "skullmask": {
+        "ClassName": "skullmask",
+        "EnglishName": "skull mask",
+        "GermanName": "Die Totenkopfmaske",
+        "DmCommand": "dm item skull mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "skullmsk.kod"
+    },
+    "smallroundshield": {
+        "ClassName": "smallroundshield",
+        "EnglishName": "small round shield",
+        "GermanName": "Der kleine Rundschild",
+        "DmCommand": "dm item small round shield",
+        "Category": "Armor and Clothes",
+        "KodFile": "metlshld.kod"
+    },
+    "stonetrollmask": {
+        "ClassName": "stonetrollmask",
+        "EnglishName": "stone troll mask",
+        "GermanName": "Die Steintrollmaske",
+        "DmCommand": "dm item stone troll mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "strollmsk.kod"
+    },
+    "thornedcirclet": {
+        "ClassName": "thornedcirclet",
+        "EnglishName": "thorned circlet",
+        "GermanName": "thorned circlet",
+        "DmCommand": "dm item thorned circlet",
+        "Category": "Armor and Clothes"
+    },
+    "torch": {
+        "ClassName": "torch",
+        "EnglishName": "torch",
+        "GermanName": "Die Fackel",
+        "DmCommand": "dm item torch",
+        "Category": "Armor and Clothes",
+        "KodFile": "torch.kod"
+    },
+    "towershield": {
+        "ClassName": "towershield",
+        "EnglishName": "tower shield",
+        "GermanName": "tower shield",
+        "DmCommand": "dm item tower shield",
+        "Category": "Armor and Clothes"
+    },
+    "trollmask": {
+        "ClassName": "trollmask",
+        "EnglishName": "troll mask",
+        "GermanName": "Die Trollmaske",
+        "DmCommand": "dm item troll mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "trollmsk.kod"
+    },
+    "warbonnet": {
+        "ClassName": "warbonnet",
+        "EnglishName": "war bonnet",
+        "GermanName": "war bonnet",
+        "DmCommand": "dm item war bonnet",
+        "Category": "Armor and Clothes"
+    },
+    "warhelmet": {
+        "ClassName": "warhelmet",
+        "EnglishName": "war helmet",
+        "GermanName": "war helmet",
+        "DmCommand": "dm item war helmet",
+        "Category": "Armor and Clothes"
+    },
+    "wolfmask": {
+        "ClassName": "wolfmask",
+        "EnglishName": "wolf mask",
+        "GermanName": "wolf mask",
+        "DmCommand": "dm item wolf mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "wolfmask.kod"
+    },
+    "woodenshield": {
+        "ClassName": "woodenshield",
+        "EnglishName": "wooden shield",
+        "GermanName": "wooden shield",
+        "DmCommand": "dm item wooden shield",
+        "Category": "Armor and Clothes"
+    },
+    "WranglersCap": {
+        "ClassName": "WranglersCap",
+        "EnglishName": "Wrangler's Cap",
+        "GermanName": "Wrangler's Cap",
+        "DmCommand": "dm item Wrangler's Cap",
+        "Category": "Armor and Clothes"
+    },
+    "xeochicatlmask": {
+        "ClassName": "xeochicatlmask",
+        "EnglishName": "xeochicatl mask",
+        "GermanName": "Die Xeochicatlmaske",
+        "DmCommand": "dm item xeochicatl mask",
+        "Category": "Armor and Clothes",
+        "KodFile": "xeomask.kod"
+    },
+    "axe": {
+        "ClassName": "axe",
+        "EnglishName": "axe",
+        "GermanName": "Die Axt",
+        "DmCommand": "dm item axe",
+        "Category": "Weapons and Ammo",
+        "KodFile": "axe.kod"
+    },
+    "battlebow": {
+        "ClassName": "battlebow",
+        "EnglishName": "battle bow",
+        "GermanName": "Der Kampfbogen",
+        "DmCommand": "dm item battle bow",
+        "Category": "Weapons and Ammo",
+        "KodFile": "battlbow.kod"
+    },
+    "blackmetalaxe": {
+        "ClassName": "blackmetalaxe",
+        "EnglishName": "black metal axe",
+        "GermanName": "black metal axe",
+        "DmCommand": "dm item black metal axe",
+        "Category": "Weapons and Ammo"
+    },
+    "blackmetalhammer": {
+        "ClassName": "blackmetalhammer",
+        "EnglishName": "black metal hammer",
+        "GermanName": "black metal hammer",
+        "DmCommand": "dm item black metal hammer",
+        "Category": "Weapons and Ammo"
+    },
+    "club": {
+        "ClassName": "club",
+        "EnglishName": "club",
+        "GermanName": "club",
+        "DmCommand": "dm item club",
+        "Category": "Weapons and Ammo"
+    },
+    "dagger": {
+        "ClassName": "dagger",
+        "EnglishName": "dagger",
+        "GermanName": "dagger",
+        "DmCommand": "dm item dagger",
+        "Category": "Weapons and Ammo"
+    },
+    "duplexbow": {
+        "ClassName": "duplexbow",
+        "EnglishName": "duplex bow",
+        "GermanName": "duplex bow",
+        "DmCommand": "dm item duplex bow",
+        "Category": "Weapons and Ammo"
+    },
+    "flamingsword": {
+        "ClassName": "flamingsword",
+        "EnglishName": "flaming sword",
+        "GermanName": "flaming sword",
+        "DmCommand": "dm item flaming sword",
+        "Category": "Weapons and Ammo"
+    },
+    "frostblade": {
+        "ClassName": "frostblade",
+        "EnglishName": "frost blade",
+        "GermanName": "frost blade",
+        "DmCommand": "dm item frost blade",
+        "Category": "Weapons and Ammo"
+    },
+    "goldsword": {
+        "ClassName": "goldsword",
+        "EnglishName": "gold sword",
+        "GermanName": "Das goldene Schwert",
+        "DmCommand": "dm item gold sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "goldswrd.kod"
+    },
+    "hammer": {
+        "ClassName": "hammer",
+        "EnglishName": "hammer",
+        "GermanName": "Der Hammer",
+        "DmCommand": "dm item hammer",
+        "Category": "Weapons and Ammo",
+        "KodFile": "hammer.kod"
+    },
+    "hatchet": {
+        "ClassName": "hatchet",
+        "EnglishName": "hatchet",
+        "GermanName": "hatchet",
+        "DmCommand": "dm item hatchet",
+        "Category": "Weapons and Ammo"
+    },
+    "huntingbow": {
+        "ClassName": "huntingbow",
+        "EnglishName": "hunting bow",
+        "GermanName": "hunting bow",
+        "DmCommand": "dm item hunting bow",
+        "Category": "Weapons and Ammo"
+    },
+    "knife": {
+        "ClassName": "knife",
+        "EnglishName": "knife",
+        "GermanName": "knife",
+        "DmCommand": "dm item knife",
+        "Category": "Weapons and Ammo"
+    },
+    "kukri": {
+        "ClassName": "kukri",
+        "EnglishName": "kukri",
+        "GermanName": "kukri",
+        "DmCommand": "dm item kukri",
+        "Category": "Weapons and Ammo"
+    },
+    "lightningsword": {
+        "ClassName": "lightningsword",
+        "EnglishName": "lightning sword",
+        "GermanName": "lightning sword",
+        "DmCommand": "dm item lightning sword",
+        "Category": "Weapons and Ammo"
+    },
+    "longbow": {
+        "ClassName": "longbow",
+        "EnglishName": "long bow",
+        "GermanName": "Der Langbogen",
+        "DmCommand": "dm item long bow",
+        "Category": "Weapons and Ammo",
+        "KodFile": "longbow.kod"
+    },
+    "longsword": {
+        "ClassName": "longsword",
+        "EnglishName": "long sword",
+        "GermanName": "Das Langschwert",
+        "DmCommand": "dm item long sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "longswrd.kod"
+    },
+    "mace": {
+        "ClassName": "mace",
+        "EnglishName": "mace",
+        "GermanName": "Der Streitkolben",
+        "DmCommand": "dm item mace",
+        "Category": "Weapons and Ammo",
+        "KodFile": "mace.kod"
+    },
+    "machete": {
+        "ClassName": "machete",
+        "EnglishName": "machete",
+        "GermanName": "machete",
+        "DmCommand": "dm item machete",
+        "Category": "Weapons and Ammo"
+    },
+    "magicbow": {
+        "ClassName": "magicbow",
+        "EnglishName": "magic bow",
+        "GermanName": "Der Magische Bogen",
+        "DmCommand": "dm item magic bow",
+        "Category": "Weapons and Ammo",
+        "KodFile": "magicbow.kod"
+    },
+    "mallet": {
+        "ClassName": "mallet",
+        "EnglishName": "mallet",
+        "GermanName": "mallet",
+        "DmCommand": "dm item mallet",
+        "Category": "Weapons and Ammo"
+    },
+    "maul": {
+        "ClassName": "maul",
+        "EnglishName": "maul",
+        "GermanName": "maul",
+        "DmCommand": "dm item maul",
+        "Category": "Weapons and Ammo",
+        "KodFile": "maul.kod"
+    },
+    "mysticsword": {
+        "ClassName": "mysticsword",
+        "EnglishName": "mystic sword",
+        "GermanName": "Das magische Schwert",
+        "DmCommand": "dm item mystic sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "mystswrd.kod"
+    },
+    "neruditebow": {
+        "ClassName": "neruditebow",
+        "EnglishName": "nerudite bow",
+        "GermanName": "Der Nerudit Bogen",
+        "DmCommand": "dm item nerudite bow",
+        "Category": "Weapons and Ammo",
+        "KodFile": "nerubow.kod"
+    },
+    "neruditesword": {
+        "ClassName": "neruditesword",
+        "EnglishName": "nerudite sword",
+        "GermanName": "Das Nerudit-Schwert",
+        "DmCommand": "dm item nerudite sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "neruswd.kod"
+    },
+    "practicebow": {
+        "ClassName": "practicebow",
+        "EnglishName": "practice bow",
+        "GermanName": "Der \u00dcbungsbogen",
+        "DmCommand": "dm item practice bow",
+        "Category": "Weapons and Ammo",
+        "KodFile": "pracbow.kod"
+    },
+    "scimitar": {
+        "ClassName": "scimitar",
+        "EnglishName": "scimitar",
+        "GermanName": "Der S\u00e4bel",
+        "DmCommand": "dm item scimitar",
+        "Category": "Weapons and Ammo",
+        "KodFile": "scimitar.kod"
+    },
+    "shortbow": {
+        "ClassName": "shortbow",
+        "EnglishName": "short bow",
+        "GermanName": "short bow",
+        "DmCommand": "dm item short bow",
+        "Category": "Weapons and Ammo"
+    },
+    "shortsword": {
+        "ClassName": "shortsword",
+        "EnglishName": "short sword",
+        "GermanName": "Das Kurzschwert",
+        "DmCommand": "dm item short sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "shrtswrd.kod"
+    },
+    "silvance": {
+        "ClassName": "silvance",
+        "EnglishName": "silvance",
+        "GermanName": "silvance",
+        "DmCommand": "dm item silvance",
+        "Category": "Weapons and Ammo"
+    },
+    "snowballs": {
+        "ClassName": "snowballs",
+        "EnglishName": "snowballs",
+        "GermanName": "snowballs",
+        "DmCommand": "dm item snowballs",
+        "Category": "Weapons and Ammo"
+    },
+    "SwordoftheHunt": {
+        "ClassName": "SwordoftheHunt",
+        "EnglishName": "Sword of the Hunt",
+        "GermanName": "Das Jagdschwert",
+        "DmCommand": "dm item Sword of the Hunt",
+        "Category": "Weapons and Ammo",
+        "KodFile": "huntsw.kod"
+    },
+    "testsword": {
+        "ClassName": "testsword",
+        "EnglishName": "test sword",
+        "GermanName": "Testschwert",
+        "DmCommand": "dm item test sword",
+        "Category": "Weapons and Ammo",
+        "KodFile": "testswrd.kod"
+    },
+    "tomahawk": {
+        "ClassName": "tomahawk",
+        "EnglishName": "tomahawk",
+        "GermanName": "tomahawk",
+        "DmCommand": "dm item tomahawk",
+        "Category": "Weapons and Ammo"
+    },
+    "acidicarrows": {
+        "ClassName": "acidicarrows",
+        "EnglishName": "acidic arrows",
+        "GermanName": "acidic arrows",
+        "DmCommand": "dm item acidic arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "arrows": {
+        "ClassName": "arrows",
+        "EnglishName": "arrows",
+        "GermanName": "Die Pfeile",
+        "DmCommand": "dm item arrows",
+        "Category": "Weapons and Ammo",
+        "KodFile": "arrow.kod"
+    },
+    "firearrows": {
+        "ClassName": "firearrows",
+        "EnglishName": "fire arrows",
+        "GermanName": "fire arrows",
+        "DmCommand": "dm item fire arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "goldenarrows": {
+        "ClassName": "goldenarrows",
+        "EnglishName": "golden arrows",
+        "GermanName": "golden arrows",
+        "DmCommand": "dm item golden arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "icearrows": {
+        "ClassName": "icearrows",
+        "EnglishName": "ice arrows",
+        "GermanName": "ice arrows",
+        "DmCommand": "dm item ice arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "neruditearrows": {
+        "ClassName": "neruditearrows",
+        "EnglishName": "nerudite arrows",
+        "GermanName": "nerudite arrows",
+        "DmCommand": "dm item nerudite arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "silverarrows": {
+        "ClassName": "silverarrows",
+        "EnglishName": "silver arrows",
+        "GermanName": "silver arrows",
+        "DmCommand": "dm item silver arrows",
+        "Category": "Weapons and Ammo"
+    },
+    "bluedragonscales": {
+        "ClassName": "bluedragonscales",
+        "EnglishName": "blue dragon scales",
+        "GermanName": "blue dragon scales",
+        "DmCommand": "dm item blue dragon scales",
+        "Category": "Reagents"
+    },
+    "bluemushrooms": {
+        "ClassName": "bluemushrooms",
+        "EnglishName": "blue mushrooms",
+        "GermanName": "blue mushrooms",
+        "DmCommand": "dm item blue mushrooms",
+        "Category": "Reagents"
+    },
+    "chunksofobsidian": {
+        "ClassName": "chunksofobsidian",
+        "EnglishName": "chunks of obsidian",
+        "GermanName": "chunks of obsidian",
+        "DmCommand": "dm item chunks of obsidian",
+        "Category": "Reagents"
+    },
+    "cyanmushrooms": {
+        "ClassName": "cyanmushrooms",
+        "EnglishName": "cyan mushrooms",
+        "GermanName": "cyan mushrooms",
+        "DmCommand": "dm item cyan mushrooms",
+        "Category": "Reagents"
+    },
+    "darkangelfeathers": {
+        "ClassName": "darkangelfeathers",
+        "EnglishName": "dark angel feathers",
+        "GermanName": "dark angel feathers",
+        "DmCommand": "dm item dark angel feathers",
+        "Category": "Reagents"
+    },
+    "diamonds": {
+        "ClassName": "diamonds",
+        "EnglishName": "diamonds",
+        "GermanName": "diamonds",
+        "DmCommand": "dm item diamonds",
+        "Category": "Reagents"
+    },
+    "dragonflyeyes": {
+        "ClassName": "dragonflyeyes",
+        "EnglishName": "dragonfly eyes",
+        "GermanName": "dragonfly eyes",
+        "DmCommand": "dm item dragonfly eyes",
+        "Category": "Reagents"
+    },
+    "elderberries": {
+        "ClassName": "elderberries",
+        "EnglishName": "elderberries",
+        "GermanName": "elderberries",
+        "DmCommand": "dm item elderberries",
+        "Category": "Reagents"
+    },
+    "emberhearts": {
+        "ClassName": "emberhearts",
+        "EnglishName": "emberhearts",
+        "GermanName": "emberhearts",
+        "DmCommand": "dm item emberhearts",
+        "Category": "Reagents"
+    },
+    "emeralds": {
+        "ClassName": "emeralds",
+        "EnglishName": "emeralds",
+        "GermanName": "emeralds",
+        "DmCommand": "dm item emeralds",
+        "Category": "Reagents"
+    },
+    "entrootberries": {
+        "ClassName": "entrootberries",
+        "EnglishName": "entroot berries",
+        "GermanName": "entroot berries",
+        "DmCommand": "dm item entroot berries",
+        "Category": "Reagents"
+    },
+    "essencedust": {
+        "ClassName": "essencedust",
+        "EnglishName": "essence dust",
+        "GermanName": "essence dust",
+        "DmCommand": "dm item essence dust",
+        "Category": "Reagents"
+    },
+    "fairywings": {
+        "ClassName": "fairywings",
+        "EnglishName": "fairy wings",
+        "GermanName": "fairy wings",
+        "DmCommand": "dm item fairy wings",
+        "Category": "Reagents"
+    },
+    "firesand": {
+        "ClassName": "firesand",
+        "EnglishName": "firesand",
+        "GermanName": "Feuersand",
+        "DmCommand": "dm item firesand",
+        "Category": "Reagents",
+        "KodFile": "firesand.kod"
+    },
+    "graymushrooms": {
+        "ClassName": "graymushrooms",
+        "EnglishName": "gray mushrooms",
+        "GermanName": "gray mushrooms",
+        "DmCommand": "dm item gray mushrooms",
+        "Category": "Reagents"
+    },
+    "greenmushrooms": {
+        "ClassName": "greenmushrooms",
+        "EnglishName": "green mushrooms",
+        "GermanName": "green mushrooms",
+        "DmCommand": "dm item green mushrooms",
+        "Category": "Reagents"
+    },
+    "herbs": {
+        "ClassName": "herbs",
+        "EnglishName": "herbs",
+        "GermanName": "herbs",
+        "DmCommand": "dm item herbs",
+        "Category": "Reagents"
+    },
+    "kriipaclaws": {
+        "ClassName": "kriipaclaws",
+        "EnglishName": "kriipa claws",
+        "GermanName": "kriipa claws",
+        "DmCommand": "dm item kriipa claws",
+        "Category": "Reagents"
+    },
+    "mushrooms": {
+        "ClassName": "mushrooms",
+        "EnglishName": "mushrooms",
+        "GermanName": "mushrooms",
+        "DmCommand": "dm item mushrooms",
+        "Category": "Reagents"
+    },
+    "onyxrocks": {
+        "ClassName": "onyxrocks",
+        "EnglishName": "onyx rocks",
+        "GermanName": "onyx rocks",
+        "DmCommand": "dm item onyx rocks",
+        "Category": "Reagents"
+    },
+    "orcteeth": {
+        "ClassName": "orcteeth",
+        "EnglishName": "orc teeth",
+        "GermanName": "orc teeth",
+        "DmCommand": "dm item orc teeth",
+        "Category": "Reagents"
+    },
+    "polishedseraphym": {
+        "ClassName": "polishedseraphym",
+        "EnglishName": "polished seraphym",
+        "GermanName": "geschliffene Seraph",
+        "DmCommand": "dm item polished seraphym",
+        "Category": "Reagents",
+        "KodFile": "polserpm.kod"
+    },
+    "purplemushrooms": {
+        "ClassName": "purplemushrooms",
+        "EnglishName": "purple mushrooms",
+        "GermanName": "purple mushrooms",
+        "DmCommand": "dm item purple mushrooms",
+        "Category": "Reagents"
+    },
+    "rainbowferns": {
+        "ClassName": "rainbowferns",
+        "EnglishName": "rainbow ferns",
+        "GermanName": "rainbow ferns",
+        "DmCommand": "dm item rainbow ferns",
+        "Category": "Reagents"
+    },
+    "redmushrooms": {
+        "ClassName": "redmushrooms",
+        "EnglishName": "red mushrooms",
+        "GermanName": "red mushrooms",
+        "DmCommand": "dm item red mushrooms",
+        "Category": "Reagents"
+    },
+    "rubicite": {
+        "ClassName": "rubicite",
+        "EnglishName": "rubicite",
+        "GermanName": "rubicite",
+        "DmCommand": "dm item rubicite",
+        "Category": "Reagents"
+    },
+    "rubies": {
+        "ClassName": "rubies",
+        "EnglishName": "rubies",
+        "GermanName": "rubies",
+        "DmCommand": "dm item rubies",
+        "Category": "Reagents"
+    },
+    "sapphires": {
+        "ClassName": "sapphires",
+        "EnglishName": "sapphires",
+        "GermanName": "sapphires",
+        "DmCommand": "dm item sapphires",
+        "Category": "Reagents"
+    },
+    "shamanblood": {
+        "ClassName": "shamanblood",
+        "EnglishName": "shaman blood",
+        "GermanName": "Schamanenblut",
+        "DmCommand": "dm item shaman blood",
+        "Category": "Reagents",
+        "KodFile": "shamblod.kod"
+    },
+    "spessartinerocks": {
+        "ClassName": "spessartinerocks",
+        "EnglishName": "spessartine rocks",
+        "GermanName": "spessartine rocks",
+        "DmCommand": "dm item spessartine rocks",
+        "Category": "Reagents"
+    },
+    "theurgicremnants": {
+        "ClassName": "theurgicremnants",
+        "EnglishName": "theurgic remnants",
+        "GermanName": "theurgic remnants",
+        "DmCommand": "dm item theurgic remnants",
+        "Category": "Reagents"
+    },
+    "twinklecapmushrooms": {
+        "ClassName": "twinklecapmushrooms",
+        "EnglishName": "twinkle cap mushrooms",
+        "GermanName": "twinkle cap mushrooms",
+        "DmCommand": "dm item twinkle cap mushrooms",
+        "Category": "Reagents"
+    },
+    "uncutseraphym": {
+        "ClassName": "uncutseraphym",
+        "EnglishName": "uncut seraphym",
+        "GermanName": "ungeschliffene Seraph",
+        "DmCommand": "dm item uncut seraphym",
+        "Category": "Reagents",
+        "KodFile": "uncserpm.kod"
+    },
+    "vialsofsolagh": {
+        "ClassName": "vialsofsolagh",
+        "EnglishName": "vials of solagh",
+        "GermanName": "vials of solagh",
+        "DmCommand": "dm item vials of solagh",
+        "Category": "Reagents"
+    },
+    "webmoss": {
+        "ClassName": "webmoss",
+        "EnglishName": "web moss",
+        "GermanName": "Moosnetz",
+        "DmCommand": "dm item web moss",
+        "Category": "Reagents",
+        "KodFile": "webmoss.kod"
+    },
+    "windrootleaves": {
+        "ClassName": "windrootleaves",
+        "EnglishName": "windroot leaves",
+        "GermanName": "windroot leaves",
+        "DmCommand": "dm item windroot leaves",
+        "Category": "Reagents"
+    },
+    "windrootseeds": {
+        "ClassName": "windrootseeds",
+        "EnglishName": "windroot seeds",
+        "GermanName": "windroot seeds",
+        "DmCommand": "dm item windroot seeds",
+        "Category": "Reagents"
+    },
+    "yellowmushrooms": {
+        "ClassName": "yellowmushrooms",
+        "EnglishName": "yellow mushrooms",
+        "GermanName": "yellow mushrooms",
+        "DmCommand": "dm item yellow mushrooms",
+        "Category": "Reagents"
+    },
+    "yrxlsap": {
+        "ClassName": "yrxlsap",
+        "EnglishName": "yrxl sap",
+        "GermanName": "Yrxl-Harz",
+        "DmCommand": "dm item yrxl sap",
+        "Category": "Reagents",
+        "KodFile": "yrxlsap.kod"
+    },
+    "afewslicesofrouladen": {
+        "ClassName": "afewslicesofrouladen",
+        "EnglishName": "a few slices of rouladen",
+        "GermanName": "a few slices of rouladen",
+        "DmCommand": "dm item a few slices of rouladen",
+        "Category": "Food"
+    },
+    "apples": {
+        "ClassName": "apples",
+        "EnglishName": "apples",
+        "GermanName": "apples",
+        "DmCommand": "dm item apples",
+        "Category": "Food"
+    },
+    "boonberries": {
+        "ClassName": "boonberries",
+        "EnglishName": "boon berries",
+        "GermanName": "boon berries",
+        "DmCommand": "dm item boon berries",
+        "Category": "Food"
+    },
+    "bowlsofmashedpotatoes": {
+        "ClassName": "bowlsofmashedpotatoes",
+        "EnglishName": "bowls of mashed potatoes",
+        "GermanName": "bowls of mashed potatoes",
+        "DmCommand": "dm item bowls of mashed potatoes",
+        "Category": "Food"
+    },
+    "bowlsofsoup": {
+        "ClassName": "bowlsofsoup",
+        "EnglishName": "bowls of soup",
+        "GermanName": "bowls of soup",
+        "DmCommand": "dm item bowls of soup",
+        "Category": "Food"
+    },
+    "bowlsofstew": {
+        "ClassName": "bowlsofstew",
+        "EnglishName": "bowls of stew",
+        "GermanName": "bowls of stew",
+        "DmCommand": "dm item bowls of stew",
+        "Category": "Food"
+    },
+    "bunchesofgrapes": {
+        "ClassName": "bunchesofgrapes",
+        "EnglishName": "bunches of grapes",
+        "GermanName": "bunches of grapes",
+        "DmCommand": "dm item bunches of grapes",
+        "Category": "Food"
+    },
+    "chocolatemints": {
+        "ClassName": "chocolatemints",
+        "EnglishName": "chocolate mints",
+        "GermanName": "chocolate mints",
+        "DmCommand": "dm item chocolate mints",
+        "Category": "Food"
+    },
+    "cookies": {
+        "ClassName": "cookies",
+        "EnglishName": "cookies",
+        "GermanName": "cookies",
+        "DmCommand": "dm item cookies",
+        "Category": "Food"
+    },
+    "corncobs": {
+        "ClassName": "corncobs",
+        "EnglishName": "corn cobs",
+        "GermanName": "corn cobs",
+        "DmCommand": "dm item corn cobs",
+        "Category": "Food"
+    },
+    "drumsticks": {
+        "ClassName": "drumsticks",
+        "EnglishName": "drumsticks",
+        "GermanName": "drumsticks",
+        "DmCommand": "dm item drumsticks",
+        "Category": "Food"
+    },
+    "ediblemushrooms": {
+        "ClassName": "ediblemushrooms",
+        "EnglishName": "edible mushrooms",
+        "GermanName": "edible mushrooms",
+        "DmCommand": "dm item edible mushrooms",
+        "Category": "Food"
+    },
+    "fortunecookies": {
+        "ClassName": "fortunecookies",
+        "EnglishName": "fortune cookies",
+        "GermanName": "fortune cookies",
+        "DmCommand": "dm item fortune cookies",
+        "Category": "Food"
+    },
+    "fruitbowls": {
+        "ClassName": "fruitbowls",
+        "EnglishName": "fruit bowls",
+        "GermanName": "fruit bowls",
+        "DmCommand": "dm item fruit bowls",
+        "Category": "Food"
+    },
+    "ghostpeppers": {
+        "ClassName": "ghostpeppers",
+        "EnglishName": "ghost peppers",
+        "GermanName": "ghost peppers",
+        "DmCommand": "dm item ghost peppers",
+        "Category": "Food"
+    },
+    "gobletsofale": {
+        "ClassName": "gobletsofale",
+        "EnglishName": "goblets of ale",
+        "GermanName": "goblets of ale",
+        "DmCommand": "dm item goblets of ale",
+        "Category": "Food"
+    },
+    "gobletsofwine": {
+        "ClassName": "gobletsofwine",
+        "EnglishName": "goblets of wine",
+        "GermanName": "goblets of wine",
+        "DmCommand": "dm item goblets of wine",
+        "Category": "Food"
+    },
+    "Inkycapmushrooms": {
+        "ClassName": "Inkycapmushrooms",
+        "EnglishName": "Inky-cap mushrooms",
+        "GermanName": "Inky-cap mushrooms",
+        "DmCommand": "dm item Inky-cap mushrooms",
+        "Category": "Food"
+    },
+    "jugofmoonshine": {
+        "ClassName": "jugofmoonshine",
+        "EnglishName": "jug of moonshine",
+        "GermanName": "jug of moonshine",
+        "DmCommand": "dm item jug of moonshine",
+        "Category": "Food"
+    },
+    "kebabs": {
+        "ClassName": "kebabs",
+        "EnglishName": "kebabs",
+        "GermanName": "kebabs",
+        "DmCommand": "dm item kebabs",
+        "Category": "Food"
+    },
+    "loavesofbread": {
+        "ClassName": "loavesofbread",
+        "EnglishName": "loaves of bread",
+        "GermanName": "loaves of bread",
+        "DmCommand": "dm item loaves of bread",
+        "Category": "Food"
+    },
+    "meatpies": {
+        "ClassName": "meatpies",
+        "EnglishName": "meat pies",
+        "GermanName": "meat pies",
+        "DmCommand": "dm item meat pies",
+        "Category": "Food"
+    },
+    "mugsofbrew": {
+        "ClassName": "mugsofbrew",
+        "EnglishName": "mugs of brew",
+        "GermanName": "mugs of brew",
+        "DmCommand": "dm item mugs of brew",
+        "Category": "Food"
+    },
+    "mugsofPekonch": {
+        "ClassName": "mugsofPekonch",
+        "EnglishName": "mugs of Pekonch",
+        "GermanName": "mugs of Pekonch",
+        "DmCommand": "dm item mugs of Pekonch",
+        "Category": "Food"
+    },
+    "mugsofstout": {
+        "ClassName": "mugsofstout",
+        "EnglishName": "mugs of stout",
+        "GermanName": "mugs of stout",
+        "DmCommand": "dm item mugs of stout",
+        "Category": "Food"
+    },
+    "oranges": {
+        "ClassName": "oranges",
+        "EnglishName": "oranges",
+        "GermanName": "oranges",
+        "DmCommand": "dm item oranges",
+        "Category": "Food"
+    },
+    "pancakes": {
+        "ClassName": "pancakes",
+        "EnglishName": "pancakes",
+        "GermanName": "pancakes",
+        "DmCommand": "dm item pancakes",
+        "Category": "Food"
+    },
+    "pears": {
+        "ClassName": "pears",
+        "EnglishName": "pears",
+        "GermanName": "pears",
+        "DmCommand": "dm item pears",
+        "Category": "Food"
+    },
+    "pretzels": {
+        "ClassName": "pretzels",
+        "EnglishName": "pretzels",
+        "GermanName": "pretzels",
+        "DmCommand": "dm item pretzels",
+        "Category": "Food"
+    },
+    "slicesofham": {
+        "ClassName": "slicesofham",
+        "EnglishName": "slices of ham",
+        "GermanName": "slices of ham",
+        "DmCommand": "dm item slices of ham",
+        "Category": "Food"
+    },
+    "slicesofpecanpie": {
+        "ClassName": "slicesofpecanpie",
+        "EnglishName": "slices of pecan pie",
+        "GermanName": "slices of pecan pie",
+        "DmCommand": "dm item slices of pecan pie",
+        "Category": "Food"
+    },
+    "slicesofpork": {
+        "ClassName": "slicesofpork",
+        "EnglishName": "slices of pork",
+        "GermanName": "slices of pork",
+        "DmCommand": "dm item slices of pork",
+        "Category": "Food"
+    },
+    "slicesofpumpkinpie": {
+        "ClassName": "slicesofpumpkinpie",
+        "EnglishName": "slices of pumpkin pie",
+        "GermanName": "slices of pumpkin pie",
+        "DmCommand": "dm item slices of pumpkin pie",
+        "Category": "Food"
+    },
+    "spidereyes": {
+        "ClassName": "spidereyes",
+        "EnglishName": "spider eyes",
+        "GermanName": "spider eyes",
+        "DmCommand": "dm item spider eyes",
+        "Category": "Food"
+    },
+    "spidereyerolls": {
+        "ClassName": "spidereyerolls",
+        "EnglishName": "spidereye rolls",
+        "GermanName": "spidereye rolls",
+        "DmCommand": "dm item spidereye rolls",
+        "Category": "Food"
+    },
+    "stuffing": {
+        "ClassName": "stuffing",
+        "EnglishName": "stuffing",
+        "GermanName": "stuffing",
+        "DmCommand": "dm item stuffing",
+        "Category": "Food",
+        "KodFile": "stuffing.kod"
+    },
+    "telofruit": {
+        "ClassName": "telofruit",
+        "EnglishName": "telo fruit",
+        "GermanName": "Die Telo-Frucht",
+        "DmCommand": "dm item telo fruit",
+        "Category": "Food",
+        "KodFile": "telofruit.kod"
+    },
+    "truffles": {
+        "ClassName": "truffles",
+        "EnglishName": "truffles",
+        "GermanName": "truffles",
+        "DmCommand": "dm item truffles",
+        "Category": "Food"
+    },
+    "turkeylegs": {
+        "ClassName": "turkeylegs",
+        "EnglishName": "turkey legs",
+        "GermanName": "turkey legs",
+        "DmCommand": "dm item turkey legs",
+        "Category": "Food"
+    },
+    "waterskin": {
+        "ClassName": "waterskin",
+        "EnglishName": "water skin",
+        "GermanName": "Der Wasserschlauch",
+        "DmCommand": "dm item water skin",
+        "Category": "Food",
+        "KodFile": "watrskin.kod"
+    },
+    "wheelsofcheese": {
+        "ClassName": "wheelsofcheese",
+        "EnglishName": "wheels of cheese",
+        "GermanName": "wheels of cheese",
+        "DmCommand": "dm item wheels of cheese",
+        "Category": "Food"
+    },
+    "scrollofdarkness": {
+        "ClassName": "scrollofdarkness",
+        "EnglishName": "scroll of darkness",
+        "GermanName": "scroll of darkness",
+        "DmCommand": "dm item scroll of darkness",
+        "Category": "Scrolls"
+    },
+    "scrollofdiscord": {
+        "ClassName": "scrollofdiscord",
+        "EnglishName": "scroll of discord",
+        "GermanName": "scroll of discord",
+        "DmCommand": "dm item scroll of discord",
+        "Category": "Scrolls"
+    },
+    "scrollofdispelling": {
+        "ClassName": "scrollofdispelling",
+        "EnglishName": "scroll of dispelling",
+        "GermanName": "scroll of dispelling",
+        "DmCommand": "dm item scroll of dispelling",
+        "Category": "Scrolls"
+    },
+    "scrolloffinalrites": {
+        "ClassName": "scrolloffinalrites",
+        "EnglishName": "scroll of final rites",
+        "GermanName": "scroll of final rites",
+        "DmCommand": "dm item scroll of final rites",
+        "Category": "Scrolls"
+    },
+    "scrollofflash": {
+        "ClassName": "scrollofflash",
+        "EnglishName": "scroll of flash",
+        "GermanName": "scroll of flash",
+        "DmCommand": "dm item scroll of flash",
+        "Category": "Scrolls"
+    },
+    "scrollofforcesoflight": {
+        "ClassName": "scrollofforcesoflight",
+        "EnglishName": "scroll of forces of light",
+        "GermanName": "scroll of forces of light",
+        "DmCommand": "dm item scroll of forces of light",
+        "Category": "Scrolls"
+    },
+    "scrollofheat": {
+        "ClassName": "scrollofheat",
+        "EnglishName": "scroll of heat",
+        "GermanName": "scroll of heat",
+        "DmCommand": "dm item scroll of heat",
+        "Category": "Scrolls"
+    },
+    "scrollofkillingfields": {
+        "ClassName": "scrollofkillingfields",
+        "EnglishName": "scroll of killing fields",
+        "GermanName": "scroll of killing fields",
+        "DmCommand": "dm item scroll of killing fields",
+        "Category": "Scrolls"
+    },
+    "scrolloflight": {
+        "ClassName": "scrolloflight",
+        "EnglishName": "scroll of light",
+        "GermanName": "scroll of light",
+        "DmCommand": "dm item scroll of light",
+        "Category": "Scrolls"
+    },
+    "scrollofloadout": {
+        "ClassName": "scrollofloadout",
+        "EnglishName": "scroll of loadout",
+        "GermanName": "scroll of loadout",
+        "DmCommand": "dm item scroll of loadout",
+        "Category": "Scrolls"
+    },
+    "scrollofLullaby": {
+        "ClassName": "scrollofLullaby",
+        "EnglishName": "scroll of Lullaby",
+        "GermanName": "scroll of Lullaby",
+        "DmCommand": "dm item scroll of Lullaby",
+        "Category": "Scrolls"
+    },
+    "scrollofMartyrsBattleground": {
+        "ClassName": "scrollofMartyrsBattleground",
+        "EnglishName": "scroll of Martyrs Battleground",
+        "GermanName": "scroll of Martyrs Battleground",
+        "DmCommand": "dm item scroll of Martyrs Battleground",
+        "Category": "Scrolls"
+    },
+    "scrollofMelancholy": {
+        "ClassName": "scrollofMelancholy",
+        "EnglishName": "scroll of Melancholy",
+        "GermanName": "scroll of Melancholy",
+        "DmCommand": "dm item scroll of Melancholy",
+        "Category": "Scrolls"
+    },
+    "scrollofMirth": {
+        "ClassName": "scrollofMirth",
+        "EnglishName": "scroll of Mirth",
+        "GermanName": "scroll of Mirth",
+        "DmCommand": "dm item scroll of Mirth",
+        "Category": "Scrolls"
+    },
+    "scrollofpoisonfog": {
+        "ClassName": "scrollofpoisonfog",
+        "EnglishName": "scroll of poison fog",
+        "GermanName": "scroll of poison fog",
+        "DmCommand": "dm item scroll of poison fog",
+        "Category": "Scrolls"
+    },
+    "scrollofset": {
+        "ClassName": "scrollofset",
+        "EnglishName": "scroll of set",
+        "GermanName": "scroll of set",
+        "DmCommand": "dm item scroll of set",
+        "Category": "Scrolls"
+    },
+    "scrollofsporeburst": {
+        "ClassName": "scrollofsporeburst",
+        "EnglishName": "scroll of spore burst",
+        "GermanName": "scroll of spore burst",
+        "DmCommand": "dm item scroll of spore burst",
+        "Category": "Scrolls"
+    },
+    "scrolloftruce": {
+        "ClassName": "scrolloftruce",
+        "EnglishName": "scroll of truce",
+        "GermanName": "scroll of truce",
+        "DmCommand": "dm item scroll of truce",
+        "Category": "Scrolls"
+    },
+    "scrollofwinds": {
+        "ClassName": "scrollofwinds",
+        "EnglishName": "scroll of winds",
+        "GermanName": "scroll of winds",
+        "DmCommand": "dm item scroll of winds",
+        "Category": "Scrolls"
+    },
+    "alembicoffreeaction": {
+        "ClassName": "alembicoffreeaction",
+        "EnglishName": "alembic of free action",
+        "GermanName": "Trank der Beweglichkeit",
+        "DmCommand": "dm item alembic of free action",
+        "Category": "Potions",
+        "KodFile": "freeactp.kod"
+    },
+    "anonymitypotion": {
+        "ClassName": "anonymitypotion",
+        "EnglishName": "anonymity potion",
+        "GermanName": "Trank der Anonymit\u00e4t",
+        "DmCommand": "dm item anonymity potion",
+        "Category": "Potions",
+        "KodFile": "anonp.kod"
+    },
+    "bottledavianeyesight": {
+        "ClassName": "bottledavianeyesight",
+        "EnglishName": "bottled avian eyesight",
+        "GermanName": "Trank der Adlersicht",
+        "DmCommand": "dm item bottled avian eyesight",
+        "Category": "Potions",
+        "KodFile": "eageyep.kod"
+    },
+    "curediseasepotion": {
+        "ClassName": "curediseasepotion",
+        "EnglishName": "cure disease potion",
+        "GermanName": "Krankheit heilender Trank",
+        "DmCommand": "dm item cure disease potion",
+        "Category": "Potions",
+        "KodFile": "curedisp.kod"
+    },
+    "curepoisonpotion": {
+        "ClassName": "curepoisonpotion",
+        "EnglishName": "cure poison potion",
+        "GermanName": "Trank der Giftheilung",
+        "DmCommand": "dm item cure poison potion",
+        "Category": "Potions",
+        "KodFile": "curepsnp.kod"
+    },
+    "elixirofcloaking": {
+        "ClassName": "elixirofcloaking",
+        "EnglishName": "elixir of cloaking",
+        "GermanName": "Elixir der Verh\u00fcllung",
+        "DmCommand": "dm item elixir of cloaking",
+        "Category": "Potions",
+        "KodFile": "cloakp.kod"
+    },
+    "elixirofmagicresistance": {
+        "ClassName": "elixirofmagicresistance",
+        "EnglishName": "elixir of magic resistance",
+        "GermanName": "Trank der Magieresistenz",
+        "DmCommand": "dm item elixir of magic resistance",
+        "Category": "Potions",
+        "KodFile": "resmagcp.kod"
+    },
+    "felinevitreoushumour": {
+        "ClassName": "felinevitreoushumour",
+        "EnglishName": "feline vitreous humour",
+        "GermanName": "Trank des Humors",
+        "DmCommand": "dm item feline vitreous humour",
+        "Category": "Potions",
+        "KodFile": "nightvp.kod"
+    },
+    "Karaholsaccursedelixir": {
+        "ClassName": "Karaholsaccursedelixir",
+        "EnglishName": "Karahol's accursed elixir",
+        "GermanName": "Karahol's verzaubertes Elixier",
+        "DmCommand": "dm item Karahol's accursed elixir",
+        "Category": "Potions",
+        "KodFile": "karaholp.kod"
+    },
+    "possumpotion": {
+        "ClassName": "possumpotion",
+        "EnglishName": "possum potion",
+        "GermanName": "Trank der T\u00e4uschung",
+        "DmCommand": "dm item possum potion",
+        "Category": "Potions",
+        "KodFile": "feigndp.kod"
+    },
+    "potionofacidresistance": {
+        "ClassName": "potionofacidresistance",
+        "EnglishName": "potion of acid resistance",
+        "GermanName": "S\u00e4ure widerstehen-Trank",
+        "DmCommand": "dm item potion of acid resistance",
+        "Category": "Potions",
+        "KodFile": "resacidp.kod"
+    },
+    "potionofcoldresistance": {
+        "ClassName": "potionofcoldresistance",
+        "EnglishName": "potion of cold resistance",
+        "GermanName": "K\u00e4lte widerstehen-Trank",
+        "DmCommand": "dm item potion of cold resistance",
+        "Category": "Potions",
+        "KodFile": "rescoldp.kod"
+    },
+    "potionofdeflection": {
+        "ClassName": "potionofdeflection",
+        "EnglishName": "potion of deflection",
+        "GermanName": "Trank der Ablenkung.",
+        "DmCommand": "dm item potion of deflection",
+        "Category": "Potions",
+        "KodFile": "deflectp.kod"
+    },
+    "potionofdeliverance": {
+        "ClassName": "potionofdeliverance",
+        "EnglishName": "potion of deliverance",
+        "GermanName": "Trank der Befreiung",
+        "DmCommand": "dm item potion of deliverance",
+        "Category": "Potions",
+        "KodFile": "rescuep.kod"
+    },
+    "potionofdenial": {
+        "ClassName": "potionofdenial",
+        "EnglishName": "potion of denial",
+        "GermanName": "potion of denial",
+        "DmCommand": "dm item potion of denial",
+        "Category": "Potions",
+        "KodFile": "denialp.kod"
+    },
+    "potionofevildetection": {
+        "ClassName": "potionofevildetection",
+        "EnglishName": "potion of evil detection",
+        "GermanName": "Trank der Entdeckung des B\u00f6sen",
+        "DmCommand": "dm item potion of evil detection",
+        "Category": "Potions",
+        "KodFile": "detevilp.kod"
+    },
+    "potionofgooddetection": {
+        "ClassName": "potionofgooddetection",
+        "EnglishName": "potion of good detection",
+        "GermanName": "Trank der Entdeckung des Guten",
+        "DmCommand": "dm item potion of good detection",
+        "Category": "Potions",
+        "KodFile": "detgoodp.kod"
+    },
+    "potionofhaste": {
+        "ClassName": "potionofhaste",
+        "EnglishName": "potion of haste",
+        "GermanName": "Trank der Geschwindigkeit",
+        "DmCommand": "dm item potion of haste",
+        "Category": "Potions",
+        "KodFile": "hastep.kod"
+    },
+    "potionofinvisibilitydetection": {
+        "ClassName": "potionofinvisibilitydetection",
+        "EnglishName": "potion of invisibility detection",
+        "GermanName": "Trank der Entdeckung des Unsichtbaren",
+        "DmCommand": "dm item potion of invisibility detection",
+        "Category": "Potions",
+        "KodFile": "detinvip.kod"
+    },
+    "potionofnonconductivity": {
+        "ClassName": "potionofnonconductivity",
+        "EnglishName": "potion of nonconductivity",
+        "GermanName": "Trank der Nichtleitf\u00e4higkeit",
+        "DmCommand": "dm item potion of nonconductivity",
+        "Category": "Potions",
+        "KodFile": "resshckp.kod"
+    },
+    "potionofpoisonresistance": {
+        "ClassName": "potionofpoisonresistance",
+        "EnglishName": "potion of poison resistance",
+        "GermanName": "Trank der Giftresistenz",
+        "DmCommand": "dm item potion of poison resistance",
+        "Category": "Potions",
+        "KodFile": "respoisp.kod"
+    },
+    "potionofpurification": {
+        "ClassName": "potionofpurification",
+        "EnglishName": "potion of purification",
+        "GermanName": "Reinigungstrank",
+        "DmCommand": "dm item potion of purification",
+        "Category": "Potions",
+        "KodFile": "purifyp.kod"
+    },
+    "potionofshielding": {
+        "ClassName": "potionofshielding",
+        "EnglishName": "potion of shielding",
+        "GermanName": "Trank des Schildes",
+        "DmCommand": "dm item potion of shielding",
+        "Category": "Potions",
+        "KodFile": "mshieldp.kod"
+    },
+    "potionofsuperstrength": {
+        "ClassName": "potionofsuperstrength",
+        "EnglishName": "potion of super strength",
+        "GermanName": "Trank der Kraft Kraanans",
+        "DmCommand": "dm item potion of super strength",
+        "Category": "Potions",
+        "KodFile": "strengtp.kod"
+    },
+    "pungentelixir": {
+        "ClassName": "pungentelixir",
+        "EnglishName": "pungent elixir",
+        "GermanName": "Stechender Trank",
+        "DmCommand": "dm item pungent elixir",
+        "Category": "Potions",
+        "KodFile": "nodebrsp.kod"
+    },
+    "removecursepotion": {
+        "ClassName": "removecursepotion",
+        "EnglishName": "remove curse potion",
+        "GermanName": "Entfluchungstrank",
+        "DmCommand": "dm item remove curse potion",
+        "Category": "Potions",
+        "KodFile": "rmcursep.kod"
+    },
+    "shadowformpotion": {
+        "ClassName": "shadowformpotion",
+        "EnglishName": "shadow form potion",
+        "GermanName": "Trank der Schattenform",
+        "DmCommand": "dm item shadow form potion",
+        "Category": "Potions",
+        "KodFile": "shadowp.kod"
+    },
+    "succulentsalve": {
+        "ClassName": "succulentsalve",
+        "EnglishName": "succulent salve",
+        "GermanName": "Tank der guten Beruhigung",
+        "DmCommand": "dm item succulent salve",
+        "Category": "Potions",
+        "KodFile": "resfirep.kod"
+    },
+    "TheWidowQesinosSecretSauce": {
+        "ClassName": "TheWidowQesinosSecretSauce",
+        "EnglishName": "The Widow Qesino's Secret Sauce",
+        "GermanName": "Die geheime Sauce der Witwe Qesinos",
+        "DmCommand": "dm item The Widow Qesino's Secret Sauce",
+        "Category": "Potions",
+        "KodFile": "baitp.kod"
+    },
+    "bonkstick": {
+        "ClassName": "bonkstick",
+        "EnglishName": "bonkstick",
+        "GermanName": "Der Schlagstock",
+        "DmCommand": "dm item bonkstick",
+        "Category": "Wands",
+        "KodFile": "bonkstik.kod"
+    },
+    "lightningwand": {
+        "ClassName": "lightningwand",
+        "EnglishName": "lightning wand",
+        "GermanName": "lightning wand",
+        "DmCommand": "dm item lightning wand",
+        "Category": "Wands"
+    },
+    "wandofblinding": {
+        "ClassName": "wandofblinding",
+        "EnglishName": "wand of blinding",
+        "GermanName": "wand of blinding",
+        "DmCommand": "dm item wand of blinding",
+        "Category": "Wands"
+    },
+    "wandofbranding": {
+        "ClassName": "wandofbranding",
+        "EnglishName": "wand of branding",
+        "GermanName": "wand of branding",
+        "DmCommand": "dm item wand of branding",
+        "Category": "Wands"
+    },
+    "wandofcharming": {
+        "ClassName": "wandofcharming",
+        "EnglishName": "wand of charming",
+        "GermanName": "wand of charming",
+        "DmCommand": "dm item wand of charming",
+        "Category": "Wands"
+    },
+    "wandofdementia": {
+        "ClassName": "wandofdementia",
+        "EnglishName": "wand of dementia",
+        "GermanName": "wand of dementia",
+        "DmCommand": "dm item wand of dementia",
+        "Category": "Wands"
+    },
+    "wandofdestruction": {
+        "ClassName": "wandofdestruction",
+        "EnglishName": "wand of destruction",
+        "GermanName": "wand of destruction",
+        "DmCommand": "dm item wand of destruction",
+        "Category": "Wands"
+    },
+    "wandoffilching": {
+        "ClassName": "wandoffilching",
+        "EnglishName": "wand of filching",
+        "GermanName": "wand of filching",
+        "DmCommand": "dm item wand of filching",
+        "Category": "Wands"
+    },
+    "wandofforgetfulness": {
+        "ClassName": "wandofforgetfulness",
+        "EnglishName": "wand of forgetfulness",
+        "GermanName": "wand of forgetfulness",
+        "DmCommand": "dm item wand of forgetfulness",
+        "Category": "Wands"
+    },
+    "wandofidentification": {
+        "ClassName": "wandofidentification",
+        "EnglishName": "wand of identification",
+        "GermanName": "wand of identification",
+        "DmCommand": "dm item wand of identification",
+        "Category": "Wands"
+    },
+    "wandofimmobilization": {
+        "ClassName": "wandofimmobilization",
+        "EnglishName": "wand of immobilization",
+        "GermanName": "wand of immobilization",
+        "DmCommand": "dm item wand of immobilization",
+        "Category": "Wands"
+    },
+    "wandofmagicalcleansing": {
+        "ClassName": "wandofmagicalcleansing",
+        "EnglishName": "wand of magical cleansing",
+        "GermanName": "wand of magical cleansing",
+        "DmCommand": "dm item wand of magical cleansing",
+        "Category": "Wands"
+    },
+    "wandofrejuvenation": {
+        "ClassName": "wandofrejuvenation",
+        "EnglishName": "wand of rejuvenation",
+        "GermanName": "wand of rejuvenation",
+        "DmCommand": "dm item wand of rejuvenation",
+        "Category": "Wands"
+    },
+    "wandofstriking": {
+        "ClassName": "wandofstriking",
+        "EnglishName": "wand of striking",
+        "GermanName": "wand of striking",
+        "DmCommand": "dm item wand of striking",
+        "Category": "Wands"
+    },
+    "wandofweakness": {
+        "ClassName": "wandofweakness",
+        "EnglishName": "wand of weakness",
+        "GermanName": "wand of weakness",
+        "DmCommand": "dm item wand of weakness",
+        "Category": "Wands"
+    },
+    "wandofweaponweakening": {
+        "ClassName": "wandofweaponweakening",
+        "EnglishName": "wand of weapon weakening",
+        "GermanName": "wand of weapon weakening",
+        "DmCommand": "dm item wand of weapon weakening",
+        "Category": "Wands"
+    },
+    "AmuletofShadows": {
+        "ClassName": "AmuletofShadows",
+        "EnglishName": "Amulet of Shadows",
+        "GermanName": "Das Schattenamulett",
+        "DmCommand": "dm item Amulet of Shadows",
+        "Category": "God Gifts",
+        "KodFile": "shadowam.kod"
+    },
+    "AmuletoftheThree": {
+        "ClassName": "AmuletoftheThree",
+        "EnglishName": "Amulet of the Three",
+        "GermanName": "Amulet of the Three",
+        "DmCommand": "dm item Amulet of the Three",
+        "Category": "God Gifts"
+    },
+    "brassmedallion": {
+        "ClassName": "brassmedallion",
+        "EnglishName": "brass medallion",
+        "GermanName": "Ein Medaillon aus Bronze",
+        "DmCommand": "dm item brass medallion",
+        "Category": "God Gifts",
+        "KodFile": "frcharm.kod"
+    },
+    "diamondpendant": {
+        "ClassName": "diamondpendant",
+        "EnglishName": "diamond pendant",
+        "GermanName": "Das Diamantenhalsband",
+        "DmCommand": "dm item diamond pendant",
+        "Category": "God Gifts",
+        "KodFile": "shcharm.kod"
+    },
+    "featheredchoker": {
+        "ClassName": "featheredchoker",
+        "EnglishName": "feathered choker",
+        "GermanName": "Der gefederte Kriegsschmuck",
+        "DmCommand": "dm item feathered choker",
+        "Category": "God Gifts",
+        "KodFile": "rjcharm.kod"
+    },
+    "monocle": {
+        "ClassName": "monocle",
+        "EnglishName": "monocle",
+        "GermanName": "Das Monokel",
+        "DmCommand": "dm item monocle",
+        "Category": "God Gifts",
+        "KodFile": "qrcharm.kod"
+    },
+    "steeltorc": {
+        "ClassName": "steeltorc",
+        "EnglishName": "steel torc",
+        "GermanName": "Das st\u00e4hlerne Halsband",
+        "DmCommand": "dm item steel torc",
+        "Category": "God Gifts",
+        "KodFile": "krcharm.kod"
+    },
+    "finelute": {
+        "ClassName": "finelute",
+        "EnglishName": "fine lute",
+        "GermanName": "Edle Laute",
+        "DmCommand": "dm item fine lute",
+        "Category": "Instruments",
+        "KodFile": "finelute.kod"
+    },
+    "lute": {
+        "ClassName": "lute",
+        "EnglishName": "lute",
+        "GermanName": "Die Laute",
+        "DmCommand": "dm item lute",
+        "Category": "Instruments",
+        "KodFile": "lute.kod"
+    },
+    "lyre": {
+        "ClassName": "lyre",
+        "EnglishName": "lyre",
+        "GermanName": "lyre",
+        "DmCommand": "dm item lyre",
+        "Category": "Instruments"
+    },
+    "necklaceofJala": {
+        "ClassName": "necklaceofJala",
+        "EnglishName": "necklace of Jala",
+        "GermanName": "Jalas Halskette",
+        "DmCommand": "dm item necklace of Jala",
+        "Category": "Instruments",
+        "KodFile": "jalaneck.kod"
+    },
+    "truelute": {
+        "ClassName": "truelute",
+        "EnglishName": "true lute",
+        "GermanName": "Wahrheitslaute",
+        "DmCommand": "dm item true lute",
+        "Category": "Instruments",
+        "KodFile": "truelute.kod"
+    },
+    "alchemicalformula": {
+        "ClassName": "alchemicalformula",
+        "EnglishName": "alchemical formula",
+        "GermanName": "Die Chemische Formel",
+        "DmCommand": "dm item alchemical formula",
+        "Category": "Quest Items",
+        "KodFile": "formula.kod"
+    },
+    "ancienttrinket": {
+        "ClassName": "ancienttrinket",
+        "EnglishName": "ancient trinket",
+        "GermanName": "Das altert\u00fcmliche Schmuckst\u00fcck",
+        "DmCommand": "dm item ancient trinket",
+        "Category": "Quest Items",
+        "KodFile": "srsttkn.kod"
+    },
+    "featherofanavarshaman": {
+        "ClassName": "featherofanavarshaman",
+        "EnglishName": "feather of an avar shaman",
+        "GermanName": "Die Feder eines Avar-Schamanen",
+        "DmCommand": "dm item feather of an avar shaman",
+        "Category": "Quest Items",
+        "KodFile": "avarfeth.kod"
+    },
+    "letter": {
+        "ClassName": "letter",
+        "EnglishName": "letter",
+        "GermanName": "Brief",
+        "DmCommand": "dm item letter",
+        "Category": "Quest Items",
+        "KodFile": "letter.kod"
+    },
+    "RecipeforaStuntedDwarf": {
+        "ClassName": "RecipeforaStuntedDwarf",
+        "EnglishName": "Recipe for a Stunted Dwarf",
+        "GermanName": "Das Rezept f\u00fcr einen zu kurz geratenen Zwerg",
+        "DmCommand": "dm item Recipe for a Stunted Dwarf",
+        "Category": "Quest Items",
+        "KodFile": "recipe.kod"
+    },
+    "TheWidowQesinosfamouschickensoup": {
+        "ClassName": "TheWidowQesinosfamouschickensoup",
+        "EnglishName": "The Widow Qesino's famous chicken soup",
+        "GermanName": "Die ber\u00fchmte H\u00fchnersuppe der Witwe Qesino",
+        "DmCommand": "dm item The Widow Qesino's famous chicken soup",
+        "Category": "Quest Items",
+        "KodFile": "chiksoup.kod"
+    },
+    "vialofsacchaqua": {
+        "ClassName": "vialofsacchaqua",
+        "EnglishName": "vial of sacchaqua",
+        "GermanName": "Die Phiole mit Zuckerwasser",
+        "DmCommand": "dm item vial of sacchaqua",
+        "Category": "Quest Items",
+        "KodFile": "sachaqua.kod"
+    },
+    "bloodoftheinnocent": {
+        "ClassName": "bloodoftheinnocent",
+        "EnglishName": "blood of the innocent",
+        "GermanName": "Das Blut der Unschuldigen",
+        "DmCommand": "dm item blood of the innocent",
+        "Category": "Shrine Items",
+        "KodFile": "offerqor.kod"
+    },
+    "bottleoflies": {
+        "ClassName": "bottleoflies",
+        "EnglishName": "bottle of lies",
+        "GermanName": "Die Flasche der L\u00fcgen",
+        "DmCommand": "dm item bottle of lies",
+        "Category": "Shrine Items",
+        "KodFile": "offerrii.kod"
+    },
+    "burningwater": {
+        "ClassName": "burningwater",
+        "EnglishName": "burning water",
+        "GermanName": "Das brennende Wasser",
+        "DmCommand": "dm item burning water",
+        "Category": "Shrine Items",
+        "KodFile": "offerfar.kod"
+    },
+    "mysticperfume": {
+        "ClassName": "mysticperfume",
+        "EnglishName": "mystic perfume",
+        "GermanName": "Mystisches Parf\u00fcm",
+        "DmCommand": "dm item mystic perfume",
+        "Category": "Shrine Items",
+        "KodFile": "offerjal.kod"
+    },
+    "sweatofthewarriorking": {
+        "ClassName": "sweatofthewarriorking",
+        "EnglishName": "sweat of the warrior king",
+        "GermanName": "Der Schwei\u00df des Kriegsk\u00f6nigs",
+        "DmCommand": "dm item sweat of the warrior king",
+        "Category": "Shrine Items",
+        "KodFile": "offerkra.kod"
+    },
+    "tearsofanewborn": {
+        "ClassName": "tearsofanewborn",
+        "EnglishName": "tears of a newborn",
+        "GermanName": "Die Tr\u00e4nen eines Neugeborenen",
+        "DmCommand": "dm item tears of a newborn",
+        "Category": "Shrine Items",
+        "KodFile": "offersha.kod"
+    },
+    "blankscroll": {
+        "ClassName": "blankscroll",
+        "EnglishName": "blank scroll",
+        "GermanName": "leere Schriftrolle",
+        "DmCommand": "dm item blank scroll",
+        "Category": "Misc",
+        "KodFile": "scrollsplit.kod"
+    },
+    "book": {
+        "ClassName": "book",
+        "EnglishName": "book",
+        "GermanName": "Das Buch",
+        "DmCommand": "dm item book",
+        "Category": "Misc",
+        "KodFile": "book.kod"
+    },
+    "bottleofdye": {
+        "ClassName": "bottleofdye",
+        "EnglishName": "bottle of dye",
+        "GermanName": "bottle of dye",
+        "DmCommand": "dm item bottle of dye",
+        "Category": "Misc"
+    },
+    "brownpotion": {
+        "ClassName": "brownpotion",
+        "EnglishName": "brown potion",
+        "GermanName": "Der braune Trank",
+        "DmCommand": "dm item brown potion",
+        "Category": "Misc",
+        "KodFile": "pillufrm.kod"
+    },
+    "ChaliceoftheRain": {
+        "ClassName": "ChaliceoftheRain",
+        "EnglishName": "Chalice of the Rain",
+        "GermanName": "Der Kelch des Regens",
+        "DmCommand": "dm item Chalice of the Rain",
+        "Category": "Misc",
+        "KodFile": "chalice.kod"
+    },
+    "chessboard": {
+        "ClassName": "chessboard",
+        "EnglishName": "chess board",
+        "GermanName": "Das Schachbrett",
+        "DmCommand": "dm item chess board",
+        "Category": "Misc",
+        "KodFile": "chess.kod"
+    },
+    "chunkofnerudite": {
+        "ClassName": "chunkofnerudite",
+        "EnglishName": "chunk of nerudite",
+        "GermanName": "Der Nerudit-Klumpen",
+        "DmCommand": "dm item chunk of nerudite",
+        "Category": "Misc",
+        "KodFile": "nerudore.kod"
+    },
+    "chunkofore": {
+        "ClassName": "chunkofore",
+        "EnglishName": "chunk of ore",
+        "GermanName": "Der Erzklumpen",
+        "DmCommand": "dm item chunk of ore",
+        "Category": "Misc",
+        "KodFile": "orecheap.kod"
+    },
+    "cookingrecipe": {
+        "ClassName": "cookingrecipe",
+        "EnglishName": "cooking recipe",
+        "GermanName": "cooking recipe",
+        "DmCommand": "dm item cooking recipe",
+        "Category": "Misc"
+    },
+    "deedpoll": {
+        "ClassName": "deedpoll",
+        "EnglishName": "deed poll",
+        "GermanName": "deed poll",
+        "DmCommand": "dm item deed poll",
+        "Category": "Misc"
+    },
+    "easteregg": {
+        "ClassName": "easteregg",
+        "EnglishName": "easter egg",
+        "GermanName": "Das Osterei",
+        "DmCommand": "dm item easter egg",
+        "Category": "Misc",
+        "KodFile": "easteregg.kod"
+    },
+    "egg": {
+        "ClassName": "egg",
+        "EnglishName": "egg",
+        "GermanName": "Das Ei",
+        "DmCommand": "dm item egg",
+        "Category": "Misc",
+        "KodFile": "spdregg.kod"
+    },
+    "eggshell": {
+        "ClassName": "eggshell",
+        "EnglishName": "egg shell",
+        "GermanName": "Die Eierschale",
+        "DmCommand": "dm item egg shell",
+        "Category": "Misc",
+        "KodFile": "spdreggX.kod"
+    },
+    "emptybottle": {
+        "ClassName": "emptybottle",
+        "EnglishName": "empty bottle",
+        "GermanName": "Leere Flasche",
+        "DmCommand": "dm item empty bottle",
+        "Category": "Misc",
+        "KodFile": "potionsplit.kod"
+    },
+    "flagoftheDuke": {
+        "ClassName": "flagoftheDuke",
+        "EnglishName": "flag of the Duke",
+        "GermanName": "Eine Flagge des Herzogs",
+        "DmCommand": "dm item flag of the Duke",
+        "Category": "Misc",
+        "KodFile": "dukeflag.kod"
+    },
+    "flagofthePrincess": {
+        "ClassName": "flagofthePrincess",
+        "EnglishName": "flag of the Princess",
+        "GermanName": "Eine Flagge der Prinzessin",
+        "DmCommand": "dm item flag of the Princess",
+        "Category": "Misc",
+        "KodFile": "prncflag.kod"
+    },
+    "flask": {
+        "ClassName": "flask",
+        "EnglishName": "flask",
+        "GermanName": "Die Flasche",
+        "DmCommand": "dm item flask",
+        "Category": "Misc",
+        "KodFile": "flask.kod"
+    },
+    "gauntlets": {
+        "ClassName": "gauntlets",
+        "EnglishName": "gauntlets",
+        "GermanName": "Das Paar Panzerhandschuhe",
+        "DmCommand": "dm item gauntlets",
+        "Category": "Misc",
+        "KodFile": "gauntlet.kod"
+    },
+    "gift": {
+        "ClassName": "gift",
+        "EnglishName": "gift",
+        "GermanName": "Das Geschenk",
+        "DmCommand": "dm item gift",
+        "Category": "Misc",
+        "KodFile": "gift.kod"
+    },
+    "goldroomkey": {
+        "ClassName": "goldroomkey",
+        "EnglishName": "gold room key",
+        "GermanName": "Ein goldener Zimmerschl\u00fcssel.",
+        "DmCommand": "dm item gold room key",
+        "Category": "Misc",
+        "KodFile": "roomkey.kod"
+    },
+    "heartstones": {
+        "ClassName": "heartstones",
+        "EnglishName": "heartstones",
+        "GermanName": "heartstones",
+        "DmCommand": "dm item heartstones",
+        "Category": "Misc"
+    },
+    "ironkey": {
+        "ClassName": "ironkey",
+        "EnglishName": "iron key",
+        "GermanName": "Der Eisenschl\u00fcssel",
+        "DmCommand": "dm item iron key",
+        "Category": "Misc",
+        "KodFile": "sanctkey.kod"
+    },
+    "JewelofFroz": {
+        "ClassName": "JewelofFroz",
+        "EnglishName": "Jewel of Froz",
+        "GermanName": "Jewel of Froz",
+        "DmCommand": "dm item Jewel of Froz",
+        "Category": "Misc"
+    },
+    "key": {
+        "ClassName": "key",
+        "EnglishName": "key",
+        "GermanName": "Der Schl\u00fcssel",
+        "DmCommand": "dm item key",
+        "Category": "Misc",
+        "KodFile": "key.kod"
+    },
+    "manacrystal": {
+        "ClassName": "manacrystal",
+        "EnglishName": "mana crystal",
+        "GermanName": "Ein Manakristall",
+        "DmCommand": "dm item mana crystal",
+        "Category": "Misc",
+        "KodFile": "manacrys.kod"
+    },
+    "mercenarycontract": {
+        "ClassName": "mercenarycontract",
+        "EnglishName": "mercenary contract",
+        "GermanName": "mercenary contract",
+        "DmCommand": "dm item mercenary contract",
+        "Category": "Misc"
+    },
+    "OfTheDividingofMeridian": {
+        "ClassName": "OfTheDividingofMeridian",
+        "EnglishName": "Of The Dividing of Meridian",
+        "GermanName": "Of The Dividing of Meridian",
+        "DmCommand": "dm item Of The Dividing of Meridian",
+        "Category": "Misc"
+    },
+    "orcpitbosshead": {
+        "ClassName": "orcpitbosshead",
+        "EnglishName": "orc pit boss head",
+        "GermanName": "Der Orkh\u00e4uptlingskopf",
+        "DmCommand": "dm item orc pit boss head",
+        "Category": "Misc",
+        "KodFile": "bosshead.kod"
+    },
+    "potionofforgetfulness": {
+        "ClassName": "potionofforgetfulness",
+        "EnglishName": "potion of forgetfulness",
+        "GermanName": "Der Trank des Vergessens",
+        "DmCommand": "dm item potion of forgetfulness",
+        "Category": "Misc",
+        "KodFile": "pforget.kod"
+    },
+    "prism": {
+        "ClassName": "prism",
+        "EnglishName": "prism",
+        "GermanName": "Das Prisma",
+        "DmCommand": "dm item prism",
+        "Category": "Misc",
+        "KodFile": "prism.kod"
+    },
+    "reagentbag": {
+        "ClassName": "reagentbag",
+        "EnglishName": "reagent bag",
+        "GermanName": "Reagenzienbeutel",
+        "DmCommand": "dm item reagent bag",
+        "Category": "Misc",
+        "KodFile": "reagentbag.kod"
+    },
+    "rebelflag": {
+        "ClassName": "rebelflag",
+        "EnglishName": "rebel flag",
+        "GermanName": "Eine Rebellenflagge",
+        "DmCommand": "dm item rebel flag",
+        "Category": "Misc",
+        "KodFile": "reblflag.kod"
+    },
+    "relicofQor": {
+        "ClassName": "relicofQor",
+        "EnglishName": "relic of Qor",
+        "GermanName": "Das Relikt Qors",
+        "DmCommand": "dm item relic of Qor",
+        "Category": "Misc",
+        "KodFile": "scepter.kod"
+    },
+    "rose": {
+        "ClassName": "rose",
+        "EnglishName": "rose",
+        "GermanName": "Die Rose",
+        "DmCommand": "dm item rose",
+        "Category": "Misc",
+        "KodFile": "rose.kod"
+    },
+    "RoyalBallot": {
+        "ClassName": "RoyalBallot",
+        "EnglishName": "Royal Ballot",
+        "GermanName": "Royal Ballot",
+        "DmCommand": "dm item Royal Ballot",
+        "Category": "Misc"
+    },
+    "scrollofteleportation": {
+        "ClassName": "scrollofteleportation",
+        "EnglishName": "scroll of teleportation",
+        "GermanName": "scroll of teleportation",
+        "DmCommand": "dm item scroll of teleportation",
+        "Category": "Misc"
+    },
+    "shardofasword": {
+        "ClassName": "shardofasword",
+        "EnglishName": "shard of a sword",
+        "GermanName": "Der Schwertsplitter",
+        "DmCommand": "dm item shard of a sword",
+        "Category": "Misc",
+        "KodFile": "swshard.kod"
+    },
+    "shillings": {
+        "ClassName": "shillings",
+        "EnglishName": "shillings",
+        "GermanName": "shillings",
+        "DmCommand": "dm item shillings",
+        "Category": "Misc",
+        "KodFile": "shillings.kod"
+    },
+    "shrunkenhead": {
+        "ClassName": "shrunkenhead",
+        "EnglishName": "shrunken head",
+        "GermanName": "Der Schrumpfkopf",
+        "DmCommand": "dm item shrunken head",
+        "Category": "Misc",
+        "KodFile": "shruhead.kod"
+    },
+    "silverroomkey": {
+        "ClassName": "silverroomkey",
+        "EnglishName": "silver room key",
+        "GermanName": "Ein silberner Zimmerschl\u00fcssel",
+        "DmCommand": "dm item silver room key",
+        "Category": "Misc",
+        "KodFile": "roomkeyc.kod"
+    },
+    "slipofparchment": {
+        "ClassName": "slipofparchment",
+        "EnglishName": "slip of parchment",
+        "GermanName": "Der Pergamentbogen",
+        "DmCommand": "dm item slip of parchment",
+        "Category": "Misc",
+        "KodFile": "bardnote.kod"
+    },
+    "specialgift": {
+        "ClassName": "specialgift",
+        "EnglishName": "special gift",
+        "GermanName": "Das Spezielgeschenk",
+        "DmCommand": "dm item special gift",
+        "Category": "Misc",
+        "KodFile": "specgift.kod"
+    },
+    "specialkey": {
+        "ClassName": "specialkey",
+        "EnglishName": "special key",
+        "GermanName": "special key",
+        "DmCommand": "dm item special key",
+        "Category": "Misc"
+    },
+    "talismanofmending": {
+        "ClassName": "talismanofmending",
+        "EnglishName": "talisman of mending",
+        "GermanName": "talisman of mending",
+        "DmCommand": "dm item talisman of mending",
+        "Category": "Misc"
+    },
+    "TheTaleofFrisconar": {
+        "ClassName": "TheTaleofFrisconar",
+        "EnglishName": "The Tale of Frisconar",
+        "GermanName": "The Tale of Frisconar",
+        "DmCommand": "dm item The Tale of Frisconar",
+        "Category": "Misc"
+    },
+    "unchargedwand": {
+        "ClassName": "unchargedwand",
+        "EnglishName": "uncharged wand",
+        "GermanName": "Ungeladener Zauberstab",
+        "DmCommand": "dm item uncharged wand",
+        "Category": "Misc",
+        "KodFile": "wandsplit.kod"
+    },
+    "Zjiriaesqe": {
+        "ClassName": "Zjiriaesqe",
+        "EnglishName": "Zjiriaesqe",
+        "GermanName": "Zjiriaesqe",
+        "DmCommand": "dm item Zjiriaesqe",
+        "Category": "Misc"
+    },
+    "bardsjewel": {
+        "ClassName": "bardsjewel",
+        "EnglishName": "bard's jewel",
+        "GermanName": "bard's jewel",
+        "DmCommand": "dm item bard's jewel",
+        "Category": "Misc"
+    },
+    "batteredtourmaline": {
+        "ClassName": "batteredtourmaline",
+        "EnglishName": "battered tourmaline",
+        "GermanName": "battered tourmaline",
+        "DmCommand": "dm item battered tourmaline",
+        "Category": "Misc"
+    },
+    "bloodstoneagate": {
+        "ClassName": "bloodstoneagate",
+        "EnglishName": "bloodstone agate",
+        "GermanName": "bloodstone agate",
+        "DmCommand": "dm item bloodstone agate",
+        "Category": "Misc"
+    },
+    "celestialberyl": {
+        "ClassName": "celestialberyl",
+        "EnglishName": "celestial beryl",
+        "GermanName": "celestial beryl",
+        "DmCommand": "dm item celestial beryl",
+        "Category": "Misc"
+    },
+    "cobaltdisc": {
+        "ClassName": "cobaltdisc",
+        "EnglishName": "cobalt disc",
+        "GermanName": "cobalt disc",
+        "DmCommand": "dm item cobalt disc",
+        "Category": "Misc"
+    },
+    "glimmeringmoonstone": {
+        "ClassName": "glimmeringmoonstone",
+        "EnglishName": "glimmering moonstone",
+        "GermanName": "glimmering moonstone",
+        "DmCommand": "dm item glimmering moonstone",
+        "Category": "Misc"
+    },
+    "jewellerschisel": {
+        "ClassName": "jewellerschisel",
+        "EnglishName": "jeweller's chisel",
+        "GermanName": "jeweller's chisel",
+        "DmCommand": "dm item jeweller's chisel",
+        "Category": "Misc"
+    },
+    "magmacrystal": {
+        "ClassName": "magmacrystal",
+        "EnglishName": "magma crystal",
+        "GermanName": "magma crystal",
+        "DmCommand": "dm item magma crystal",
+        "Category": "Misc"
+    },
+    "quartzcrystal": {
+        "ClassName": "quartzcrystal",
+        "EnglishName": "quartz crystal",
+        "GermanName": "quartz crystal",
+        "DmCommand": "dm item quartz crystal",
+        "Category": "Misc"
+    },
+    "sapphireteardrop": {
+        "ClassName": "sapphireteardrop",
+        "EnglishName": "sapphire teardrop",
+        "GermanName": "sapphire teardrop",
+        "DmCommand": "dm item sapphire teardrop",
+        "Category": "Misc"
+    },
+    "starruby": {
+        "ClassName": "starruby",
+        "EnglishName": "star ruby",
+        "GermanName": "star ruby",
+        "DmCommand": "dm item star ruby",
+        "Category": "Misc"
+    },
+    "sunstone": {
+        "ClassName": "sunstone",
+        "EnglishName": "sunstone",
+        "GermanName": "sunstone",
+        "DmCommand": "dm item sunstone",
+        "Category": "Misc"
+    },
+    "trickstersjewel": {
+        "ClassName": "trickstersjewel",
+        "EnglishName": "trickster's jewel",
+        "GermanName": "trickster's jewel",
+        "DmCommand": "dm item trickster's jewel",
+        "Category": "Misc"
+    },
+    "verdantcrystal": {
+        "ClassName": "verdantcrystal",
+        "EnglishName": "verdant crystal",
+        "GermanName": "verdant crystal",
+        "DmCommand": "dm item verdant crystal",
+        "Category": "Misc"
+    },
+    "warriorsjewel": {
+        "ClassName": "warriorsjewel",
+        "EnglishName": "warrior's jewel",
+        "GermanName": "warrior's jewel",
+        "DmCommand": "dm item warrior's jewel",
+        "Category": "Misc"
+    },
+    "berserkerring": {
+        "ClassName": "berserkerring",
+        "EnglishName": "berserker ring",
+        "GermanName": "Der Berserker-Ring",
+        "DmCommand": "dm item berserker ring",
+        "Category": "Misc",
+        "KodFile": "besring.kod"
+    },
+    "ringofacidresistance": {
+        "ClassName": "ringofacidresistance",
+        "EnglishName": "ring of acid resistance",
+        "GermanName": "Ring des S\u00e4urewiderstands",
+        "DmCommand": "dm item ring of acid resistance",
+        "Category": "Misc",
+        "KodFile": "acidring.kod"
+    },
+    "ringofcoldresistance": {
+        "ClassName": "ringofcoldresistance",
+        "EnglishName": "ring of cold resistance",
+        "GermanName": "Ring des K\u00e4ltewiderstands",
+        "DmCommand": "dm item ring of cold resistance",
+        "Category": "Misc",
+        "KodFile": "coldring.kod"
+    },
+    "ringofdefense": {
+        "ClassName": "ringofdefense",
+        "EnglishName": "ring of defense",
+        "GermanName": "Ring der Verteidigung",
+        "DmCommand": "dm item ring of defense",
+        "Category": "Misc",
+        "KodFile": "ringdefense.kod"
+    },
+    "ringoffireresistance": {
+        "ClassName": "ringoffireresistance",
+        "EnglishName": "ring of fire resistance",
+        "GermanName": "Der Ring des Feuerwiderstands",
+        "DmCommand": "dm item ring of fire resistance",
+        "Category": "Misc",
+        "KodFile": "firering.kod"
+    },
+    "ringofinvisibility": {
+        "ClassName": "ringofinvisibility",
+        "EnglishName": "ring of invisibility",
+        "GermanName": "Der Unsichtbarkeits-Ring",
+        "DmCommand": "dm item ring of invisibility",
+        "Category": "Misc",
+        "KodFile": "ringinv.kod"
+    },
+    "ringoflethargy": {
+        "ClassName": "ringoflethargy",
+        "EnglishName": "ring of lethargy",
+        "GermanName": "Der Ring aus exotischem Metall",
+        "DmCommand": "dm item ring of lethargy",
+        "Category": "Misc",
+        "KodFile": "lethring.kod"
+    },
+    "ringofshockresistance": {
+        "ClassName": "ringofshockresistance",
+        "EnglishName": "ring of shock resistance",
+        "GermanName": "Ring des Schockwiderstands",
+        "DmCommand": "dm item ring of shock resistance",
+        "Category": "Misc",
+        "KodFile": "shokring.kod"
+    },
+    "weddingring": {
+        "ClassName": "weddingring",
+        "EnglishName": "wedding ring",
+        "GermanName": "Der Hochzeitsring",
+        "DmCommand": "dm item wedding ring",
+        "Category": "Misc",
+        "KodFile": "ringwedd.kod"
+    },
+    "gnarledstaff": {
+        "ClassName": "gnarledstaff",
+        "EnglishName": "gnarled staff",
+        "GermanName": "Das Wurzelholz",
+        "DmCommand": "dm item gnarled staff",
+        "Category": "Misc",
+        "KodFile": "joltrod.kod"
+    },
+    "rodofarmorofGort": {
+        "ClassName": "rodofarmorofGort",
+        "EnglishName": "rod of armor of Gort",
+        "GermanName": "Stab von Gorts Panzer",
+        "DmCommand": "dm item rod of armor of Gort",
+        "Category": "Misc",
+        "KodFile": "gortrod.kod"
+    },
+    "rodofbless": {
+        "ClassName": "rodofbless",
+        "EnglishName": "rod of bless",
+        "GermanName": "Stab von Segnen",
+        "DmCommand": "dm item rod of bless",
+        "Category": "Misc",
+        "KodFile": "blessrod.kod"
+    },
+    "rodofdetectinvisible": {
+        "ClassName": "rodofdetectinvisible",
+        "EnglishName": "rod of detect invisible",
+        "GermanName": "Stab von Unsichtbares Entdecken",
+        "DmCommand": "dm item rod of detect invisible",
+        "Category": "Misc",
+        "KodFile": "detectinvisrod.kod"
+    },
+    "rodofhealing": {
+        "ClassName": "rodofhealing",
+        "EnglishName": "rod of healing",
+        "GermanName": "Der Stab der Heilung",
+        "DmCommand": "dm item rod of healing",
+        "Category": "Misc",
+        "KodFile": "healrod.kod"
+    },
+    "rodofpower": {
+        "ClassName": "rodofpower",
+        "EnglishName": "rod of power",
+        "GermanName": "Der Stab der Kraft",
+        "DmCommand": "dm item rod of power",
+        "Category": "Misc",
+        "KodFile": "damagerod.kod"
+    },
+    "rodofshielding": {
+        "ClassName": "rodofshielding",
+        "EnglishName": "rod of shielding",
+        "GermanName": "Der Stab des Schildes",
+        "DmCommand": "dm item rod of shielding",
+        "Category": "Misc",
+        "KodFile": "shieldrod.kod"
+    },
+    "rodofsuperstrength": {
+        "ClassName": "rodofsuperstrength",
+        "EnglishName": "rod of super strength",
+        "GermanName": "Stab von Kraanans Kraft",
+        "DmCommand": "dm item rod of super strength",
+        "Category": "Misc",
+        "KodFile": "strengthrod.kod"
+    },
+    "rodofvampiricshock": {
+        "ClassName": "rodofvampiricshock",
+        "EnglishName": "rod of vampiric shock",
+        "GermanName": "rod of vampiric shock",
+        "DmCommand": "dm item rod of vampiric shock",
+        "Category": "Misc"
+    }
+}

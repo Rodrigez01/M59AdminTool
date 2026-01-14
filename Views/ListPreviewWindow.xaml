@@ -1,0 +1,30 @@
+<Window x:Class="M59AdminTool.Views.ListPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:services="clr-namespace:M59AdminTool.Services"
+        Title="{services:Loc Window_ListPreview_TitleFormat}"
+        Height="520"
+        Width="720"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+    <Grid Background="#1E1E1E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#2C2C2C" BorderBrush="#444" BorderThickness="0,0,0,1" Padding="12">
+            <TextBlock x:Name="HeaderText" Foreground="White" FontSize="14" FontWeight="SemiBold"/>
+        </Border>
+
+        <Border Grid.Row="1" Margin="10" Background="#2C2C2C" BorderBrush="#444" BorderThickness="1">
+            <ListBox ItemsSource="{Binding Entries}"
+                     Background="Transparent"
+                     Foreground="White"
+                     BorderThickness="0"
+                     FontFamily="Consolas"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Border>
+    </Grid>
+</Window>

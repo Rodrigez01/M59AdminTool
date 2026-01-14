@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M59AdminTool", "M59AdminTool.csproj", "{314E7953-2404-7D47-B7BD-193B20D649BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meridian59EventManager", "..\EventManager\Meridian59EventManager.csproj", "{1022B73B-BD75-4964-97E1-1D41A4774EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314E7953-2404-7D47-B7BD-193B20D649BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314E7953-2404-7D47-B7BD-193B20D649BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314E7953-2404-7D47-B7BD-193B20D649BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314E7953-2404-7D47-B7BD-193B20D649BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1022B73B-BD75-4964-97E1-1D41A4774EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1022B73B-BD75-4964-97E1-1D41A4774EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1022B73B-BD75-4964-97E1-1D41A4774EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1022B73B-BD75-4964-97E1-1D41A4774EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7899CDB7-4A90-4F38-B89C-9984385B6625}
+	EndGlobalSection
+EndGlobal
