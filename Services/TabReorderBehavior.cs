@@ -115,7 +115,15 @@ namespace M59AdminTool.Services
 
             var dragItem = state.DragItem;
             state.DragStart = null;
-            DragDrop.DoDragDrop(tabControl, dragItem, System.Windows.DragDropEffects.Move);
+
+            try
+            {
+                DragDrop.DoDragDrop(tabControl, dragItem, System.Windows.DragDropEffects.Move);
+            }
+            catch (InvalidOperationException)
+            {
+                // Ignore - can happen when dispatcher is suspended
+            }
         }
 
         private static void TabControl_DragOver(object sender, System.Windows.DragEventArgs e)

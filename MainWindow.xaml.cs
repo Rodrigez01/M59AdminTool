@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
 using System.Windows.Forms;
 using System.Windows.Forms.Integration;
+using System.Windows.Controls.Primitives;
 using M59AdminTool.ViewModels;
 using M59AdminTool.Models;
 using M59AdminTool.Services;
@@ -34,9 +37,24 @@ public partial class MainWindow : Window
     private WindowsFormsHost? _eventManagerHost;
     private MainForm? _eventManagerForm;
 
+    // Mini/Full Mode
+    private bool _isAdvancedMode = false;
+    private const double MINI_WIDTH = 400;
+    private const double MINI_HEIGHT = 600;
+    private const double FULL_WIDTH = 1000;
+    private const double FULL_HEIGHT = 700;
+    private readonly string[] _miniModeTabs = { "DM", "Monsters", "Items", "Warps", "DJ", "Arena" };
+    private readonly Random _random = new Random();
+
     public MainWindow()
     {
         InitializeComponent();
+
+        AddHandler(UIElement.PreviewMouseWheelEvent, new System.Windows.Input.MouseWheelEventHandler(Window_PreviewMouseWheel), true);
+        if (MainTabControl != null)
+        {
+            MainTabControl.AddHandler(UIElement.PreviewMouseWheelEvent, new System.Windows.Input.MouseWheelEventHandler(MainTabControl_PreviewMouseWheel), true);
+        }
 
         // Initialize Services
         _localization = LocalizationService.Instance;
@@ -63,6 +81,14 @@ public partial class MainWindow : Window
         InitializeEventManagerHost();
         _ = RefreshSharedConnectionStateAsync();
 
+        // Start in Mini Mode
+        ApplyViewMode(animated: false);
+
+        // Start in Warps Tab
+        if (WarpsTab != null)
+        {
+            MainTabControl.SelectedItem = WarpsTab;
+        }
     }
 
     private void SetTabDataContext()
@@ -643,6 +669,98 @@ public partial class MainWindow : Window
         }
     }
 
+    private void ScrollViewer_PreviewMouseWheel(object sender, System.Windows.Input.MouseWheelEventArgs e)
+    {
+        if (sender is ScrollViewer sv)
+        {
+            sv.ScrollToVerticalOffset(sv.VerticalOffset - e.Delta / 3.0);
+            e.Handled = true;
+        }
+    }
+
+    private void Window_PreviewMouseWheel(object sender, System.Windows.Input.MouseWheelEventArgs e)
+    {
+        if (TryScrollActiveTab(e))
+        {
+            e.Handled = true;
+        }
+    }
+
+    private void MainTabControl_PreviewMouseWheel(object sender, System.Windows.Input.MouseWheelEventArgs e)
+    {
+        if (TryScrollActiveTab(e))
+        {
+            e.Handled = true;
+        }
+    }
+
+    private bool TryScrollActiveTab(System.Windows.Input.MouseWheelEventArgs e)
+    {
+        var targetScrollViewer = GetActiveTabScrollViewer();
+        if (targetScrollViewer == null || targetScrollViewer.ScrollableHeight <= 0)
+            return false;
+
+        double offsetChange = e.Delta > 0 ? -1 : 1;
+        targetScrollViewer.ScrollToVerticalOffset(targetScrollViewer.VerticalOffset + offsetChange * 20);
+        return true;
+    }
+
+    private ScrollViewer? GetActiveTabScrollViewer()
+    {
+        if (MainTabControl?.SelectedItem is not TabItem tabItem)
+            return null;
+
+        if (tabItem.Content is DependencyObject contentRoot)
+            return FindScrollableScrollViewer(contentRoot);
+
+        return null;
+    }
+
+    private ScrollViewer? FindScrollableScrollViewer(DependencyObject root)
+    {
+        ScrollViewer? fallback = null;
+        var queue = new Queue<DependencyObject>();
+        queue.Enqueue(root);
+
+        while (queue.Count > 0)
+        {
+            var current = queue.Dequeue();
+            if (current is ScrollViewer sv)
+            {
+                if (!IsItemsControlScrollViewer(sv) && !IsTextBoxScrollViewer(sv))
+                {
+                    fallback ??= sv;
+                    if (sv.ScrollableHeight > 0)
+                        return sv;
+                }
+            }
+
+            int count = VisualTreeHelper.GetChildrenCount(current);
+            for (int i = 0; i < count; i++)
+            {
+                queue.Enqueue(VisualTreeHelper.GetChild(current, i));
+            }
+        }
+
+        return fallback;
+    }
+
+    private static bool IsItemsControlScrollViewer(ScrollViewer scrollViewer)
+    {
+        if (scrollViewer.TemplatedParent is ItemsControl)
+            return true;
+
+        return false;
+    }
+
+    private static bool IsTextBoxScrollViewer(ScrollViewer scrollViewer)
+    {
+        if (scrollViewer.TemplatedParent is System.Windows.Controls.Primitives.TextBoxBase)
+            return true;
+
+        return false;
+    }
+
     private void Menu_OpenHelp_Click(object sender, RoutedEventArgs e)
     {
         var window = new Views.HelpWindow
@@ -652,4 +770,289 @@ public partial class MainWindow : Window
         window.Show();
         window.Activate();
     }
+
+    #region Mini/Full Mode Toggle
+
+    private void BtnAdvanced_Click(object sender, RoutedEventArgs e)
+    {
+        _isAdvancedMode = !_isAdvancedMode;
+        ApplyViewMode(animated: true);
+    }
+
+    private void ApplyViewMode(bool animated)
+    {
+        double targetWidth = _isAdvancedMode ? FULL_WIDTH : MINI_WIDTH;
+        double targetHeight = _isAdvancedMode ? FULL_HEIGHT : MINI_HEIGHT;
+
+        // Update button text
+        if (MenuAdvanced != null)
+        {
+            MenuAdvanced.Header = _isAdvancedMode ? "⚡ Simple" : "⚡ Advanced";
+        }
+
+        // Filter tabs
+        FilterTabsForMode();
+
+        // Change tab orientation based on mode
+        if (MainTabControl != null)
+        {
+            MainTabControl.TabStripPlacement = _isAdvancedMode ? Dock.Top : Dock.Left;
+        }
+
+        // Adjust header for mode
+        if (HeaderTitle != null)
+        {
+            HeaderTitle.FontSize = _isAdvancedMode ? 20 : 14;
+        }
+        if (HeaderSubtitle != null)
+        {
+            HeaderSubtitle.Visibility = _isAdvancedMode ? Visibility.Visible : Visibility.Collapsed;
+        }
+        if (HeaderBorder != null)
+        {
+            HeaderBorder.Padding = _isAdvancedMode ? new Thickness(15) : new Thickness(8);
+        }
+
+        // Switch DM Tab content between Mini and Full layouts
+        if (DmContentMini != null)
+        {
+            DmContentMini.Visibility = _isAdvancedMode ? Visibility.Collapsed : Visibility.Visible;
+        }
+        if (DmContentFull != null)
+        {
+            DmContentFull.Visibility = _isAdvancedMode ? Visibility.Visible : Visibility.Collapsed;
+        }
+        if (DmHeader != null)
+        {
+            DmHeader.FontSize = _isAdvancedMode ? 20 : 14;
+        }
+
+        if (animated)
+        {
+            // Spawn magic stars (more stars!)
+            SpawnMagicStars(70);
+
+            // Animate window size
+            AnimateWindowSize(targetWidth, targetHeight);
+        }
+        else
+        {
+            Width = targetWidth;
+            Height = targetHeight;
+        }
+    }
+
+    private void FilterTabsForMode()
+    {
+        if (MainTabControl == null) return;
+
+        foreach (TabItem tab in MainTabControl.Items)
+        {
+            if (tab.Tag is string tagName)
+            {
+                bool shouldShow = _isAdvancedMode || Array.Exists(_miniModeTabs, t => t.Equals(tagName, StringComparison.OrdinalIgnoreCase));
+                tab.Visibility = shouldShow ? Visibility.Visible : Visibility.Collapsed;
+            }
+        }
+
+        // Select first visible tab if current is hidden
+        if (MainTabControl.SelectedItem is TabItem selectedTab && selectedTab.Visibility == Visibility.Collapsed)
+        {
+            foreach (TabItem tab in MainTabControl.Items)
+            {
+                if (tab.Visibility == Visibility.Visible)
+                {
+                    MainTabControl.SelectedItem = tab;
+                    break;
+                }
+            }
+        }
+    }
+
+    private void AnimateWindowSize(double targetWidth, double targetHeight)
+    {
+        var duration = TimeSpan.FromMilliseconds(400);
+        var easing = new QuadraticEase { EasingMode = EasingMode.EaseInOut };
+
+        // Width animation
+        var widthAnim = new DoubleAnimation
+        {
+            From = Width,
+            To = targetWidth,
+            Duration = duration,
+            EasingFunction = easing
+        };
+
+        // Height animation
+        var heightAnim = new DoubleAnimation
+        {
+            From = Height,
+            To = targetHeight,
+            Duration = duration,
+            EasingFunction = easing
+        };
+
+        // Center the window during resize
+        double currentCenterX = Left + Width / 2;
+        double currentCenterY = Top + Height / 2;
+        double newLeft = currentCenterX - targetWidth / 2;
+        double newTop = currentCenterY - targetHeight / 2;
+
+        var leftAnim = new DoubleAnimation
+        {
+            From = Left,
+            To = Math.Max(0, newLeft),
+            Duration = duration,
+            EasingFunction = easing
+        };
+
+        var topAnim = new DoubleAnimation
+        {
+            From = Top,
+            To = Math.Max(0, newTop),
+            Duration = duration,
+            EasingFunction = easing
+        };
+
+        BeginAnimation(WidthProperty, widthAnim);
+        BeginAnimation(HeightProperty, heightAnim);
+        BeginAnimation(LeftProperty, leftAnim);
+        BeginAnimation(TopProperty, topAnim);
+    }
+
+    private void SpawnMagicStars(int count)
+    {
+        if (StarCanvas == null) return;
+
+        for (int i = 0; i < count; i++)
+        {
+            var star = CreateStar();
+            StarCanvas.Children.Add(star);
+
+            // Random start position
+            double startX = _random.NextDouble() * ActualWidth;
+            double startY = _random.NextDouble() * ActualHeight;
+
+            Canvas.SetLeft(star, startX);
+            Canvas.SetTop(star, startY);
+
+            // Animate the star
+            AnimateStar(star, startX, startY);
+        }
+    }
+
+    private Polygon CreateStar()
+    {
+        var star = new Polygon
+        {
+            Points = CreateStarPoints(8, 4),
+            Fill = new SolidColorBrush(GetRandomStarColor()),
+            Opacity = 0.9,
+            RenderTransform = new RotateTransform(0, 8, 8),
+            Width = 16,
+            Height = 16
+        };
+        return star;
+    }
+
+    private PointCollection CreateStarPoints(double outerRadius, double innerRadius)
+    {
+        var points = new PointCollection();
+        double centerX = outerRadius;
+        double centerY = outerRadius;
+
+        for (int i = 0; i < 10; i++)
+        {
+            double angle = Math.PI / 2 + i * Math.PI / 5;
+            double radius = (i % 2 == 0) ? outerRadius : innerRadius;
+            double x = centerX + radius * Math.Cos(angle);
+            double y = centerY - radius * Math.Sin(angle);
+            points.Add(new System.Windows.Point(x, y));
+        }
+
+        return points;
+    }
+
+    private System.Windows.Media.Color GetRandomStarColor()
+    {
+        var colors = new[]
+        {
+            System.Windows.Media.Color.FromRgb(255, 215, 0),   // Gold
+            System.Windows.Media.Color.FromRgb(255, 255, 100), // Yellow
+            System.Windows.Media.Color.FromRgb(200, 150, 255), // Purple
+            System.Windows.Media.Color.FromRgb(100, 200, 255), // Cyan
+            System.Windows.Media.Color.FromRgb(255, 180, 100), // Orange
+            System.Windows.Media.Color.FromRgb(255, 255, 255), // White
+        };
+        return colors[_random.Next(colors.Length)];
+    }
+
+    private void AnimateStar(Polygon star, double startX, double startY)
+    {
+        var duration = TimeSpan.FromMilliseconds(800 + _random.Next(400));
+
+        // Random end position (flying outward)
+        double angle = _random.NextDouble() * Math.PI * 2;
+        double distance = 100 + _random.NextDouble() * 150;
+        double endX = startX + Math.Cos(angle) * distance;
+        double endY = startY + Math.Sin(angle) * distance;
+
+        // Position animations
+        var xAnim = new DoubleAnimation
+        {
+            From = startX,
+            To = endX,
+            Duration = duration,
+            EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
+        };
+
+        var yAnim = new DoubleAnimation
+        {
+            From = startY,
+            To = endY,
+            Duration = duration,
+            EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseOut }
+        };
+
+        // Fade out
+        var fadeAnim = new DoubleAnimation
+        {
+            From = 0.9,
+            To = 0,
+            Duration = duration
+        };
+
+        // Rotation
+        var rotateAnim = new DoubleAnimation
+        {
+            From = 0,
+            To = 360 + _random.Next(360),
+            Duration = duration
+        };
+
+        // Scale
+        var scaleAnim = new DoubleAnimation
+        {
+            From = 1.0,
+            To = 0.2,
+            Duration = duration
+        };
+
+        // Remove star when done
+        fadeAnim.Completed += (s, e) =>
+        {
+            StarCanvas?.Children.Remove(star);
+        };
+
+        star.BeginAnimation(Canvas.LeftProperty, xAnim);
+        star.BeginAnimation(Canvas.TopProperty, yAnim);
+        star.BeginAnimation(OpacityProperty, fadeAnim);
+
+        if (star.RenderTransform is RotateTransform rotateTransform)
+        {
+            rotateTransform.BeginAnimation(RotateTransform.AngleProperty, rotateAnim);
+        }
+    }
+
+    #endregion
 }

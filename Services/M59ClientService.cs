@@ -18,7 +18,7 @@ namespace M59AdminTool.Services
         private static bool? _pipeAvailable = null;
         #region Win32 API Imports
 
-        [DllImport("user32.dll", SetLastError = true)]
+        [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
         private static extern IntPtr FindWindow(string? lpClassName, string? lpWindowName);
 
         [DllImport("user32.dll")]
@@ -39,13 +39,28 @@ namespace M59AdminTool.Services
         [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
         private static extern int GetWindowTextLength(IntPtr hWnd);
 
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetWindow(IntPtr hWnd, uint uCmd);
+
+        [DllImport("user32.dll", CharSet = CharSet.Unicode)]
+        private static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, string lParam);
+
+        [DllImport("user32.dll")]
+        private static extern bool PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+
+        // Constants
         private const int SW_RESTORE = 9;
+        private const uint GW_CHILD = 5;
+        private const int IDC_TEXTINPUT = 1046;
+        private const uint WM_SETTEXT = 0x000C;
+        private const uint WM_KEYDOWN = 0x0100;
+        private const int VK_RETURN = 0x0D;
 
         #endregion
 
         /// <summary>
         /// Sends a command to the M59 client chat window (for DM commands)
-        /// Tries Named Pipe first, falls back to SendKeys if pipe not available
+        /// Uses GUIDEHELPER method: WM_SETTEXT + WM_KEYDOWN
         /// </summary>
         public async Task<bool> SendCommandAsync(string command)
         {
@@ -56,25 +71,8 @@ namespace M59AdminTool.Services
                 // Normalize command (strip leading slash, single line)
                 var normalized = NormalizeCommand(command);
 
-                // Try Named Pipe first (if not already failed)
-                if (_pipeAvailable != false)
-                {
-                    bool pipeSuccess = await TrySendViaPipeAsync(normalized);
-                    if (pipeSuccess)
-                    {
-                        _pipeAvailable = true;
-                        Debug.WriteLine("[M59ClientService] ✓ Command sent via Named Pipe!");
-                        return true;
-                    }
-                    else
-                    {
-                        Debug.WriteLine("[M59ClientService] ⚠ Named Pipe failed, falling back to SendKeys...");
-                        _pipeAvailable = false;
-                    }
-                }
-
-                // Fallback to SendKeys method
-                return await SendViaSendKeysAsync(normalized);
+                // Use GUIDEHELPER method (WM_SETTEXT + WM_KEYDOWN)
+                return await SendViaWindowMessageAsync(normalized);
             }
             catch (Exception ex)
             {
@@ -86,7 +84,7 @@ namespace M59AdminTool.Services
 
         /// <summary>
         /// Sends an admin command using the same method as DM commands
-        /// Tries Named Pipe first, falls back to SendKeys if pipe not available
+        /// Uses GUIDEHELPER method: WM_SETTEXT + WM_KEYDOWN
         /// </summary>
         public async Task<bool> SendAdminCommandAsync(string command)
         {
@@ -97,25 +95,8 @@ namespace M59AdminTool.Services
                 // Normalize command (strip leading slash, single line)
                 var normalized = NormalizeCommand(command);
 
-                // Try Named Pipe first (if not already failed)
-                if (_pipeAvailable != false)
-                {
-                    bool pipeSuccess = await TrySendViaPipeAsync(normalized);
-                    if (pipeSuccess)
-                    {
-                        _pipeAvailable = true;
-                        Debug.WriteLine("[M59ClientService] ✓ Admin command sent via Named Pipe!");
-                        return true;
-                    }
-                    else
-                    {
-                        Debug.WriteLine("[M59ClientService] ⚠ Named Pipe failed, falling back to SendKeys...");
-                        _pipeAvailable = false;
-                    }
-                }
-
-                // Fallback to SendKeys method
-                return await SendViaSendKeysAsync(normalized);
+                // Use GUIDEHELPER method (WM_SETTEXT + WM_KEYDOWN)
+                return await SendViaWindowMessageAsync(normalized);
             }
             catch (Exception ex)
             {
@@ -254,59 +235,59 @@ namespace M59AdminTool.Services
         }
 
         /// <summary>
-        /// Sends command via SendKeys method (legacy fallback)
+        /// Sends command via Window Messages (GUIDEHELPER method)
+        /// Uses WM_SETTEXT + WM_KEYDOWN - works in background without stealing focus
         /// </summary>
-        private static async Task<bool> SendViaSendKeysAsync(string command)
+        private static async Task<bool> SendViaWindowMessageAsync(string command)
         {
             try
             {
-                Debug.WriteLine("[M59ClientService] Using SendKeys method...");
+                Debug.WriteLine("[M59ClientService] Using GUIDEHELPER method (WM_SETTEXT)...");
 
-                // Find the M59 client window
-                var hWnd = await FindClientWindowAsync();
-
+                // Step 1: Find M59 window by CLASS NAME (not title!)
+                var hWnd = FindWindow("Meridian 59", null);
                 if (hWnd == IntPtr.Zero)
                 {
-                    Debug.WriteLine("[M59ClientService] ✗ ERROR: Client window not found!");
+                    Debug.WriteLine("[M59ClientService] ✗ ERROR: Meridian 59 window not found (class lookup)!");
                     return false;
                 }
+                Debug.WriteLine($"[M59ClientService] ✓ Found M59 window: 0x{hWnd:X8}");
 
-                // Restore if minimized
-                if (IsIconic(hWnd))
+                // Step 2: Get ComboBox (ID 1046 = IDC_TEXTINPUT)
+                var hCombo = GetDlgItem(hWnd, IDC_TEXTINPUT);
+                if (hCombo == IntPtr.Zero)
                 {
-                    Debug.WriteLine("[M59ClientService] Window is minimized, restoring...");
-                    ShowWindow(hWnd, SW_RESTORE);
-                }
-
-                // Activate window
-                Debug.WriteLine("[M59ClientService] Setting foreground window...");
-                SetForegroundWindow(hWnd);
-
-                // Wait for window to be ready
-                await Task.Delay(150);
-
-                // Copy command to clipboard
-                Debug.WriteLine("[M59ClientService] Copying command to clipboard...");
-                if (!await TrySetClipboardTextAsync(command))
+                    Debug.WriteLine("[M59ClientService] ✗ ERROR: ComboBox (ID 1046) not found!");
                     return false;
+                }
+                Debug.WriteLine($"[M59ClientService] ✓ Found ComboBox: 0x{hCombo:X8}");
 
-                // Press TAB twice to jump to chat input field
-                Debug.WriteLine("[M59ClientService] Sending keys: TAB TAB CTRL+V ENTER");
-                WinForms.SendKeys.SendWait("{TAB}");
-                WinForms.SendKeys.SendWait("{TAB}");
+                // Step 3: Get Edit control (child of ComboBox)
+                var hEdit = GetWindow(hCombo, GW_CHILD);
+                if (hEdit == IntPtr.Zero)
+                {
+                    Debug.WriteLine("[M59ClientService] ✗ ERROR: Edit control not found in ComboBox!");
+                    return false;
+                }
+                Debug.WriteLine($"[M59ClientService] ✓ Found Edit: 0x{hEdit:X8}");
 
-                // Paste command with Ctrl+V
-                WinForms.SendKeys.SendWait("^v");
+                // Step 4: Set text via WM_SETTEXT
+                SendMessage(hEdit, WM_SETTEXT, IntPtr.Zero, command);
+                Debug.WriteLine($"[M59ClientService] ✓ Text set: {command}");
 
-                // Send Enter to execute
-                WinForms.SendKeys.SendWait("{ENTER}");
+                // Small delay to ensure text is set
+                await Task.Delay(10);
 
-                Debug.WriteLine("[M59ClientService] ✓ Command sent via SendKeys!");
+                // Step 5: Send Enter key via WM_KEYDOWN
+                PostMessage(hEdit, WM_KEYDOWN, (IntPtr)VK_RETURN, IntPtr.Zero);
+                Debug.WriteLine("[M59ClientService] ✓ Enter key sent!");
+
+                Debug.WriteLine("[M59ClientService] ✓ Command sent via GUIDEHELPER method!");
                 return true;
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"[M59ClientService] SendKeys error: {ex.Message}");
+                Debug.WriteLine($"[M59ClientService] GUIDEHELPER error: {ex.Message}");
                 return false;
             }
         }
