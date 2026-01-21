@@ -45,6 +45,8 @@ Meridian 59 is one of the first 3D MMORPGs, originally released in 1996. This to
 - Search and filter functionality
 - Import/Export warp configurations (JSON)
 - Persistent storage in user AppData
+- refreshes directly from kodfiles
+- sorted by category from system.kod
 
 ### 👾 Monster & Item Database
 - Comprehensive monster database browser
@@ -52,6 +54,8 @@ Meridian 59 is one of the first 3D MMORPGs, originally released in 1996. This to
 - DM spawn commands for monsters and items
 - English/German localization support
 - Quick access to entity IDs and class names
+- refreshes directly from kodfiles
+- sorted by category from system.kod
 
 ### 🎯 Dungeon Master Commands
 - **Player Movement**
