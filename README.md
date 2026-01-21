@@ -110,7 +110,9 @@ Meridian 59 is one of the first 3D MMORPGs, originally released in 1996. This to
 
 ## 📸 Screenshots
 
-*Screenshots will be added soon*
+<img width="1922" height="1030" alt="grafik" src="https://github.com/user-attachments/assets/5f65b0af-f094-428a-9b9c-1b03d66c1bad" />
+
+
 
 ## 🚀 Installation
 
