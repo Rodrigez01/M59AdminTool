@@ -36,6 +36,8 @@ public partial class MainWindow : Window
     private readonly LocalizationService _localization;
     private WindowsFormsHost? _eventManagerHost;
     private MainForm? _eventManagerForm;
+    private System.Windows.Point? _warpDragStart;
+    private WarpLocation? _dragWarp;
 
     // Mini/Full Mode
     private bool _isAdvancedMode = false;
@@ -769,6 +771,101 @@ public partial class MainWindow : Window
         };
         window.Show();
         window.Activate();
+    }
+
+    private void Menu_Configuration_Click(object sender, RoutedEventArgs e)
+    {
+        var window = new Views.PathConfigWindow
+        {
+            Owner = this
+        };
+        window.ShowDialog();
+    }
+
+    private void WarpsTreeView_PreviewMouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+    {
+        if (sender is not System.Windows.Controls.TreeView treeView)
+            return;
+
+        var item = FindAncestor<System.Windows.Controls.TreeViewItem>(e.OriginalSource as DependencyObject);
+        if (item?.DataContext is WarpLocation warp)
+        {
+            _warpDragStart = e.GetPosition(treeView);
+            _dragWarp = warp;
+        }
+        else
+        {
+            _warpDragStart = null;
+            _dragWarp = null;
+        }
+    }
+
+    private void WarpsTreeView_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
+    {
+        if (_dragWarp == null || _warpDragStart == null)
+            return;
+        if (e.LeftButton != System.Windows.Input.MouseButtonState.Pressed)
+            return;
+
+        if (sender is not System.Windows.Controls.TreeView treeView)
+            return;
+
+        var currentPos = e.GetPosition(treeView);
+        var dx = Math.Abs(currentPos.X - _warpDragStart.Value.X);
+        var dy = Math.Abs(currentPos.Y - _warpDragStart.Value.Y);
+        if (dx < SystemParameters.MinimumHorizontalDragDistance &&
+            dy < SystemParameters.MinimumVerticalDragDistance)
+        {
+            return;
+        }
+
+        DragDrop.DoDragDrop(treeView, _dragWarp, System.Windows.DragDropEffects.Move);
+        _warpDragStart = null;
+        _dragWarp = null;
+    }
+
+    private void WarpsTreeView_DragOver(object sender, System.Windows.DragEventArgs e)
+    {
+        if (e.Data.GetDataPresent(typeof(WarpLocation)))
+        {
+            e.Effects = System.Windows.DragDropEffects.Move;
+        }
+        else
+        {
+            e.Effects = System.Windows.DragDropEffects.None;
+        }
+
+        e.Handled = true;
+    }
+
+    private void WarpsTreeView_Drop(object sender, System.Windows.DragEventArgs e)
+    {
+        if (sender is not System.Windows.Controls.TreeView treeView)
+            return;
+
+        if (e.Data.GetData(typeof(WarpLocation)) is not WarpLocation warp)
+            return;
+
+        var item = FindAncestor<System.Windows.Controls.TreeViewItem>(e.OriginalSource as DependencyObject);
+        WarpCategory? targetCategory = null;
+        if (item?.DataContext is WarpCategoryView categoryView)
+        {
+            targetCategory = categoryView.Source;
+        }
+        else if (item?.DataContext is WarpLocation targetWarp &&
+                 treeView.DataContext is WarpsViewModel viewModel)
+        {
+            targetCategory = viewModel.WarpCategories.FirstOrDefault(c => c.Locations.Contains(targetWarp));
+        }
+
+        if (targetCategory == null)
+            return;
+
+        if (treeView.DataContext is WarpsViewModel warpsViewModel)
+        {
+            if (warpsViewModel.MoveWarpToCategory(warp, targetCategory))
+                e.Handled = true;
+        }
     }
 
     #region Mini/Full Mode Toggle

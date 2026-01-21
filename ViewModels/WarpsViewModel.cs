@@ -273,7 +273,9 @@ namespace M59AdminTool.ViewModels
                 return;
             }
 
-            await LoadWarpsAsync();
+            WarpCategories = _dataService.LoadExtractedWarps();
+            FilterWarps();
+            await _dataService.SaveWarpsAsync(WarpCategories);
             System.Windows.MessageBox.Show(loc.GetString("Message_RefreshRoomsOk"), loc.GetString("Title_RefreshRooms"),
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
@@ -389,6 +391,28 @@ namespace M59AdminTool.ViewModels
         {
             TotalWarpsCount = WarpCategories.Sum(category => category.Locations.Count);
             FilteredWarpsCount = FilteredWarpCategories.Sum(category => category.Locations.Count);
+        }
+
+        public bool MoveWarpToCategory(WarpLocation warp, WarpCategory targetCategory)
+        {
+            if (warp == null || targetCategory == null)
+                return false;
+
+            var sourceCategory = WarpCategories.FirstOrDefault(category => category.Locations.Contains(warp));
+            if (sourceCategory == null || sourceCategory == targetCategory)
+                return false;
+
+            sourceCategory.Locations.Remove(warp);
+            if (!targetCategory.Locations.Contains(warp))
+            {
+                targetCategory.Locations.Add(warp);
+            }
+
+            warp.Category = targetCategory.Name;
+            SelectedCategory = targetCategory;
+            SelectedWarp = warp;
+            FilterWarps();
+            return true;
         }
     }
 }

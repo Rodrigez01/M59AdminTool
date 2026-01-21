@@ -116,11 +116,20 @@ namespace M59AdminTool.Services
             try
             {
                 var appFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "";
-                var workspaceRoot = FindWorkspaceRoot(appFolder);
-                if (workspaceRoot == null)
-                    return (false, "Workspace root not found (expected Server-104-main next to M59AdminTool).");
+                var settings = SettingsService.Load();
+                var serverRoot = settings.ServerRootPath;
+                if (string.IsNullOrWhiteSpace(serverRoot))
+                {
+                    var workspaceRoot = FindWorkspaceRoot(appFolder);
+                    if (workspaceRoot == null)
+                        return (false, "Server root not configured. Use File -> Konfiguration.");
+                    serverRoot = Path.Combine(workspaceRoot, "Server-104-main");
+                }
 
-                var kodPath = Path.Combine(workspaceRoot, "Server-104-main", "kod", "object", "item");
+                var kodRoot = string.IsNullOrWhiteSpace(settings.KodPath)
+                    ? Path.Combine(serverRoot, "kod")
+                    : settings.KodPath;
+                var kodPath = Path.Combine(kodRoot, "object", "item");
                 if (!Directory.Exists(kodPath))
                     return (false, $"Item KOD path not found: {kodPath}");
 

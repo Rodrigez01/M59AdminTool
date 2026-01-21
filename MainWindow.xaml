@@ -124,6 +124,7 @@
         <!-- Menu Bar -->
         <Menu Grid.Row="1" Background="#E0E0E0">
             <MenuItem Header="{services:Loc Menu_File}">
+                <MenuItem Header="Konfiguration" Click="Menu_Configuration_Click"/>
             </MenuItem>
             <MenuItem Header="{services:Loc Menu_Help}">
                 <MenuItem Header="{services:Loc Menu_OpenHelp}" Click="Menu_OpenHelp_Click"/>
@@ -356,7 +357,15 @@
                             </TextBox>
 
                             <!-- TreeView for Warps -->
-                            <TreeView Grid.Row="3" ItemsSource="{Binding FilteredWarpCategories}" BorderThickness="0" PreviewMouseDoubleClick="TreeView_MouseDoubleClick">
+                            <TreeView Grid.Row="3"
+                                      ItemsSource="{Binding FilteredWarpCategories}"
+                                      BorderThickness="0"
+                                      AllowDrop="True"
+                                      PreviewMouseDoubleClick="TreeView_MouseDoubleClick"
+                                      PreviewMouseLeftButtonDown="WarpsTreeView_PreviewMouseLeftButtonDown"
+                                      MouseMove="WarpsTreeView_MouseMove"
+                                      DragOver="WarpsTreeView_DragOver"
+                                      Drop="WarpsTreeView_Drop">
                                 <TreeView.Resources>
                                     <HierarchicalDataTemplate DataType="{x:Type local:WarpCategoryView}" ItemsSource="{Binding Locations}">
                                         <StackPanel Orientation="Horizontal">

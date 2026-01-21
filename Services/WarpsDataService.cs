@@ -113,19 +113,29 @@ namespace M59AdminTool.Services
             try
             {
                 var appFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "";
-                var workspaceRoot = FindWorkspaceRoot(appFolder);
-                if (workspaceRoot == null)
-                    return (false, "Workspace root not found (expected Server-104-main next to M59AdminTool).");
+                var settings = SettingsService.Load();
+                var serverRoot = settings.ServerRootPath;
+                if (string.IsNullOrWhiteSpace(serverRoot))
+                {
+                    var workspaceRoot = FindWorkspaceRoot(appFolder);
+                    if (workspaceRoot == null)
+                        return (false, "Server root not configured. Use File -> Konfiguration.");
+                    serverRoot = Path.Combine(workspaceRoot, "Server-104-main");
+                }
 
-                var toolRoot = Path.Combine(workspaceRoot, "M59AdminTool");
-                var roomDetailsPath = Path.Combine(workspaceRoot, "Server-104-main", "doc", "roomdetails.md");
-                var khdPath = Path.Combine(workspaceRoot, "Server-104-main", "kod", "include", "blakston.khd");
-                var kodRoomPath = Path.Combine(workspaceRoot, "Server-104-main", "kod", "object", "active", "holder", "room");
+                var kodRoot = string.IsNullOrWhiteSpace(settings.KodPath)
+                    ? Path.Combine(serverRoot, "kod")
+                    : settings.KodPath;
+
+                var toolRoot = Path.GetFullPath(Path.Combine(appFolder, "..", "..", "..", ".."));
+                var systemKodPath = Path.Combine(kodRoot, "util", "system.kod");
+                var khdPath = Path.Combine(kodRoot, "include", "blakston.khd");
+                var kodRoomPath = Path.Combine(kodRoot, "object", "active", "holder", "room");
                 var outputPath = Path.Combine(toolRoot, "extracted_rooms.json");
                 var germanNamesPath = _germanNamesFilePath;
 
-                if (!File.Exists(roomDetailsPath))
-                    return (false, $"roomdetails.md not found: {roomDetailsPath}");
+                if (!File.Exists(systemKodPath))
+                    return (false, $"system.kod not found: {systemKodPath}");
                 if (!File.Exists(khdPath))
                     return (false, $"blakston.khd not found: {khdPath}");
 
@@ -133,7 +143,8 @@ namespace M59AdminTool.Services
                 WriteRoomTranslationsJson(germanNamesPath, translations);
                 LoadGermanNames();
 
-                var extracted = BuildExtractedRooms(roomDetailsPath, khdPath, translations);
+                var ridById = BuildRidMap(khdPath);
+                var extracted = BuildExtractedRoomsFromSystemKod(systemKodPath, ridById, translations);
                 var jsonOptions = new JsonSerializerOptions
                 {
                     WriteIndented = true,
@@ -150,13 +161,18 @@ namespace M59AdminTool.Services
             }
         }
 
+        public ObservableCollection<WarpCategory> LoadExtractedWarps()
+        {
+            return GetDefaultWarps();
+        }
+
         private static Dictionary<string, RoomTranslation> LoadRoomTranslations(string kodRoomPath)
         {
             var translations = new Dictionary<string, RoomTranslation>(StringComparer.OrdinalIgnoreCase);
             if (!Directory.Exists(kodRoomPath))
                 return translations;
 
-            var ridRegex = new Regex(@"piRoom_num\s*=\s*(RID_\w+)", RegexOptions.Compiled);
+            var ridRegex = new Regex(@"piRoom_num\s*=\s*(RID_[A-Za-z0-9_]+)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var nameRegex = new Regex(@"name_\w+\s*=\s*""([^""]+)""", RegexOptions.Compiled);
             var nameDeRegex = new Regex(@"name_\w+\s*=\s*de\s*""([^""]+)""", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
@@ -222,79 +238,141 @@ namespace M59AdminTool.Services
             File.WriteAllText(outputPath, json, Encoding.UTF8);
         }
 
-        private static ExtractedRoomsData BuildExtractedRooms(string roomDetailsPath, string khdPath, Dictionary<string, RoomTranslation> translations)
+        private static ExtractedRoomsData BuildExtractedRoomsFromSystemKod(
+            string systemKodPath,
+            Dictionary<int, List<string>> ridById,
+            Dictionary<string, RoomTranslation> translations)
         {
-            var ridById = BuildRidMap(khdPath);
             var extracted = new ExtractedRoomsData { Categories = new List<ExtractedCategory>() };
-            ExtractedCategory? currentCategory = null;
-            var inTable = false;
+            var categoryByName = new Dictionary<string, ExtractedCategory>(StringComparer.OrdinalIgnoreCase);
+            var seenRids = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
-            foreach (var rawLine in File.ReadLines(roomDetailsPath))
+            var ridToId = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            foreach (var entry in ridById)
             {
-                var line = rawLine.Trim();
-                if (line.StartsWith("### "))
+                foreach (var rid in entry.Value)
                 {
-                    currentCategory = new ExtractedCategory
+                    if (!ridToId.ContainsKey(rid))
+                        ridToId[rid] = entry.Key;
+                }
+            }
+
+            var ridRegex = new Regex(@"#num\s*=\s*(RID_[A-Za-z0-9_]+)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            var inFunction = false;
+            var inBody = false;
+            var braceDepth = 0;
+            ExtractedCategory? currentCategory = null;
+
+            foreach (var rawLine in File.ReadLines(systemKodPath))
+            {
+                var line = rawLine;
+                var trimmed = line.Trim();
+
+                if (!inFunction)
+                {
+                    if (trimmed.StartsWith("CreateAllRoomsIfNew(", StringComparison.Ordinal))
+                        inFunction = true;
+                    continue;
+                }
+
+                if (!inBody)
+                {
+                    if (trimmed.Contains("{"))
                     {
-                        Name = line.Substring(4).Trim(),
-                        Rooms = new List<ExtractedRoom>()
-                    };
-                    extracted.Categories.Add(currentCategory);
-                    inTable = false;
+                        braceDepth += CountChar(trimmed, '{');
+                        braceDepth -= CountChar(trimmed, '}');
+                        if (braceDepth > 0)
+                            inBody = true;
+                    }
                     continue;
                 }
 
-                if (line.StartsWith("Room Name |"))
+                if (trimmed.StartsWith("//"))
                 {
-                    inTable = true;
-                    continue;
+                    var name = trimmed.TrimStart('/').Trim();
+                    if (!string.IsNullOrWhiteSpace(name))
+                        currentCategory = GetOrCreateCategory(name, extracted, categoryByName);
                 }
 
-                if (inTable && line.StartsWith("---"))
-                    continue;
-
-                if (inTable && line.Contains("|"))
+                var match = ridRegex.Match(line);
+                if (match.Success)
                 {
-                    var parts = line.Split('|');
-                    if (parts.Length < 3 || currentCategory == null)
-                        continue;
-
-                    var name = parts[0].Trim();
-                    var file = parts[1].Trim();
-                    var idText = parts[2].Trim();
-                    if (!int.TryParse(idText, out var idValue))
-                        continue;
-
-                    ridById.TryGetValue(idValue, out var rids);
-                    var rid = rids != null && rids.Count > 0 ? rids[0] : string.Empty;
-                    var germanName = string.Empty;
-                    if (!string.IsNullOrEmpty(rid) && translations.TryGetValue(rid, out var translation))
-                        germanName = translation.GermanName ?? string.Empty;
-
-                    currentCategory.Rooms.Add(new ExtractedRoom
+                    var rid = match.Groups[1].Value;
+                    if (seenRids.Add(rid))
                     {
-                        Name = name,
-                        NameDe = string.IsNullOrWhiteSpace(germanName) ? null : germanName,
-                        Rid = rid,
-                        Id = idValue,
-                        File = file,
-                        Aliases = rids != null && rids.Count > 1 ? rids.Skip(1).ToList() : new List<string>()
-                    });
+                        if (currentCategory == null)
+                            currentCategory = GetOrCreateCategory("Misc", extracted, categoryByName);
 
-                    continue;
+                        var englishName = rid;
+                        string? germanName = null;
+                        string? kodFile = null;
+                        if (translations.TryGetValue(rid, out var translation))
+                        {
+                            englishName = translation.EnglishName ?? englishName;
+                            germanName = translation.GermanName;
+                            kodFile = translation.KodFile;
+                        }
+
+                        ridToId.TryGetValue(rid, out var idValue);
+                        ridById.TryGetValue(idValue, out var ridList);
+
+                        currentCategory.Rooms ??= new List<ExtractedRoom>();
+                        currentCategory.Rooms.Add(new ExtractedRoom
+                        {
+                            Name = englishName,
+                            NameDe = string.IsNullOrWhiteSpace(germanName) ? null : germanName,
+                            Rid = rid,
+                            Id = idValue,
+                            File = kodFile,
+                            Aliases = ridList != null && ridList.Count > 1
+                                ? ridList.Where(r => !string.Equals(r, rid, StringComparison.OrdinalIgnoreCase)).ToList()
+                                : new List<string>()
+                        });
+                    }
                 }
 
-                if (inTable && string.IsNullOrWhiteSpace(line))
-                    inTable = false;
+                braceDepth += CountChar(trimmed, '{');
+                braceDepth -= CountChar(trimmed, '}');
+                if (braceDepth <= 0)
+                    break;
             }
 
             return extracted;
         }
 
+        private static ExtractedCategory GetOrCreateCategory(
+            string name,
+            ExtractedRoomsData extracted,
+            Dictionary<string, ExtractedCategory> categoryByName)
+        {
+            if (categoryByName.TryGetValue(name, out var existing))
+                return existing;
+
+            var category = new ExtractedCategory
+            {
+                Name = name,
+                Rooms = new List<ExtractedRoom>()
+            };
+            extracted.Categories.Add(category);
+            categoryByName[name] = category;
+            return category;
+        }
+
+        private static int CountChar(string value, char target)
+        {
+            var count = 0;
+            foreach (var c in value)
+            {
+                if (c == target)
+                    count++;
+            }
+            return count;
+        }
+
         private static Dictionary<int, List<string>> BuildRidMap(string khdPath)
         {
             var ridById = new Dictionary<int, List<string>>();
-            var ridRegex = new Regex(@"^\s*(RID_[A-Z0-9_]+)\s*=\s*(-?\d+)\b", RegexOptions.Compiled);
+            var ridRegex = new Regex(@"^\s*(RID_[A-Za-z0-9_]+)\s*=\s*(-?\d+)\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             foreach (var line in File.ReadLines(khdPath))
             {
                 var match = ridRegex.Match(line);
