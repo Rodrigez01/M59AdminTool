@@ -1,6 +1,6 @@
+using System;
 using System.Globalization;
 using System.Windows.Data;
-using System.Windows;
 
 namespace M59AdminTool.Converters
 {
@@ -8,23 +8,7 @@ namespace M59AdminTool.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is bool boolValue)
-            {
-                if (targetType == typeof(Visibility))
-                {
-                    return boolValue ? Visibility.Visible : Visibility.Collapsed;
-                }
-
-                return boolValue;
-            }
-
-            var isNotNull = value != null;
-            if (targetType == typeof(Visibility))
-            {
-                return isNotNull ? Visibility.Visible : Visibility.Collapsed;
-            }
-
-            return isNotNull;
+            return value != null;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -50,9 +50,6 @@ namespace M59AdminTool.ViewModels
                     loc.GetString("Help_Section_Tab_Players"),
                     loc.GetString("Help_Content_Tab_Players")),
                 new HelpSection(
-                    loc.GetString("Help_Section_Tab_QuestEditor"),
-                    loc.GetString("Help_Content_Tab_QuestEditor")),
-                new HelpSection(
                     loc.GetString("Help_Section_Tab_DeepInspector"),
                     loc.GetString("Help_Content_Tab_DeepInspector")),
                 new HelpSection(

@@ -78,12 +78,6 @@ Meridian 59 is one of the first 3D MMORPGs, originally released in 1996. This to
 - Player details via "who" command
 - Refresh functionality
 
-### 🗺️ Quest Editor
-- Integrated Quest Editor (embedded project)
-- Visual quest creation and editing
-- Quest flow management
-- NPC interaction setup
-
 ### 🔍 Advanced Tools
 - **Deep Object Inspector** - Debug game objects
 - **List Reader** - Parse server-sent lists
@@ -234,7 +228,6 @@ M59AdminTool/
 - **CommunityToolkit.Mvvm 8.4.0** - MVVM framework
 - **Microsoft.Extensions.Configuration 8.0.0** - Configuration management
 - **Xein.SharpZipLib 1.3.3** - Compression utilities
-- **MySqlConnector 2.5.0** - Database support (QuestEditor)
 
 ### Data Formats
 - **JSON** - Configuration and data persistence
@@ -255,7 +248,6 @@ The following data files are included:
 - `Data\monsters.json` - Monster database
 - `Data\items.json` - Item database
 - `Data\room_names_german.json` - German room translations
-- `Data\SpellDatabase.json` - Spell reference
 - `Data\important_lists.json` - Pre-defined lists
 
 ### Server Connection
@@ -288,7 +280,6 @@ dotnet publish -c Release -r win-x64 --self-contained false /p:PublishSingleFile
 
 This solution includes:
 - **M59AdminTool** - Main application
-- **QuestEditor** - Quest editor component
 - **Meridian59EventManager** - Event management system
 
 ### Debugging

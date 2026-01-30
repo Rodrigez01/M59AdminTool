@@ -1,0 +1,85 @@
+# ===========================================
+# .NET / Visual Studio
+# ===========================================
+
+# Build results
+**/bin/
+**/obj/
+**/publish/
+**/out/
+dist/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+.vscode/
+
+# Rider
+.idea/
+
+# ===========================================
+# Project specific
+# ===========================================
+
+# Sensitive configuration
+appsettings.json
+config.json
+questseditor.config
+*.local.json
+
+# Temporary files
+tmpclaude-*
+Ausgabe.txt
+extracted_*.json
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# ===========================================
+# OS generated
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===========================================
+# Backup files
+# ===========================================
+*.bak
+*.backup
+*.old
+*~
+
+# ===========================================
+# Project specific exclusions
+# ===========================================
+
+# Keep example configs
+!appsettings.example.json
+!*.example.json
+
+# Keep documentation
+!doc/
+!Doku/

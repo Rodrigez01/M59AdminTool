@@ -11,6 +11,15 @@
     <Product>Meridian 59 Admin Tool</Product>
     <Version>1.0.0</Version>
     <ApplicationIcon>icon1.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <PublishDir>..\dist\</PublishDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuestEditorv2.12.1.1\QuestEditor.csproj" />
     <ProjectReference Include="..\EventManager\Meridian59EventManager.csproj" />
   </ItemGroup>
 
@@ -41,16 +49,7 @@
     <None Update="Data\important_lists.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\QuestEditorv2.12.1.1\appsettings.json" Link="appsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\QuestEditorv2.12.1.1\Data\SpellDatabase.json" Link="Data\SpellDatabase.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\QuestEditorv2.12.1.1\Images\Npcs\*.png" Link="Images\Npcs\%(Filename)%(Extension)">
+    <None Update="Themes\*.xaml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

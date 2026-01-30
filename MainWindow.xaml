@@ -7,7 +7,6 @@
         xmlns:converters="clr-namespace:M59AdminTool.Converters"
         xmlns:services="clr-namespace:M59AdminTool.Services"
         xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
-        xmlns:quest="clr-namespace:QuestEditor.Views;assembly=QuestEditor"
         mc:Ignorable="d"
         Title="{services:Loc Window_Title}"
         Height="600" Width="400"
@@ -491,7 +490,9 @@
                             <!-- Monster Action Buttons -->
                             <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
                                 <Button Content="{services:Loc Button_AddMonster}" Command="{Binding AddMonsterCommand}" Padding="8,4" Margin="0,0,5,0"/>
-                                <Button Content="{services:Loc Button_RemoveMonster}" Command="{Binding RemoveMonsterCommand}" Padding="8,4" Background="#E74C3C"/>
+                                <Button Content="{services:Loc Button_RemoveMonster}" Command="{Binding RemoveMonsterCommand}" Padding="8,4" Margin="0,0,10,0" Background="#E74C3C"/>
+                                <TextBlock Text="{services:Loc Label_ItemQuantity}" FontWeight="SemiBold" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBox Text="{Binding SpawnQuantity, UpdateSourceTrigger=PropertyChanged}" Width="60" Padding="4" HorizontalContentAlignment="Center" VerticalAlignment="Center"/>
                             </StackPanel>
 
                             <!-- Search Box -->
@@ -617,7 +618,9 @@
                             <!-- Item Action Buttons -->
                             <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
                                 <Button Content="{services:Loc Button_AddItem}" Command="{Binding AddItemCommand}" Padding="8,4" Margin="0,0,5,0"/>
-                                <Button Content="{services:Loc Button_RemoveItem}" Command="{Binding RemoveItemCommand}" Padding="8,4" Background="#E74C3C"/>
+                                <Button Content="{services:Loc Button_RemoveItem}" Command="{Binding RemoveItemCommand}" Padding="8,4" Margin="0,0,10,0" Background="#E74C3C"/>
+                                <TextBlock Text="{services:Loc Label_ItemQuantity}" FontWeight="SemiBold" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                                <TextBox Text="{Binding SpawnQuantity, UpdateSourceTrigger=PropertyChanged}" Width="60" Padding="4" HorizontalContentAlignment="Center" VerticalAlignment="Center"/>
                             </StackPanel>
 
                             <!-- Search Box -->
@@ -703,11 +706,6 @@
 
                                     <TextBlock Text="{services:Loc Label_DmCommand}" FontWeight="SemiBold" Margin="0,0,0,5"/>
                                     <TextBox Text="{Binding EditDmCommand, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,15" Padding="8" FontFamily="Consolas"/>
-
-                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
-                                        <TextBlock Text="{services:Loc Label_ItemQuantity}" FontWeight="SemiBold" Margin="0,0,5,0" VerticalAlignment="Center"/>
-                                        <TextBox Text="{Binding SpawnQuantity, UpdateSourceTrigger=PropertyChanged}" Width="80" Padding="8" HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
 
                                     <TextBlock Text="{services:Loc Label_Category}" FontWeight="SemiBold" Margin="0,0,0,5"/>
                                     <TextBox Text="{Binding EditCategory, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,15" Padding="8"/>
@@ -1264,10 +1262,6 @@
                         </Grid>
                     </Border>
                 </Grid>
-            </TabItem>
-
-<TabItem x:Name="QuestEditorTab" Header="{services:Loc Tab_QuestEditor}" Tag="QuestEditor">
-                <quest:QuestEditorHost />
             </TabItem>
 
 <TabItem x:Name="DeepObjectInspectorTab" Header="{services:Loc Tab_DeepInspector}" Tag="DeepInspector">

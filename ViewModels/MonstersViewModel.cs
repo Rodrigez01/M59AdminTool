@@ -42,6 +42,14 @@ namespace M59AdminTool.ViewModels
         [ObservableProperty]
         private string _editDmCommand = string.Empty;
 
+        private int _spawnQuantity = 1;
+
+        public int SpawnQuantity
+        {
+            get => _spawnQuantity;
+            set => SetProperty(ref _spawnQuantity, Math.Max(1, value));
+        }
+
         public MonstersViewModel()
         {
             _dataService = new MonstersDataService();
@@ -110,8 +118,13 @@ namespace M59AdminTool.ViewModels
                 return;
             }
 
-            // Send DM command to M59 client
-            await _clientService.SendCommandAsync(SelectedMonster.DmCommand);
+            int quantity = Math.Max(1, SpawnQuantity);
+
+            // Send DM command to M59 client for each quantity
+            for (int i = 0; i < quantity; i++)
+            {
+                await _clientService.SendCommandAsync(SelectedMonster.DmCommand);
+            }
         }
 
         [RelayCommand]

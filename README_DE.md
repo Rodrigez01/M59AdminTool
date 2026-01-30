@@ -78,12 +78,6 @@ Meridian 59 ist eines der ersten 3D-MMORPGs, das ursprünglich 1996 veröffentli
 - Spielerdetails über "who"-Befehl
 - Aktualisierungsfunktion
 
-### 🗺️ Quest Editor
-- Integrierter Quest Editor (eingebettetes Projekt)
-- Visuelle Quest-Erstellung und -Bearbeitung
-- Quest-Flow-Verwaltung
-- NPC-Interaktions-Setup
-
 ### 🔍 Erweiterte Tools
 - **Deep Object Inspector** - Debug von Spielobjekten
 - **List Reader** - Parsen von Server-gesendeten Listen
@@ -234,7 +228,6 @@ M59AdminTool/
 - **CommunityToolkit.Mvvm 8.4.0** - MVVM-Framework
 - **Microsoft.Extensions.Configuration 8.0.0** - Konfigurations-Management
 - **Xein.SharpZipLib 1.3.3** - Kompressions-Utilities
-- **MySqlConnector 2.5.0** - Datenbank-Support (QuestEditor)
 
 ### Datenformate
 - **JSON** - Konfiguration und Datenpersistenz
@@ -255,7 +248,6 @@ Die folgenden Datendateien sind enthalten:
 - `Data\monsters.json` - Monster-Datenbank
 - `Data\items.json` - Item-Datenbank
 - `Data\room_names_german.json` - Deutsche Raum-Übersetzungen
-- `Data\SpellDatabase.json` - Zauber-Referenz
 - `Data\important_lists.json` - Vordefinierte Listen
 
 ### Serververbindung
@@ -288,7 +280,6 @@ dotnet publish -c Release -r win-x64 --self-contained false /p:PublishSingleFile
 
 Diese Lösung umfasst:
 - **M59AdminTool** - Hauptanwendung
-- **QuestEditor** - Quest-Editor-Komponente
 - **Meridian59EventManager** - Event-Management-System
 
 ### Debugging
@@ -334,7 +325,6 @@ Für Probleme, Fragen oder Feature-Anfragen:
 ## 🗺️ Roadmap
 
 - [ ] Mehr Admin-Befehle hinzufügen
-- [ ] Erweiterte Quest-Editor-Features
 - [ ] Raum-Editor-Integration
 - [ ] Automatisches Backup-System
 - [ ] Plugin-System für Erweiterungen

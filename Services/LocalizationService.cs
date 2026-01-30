@@ -105,7 +105,6 @@ namespace M59AdminTool.Services
             ["Help_Section_Tab_DJ"] = new() { [Language.English] = "Tab: DJ", [Language.German] = "Tab: DJ" },
             ["Help_Section_Tab_Arena"] = new() { [Language.English] = "Tab: Arena", [Language.German] = "Tab: Arena" },
             ["Help_Section_Tab_Players"] = new() { [Language.English] = "Tab: Players", [Language.German] = "Tab: Players" },
-            ["Help_Section_Tab_QuestEditor"] = new() { [Language.English] = "Tab: QuestEditor", [Language.German] = "Tab: QuestEditor" },
             ["Help_Section_Tab_DeepInspector"] = new() { [Language.English] = "Tab: Deep Inspector", [Language.German] = "Tab: Deep Inspector" },
             ["Help_Section_Tab_ListReader"] = new() { [Language.English] = "Tab: List Reader", [Language.German] = "Tab: List Reader" },
             ["Help_Section_Tab_AdminConsole"] = new() { [Language.English] = "Tab: Admin Console", [Language.German] = "Tab: Admin Console" },
@@ -143,7 +142,6 @@ namespace M59AdminTool.Services
 - Admin: Accounts, system actions, resources, global actions, advanced object/class commands.
 - DJ / Arena: Placeholders for future tools.
 - Players: Online list, rooms list, player details, copy actions, deep inspector entry.
-- QuestEditor: Embedded quest editor UI.
 - Deep Inspector: Show object or list, edit properties, navigate lists/objects, history.
 - List Reader: show class / instances / all / list; details view; list preview; edit INT.
 - Admin Console: Send raw admin commands and copy responses.
@@ -157,7 +155,6 @@ namespace M59AdminTool.Services
 - Admin: Accounts, Systemaktionen, Ressourcen, globale Aktionen, Objekt/Klassen-Befehle.
 - DJ / Arena: Platzhalter für zukünftige Tools.
 - Players: Online-Liste, Rooms-Liste, Player-Details, Copy-Aktionen, Deep-Inspector Einstieg.
-- QuestEditor: Eingebetteter Quest-Editor.
 - Deep Inspector: Object/List anzeigen, Properties editieren, Listen/Object Navigation, Verlauf.
 - List Reader: show class / instances / all / list; Detailansicht; Listen-Preview; INT bearbeiten.
 - Admin Console: Admin-Befehle senden, Antworten kopieren.
@@ -211,10 +208,10 @@ Deep Inspector:
             {
                 [Language.English] = @"Program: M59AdminTool
 Open Source License: MIT / GPL
-Copyright (c) Frank Hortmann (Rod)",
+Copyright (c) Rod",
                 [Language.German] = @"Programm: M59AdminTool
 Open-Source-Lizenz: MIT / GPL
-Copyright (c) Frank Hortmann (Rod)"
+Copyright (c) Rod"
             },
             ["Help_Content_Tab_Connection"] = new()
             {
@@ -327,63 +324,6 @@ Copyright (c) Frank Hortmann (Rod)"
 - INT-Zeilen per Doppelklick bearbeiten, Rechtsklick für Kopieren.
 - Spieler im Deep Inspector öffnen."
             },
-            ["Help_Content_Tab_QuestEditor"] = new()
-            {
-                [Language.English] = @"QuestEditor (embedded)
-
-Quick Start:
-1) Settings → set Server Root and auto-fill paths, then save.
-2) New Quest → set Quest Name, KOD Class (NO spaces), Icon.
-3) Node 1 (MESSAGE): add NPC, Cargo trigger.
-4) Node 2 (MONSTER/ITEM): add task, dialogs, rewards.
-5) Save Quest → Build & Deploy → restart server.
-
-Structure:
-- Node 1: MESSAGE with Cargo trigger, no Dialogs, no Rewards.
-- Node 2: MONSTER/ITEM main task, Dialogs + Rewards here.
-- Node 3: SHOWUP optional final message, no Rewards.
-
-Build & Deploy:
-- Saves .kod, compiles to .bof, compiles NPCs,
-  builds resources/bundles, copies to client.
-- Restart server after deploy.
-
-NPC Browser:
-- Validate NPCs to find MOB_NOQUEST.
-- Fix NPCs to remove MOB_NOQUEST and add MOB_LISTEN.
-
-Common mistakes:
-- Rewards must be on MONSTER/ITEM node (Node 2).
-- Node 1 is MESSAGE with Cargo only (no Dialogs).
-- KOD Class without spaces; trigger word in Cargo.",
-                [Language.German] = @"QuestEditor (eingebettet)
-
-Schnellstart:
-1) Settings → Server Root setzen, Pfade auto-füllen, speichern.
-2) New Quest → Quest Name, KOD Class (KEINE Leerzeichen), Icon.
-3) Node 1 (MESSAGE): NPC hinzufügen, Cargo Trigger.
-4) Node 2 (MONSTER/ITEM): Aufgabe, Dialoge, Rewards.
-5) Save Quest → Build & Deploy → Server neu starten.
-
-Struktur:
-- Node 1: MESSAGE mit Cargo-Trigger, keine Dialoge, keine Rewards.
-- Node 2: MONSTER/ITEM Hauptaufgabe, Dialoge + Rewards hier.
-- Node 3: SHOWUP optionaler Abschluss, keine Rewards.
-
-Build & Deploy:
-- Speichert .kod, kompiliert zu .bof, kompiliert NPCs,
-  erstellt Ressourcen/Bundles, kopiert zum Client.
-- Nach Deploy Server neu starten.
-
-NPC Browser:
-- Validate NPCs prüft MOB_NOQUEST.
-- Fix NPCs entfernt MOB_NOQUEST und setzt MOB_LISTEN.
-
-Häufige Fehler:
-- Rewards gehören auf MONSTER/ITEM (Node 2).
-- Node 1 ist MESSAGE mit Cargo (keine Dialoge).
-- KOD Class ohne Leerzeichen; Trigger-Wort im Cargo."
-            },
             ["Help_Content_Tab_DeepInspector"] = new()
             {
                 [Language.English] = @"- Load object by ID or list by ""list <id>"".
@@ -434,7 +374,6 @@ Häufige Fehler:
             ["Tab_Warps"] = new() { [Language.English] = "Warps", [Language.German] = "Warps" },
             ["Tab_Monsters"] = new() { [Language.English] = "Monsters", [Language.German] = "Monster" },
             ["Tab_Items"] = new() { [Language.English] = "Items", [Language.German] = "Items" },
-            ["Tab_QuestEditor"] = new() { [Language.English] = "QuestEditor", [Language.German] = "QuestEditor" },
             ["Tab_Dm"] = new() { [Language.English] = "DM", [Language.German] = "DM" },
             ["Tab_Admin"] = new() { [Language.English] = "Admin", [Language.German] = "Admin" },
             ["Tab_ObjectInspector"] = new() { [Language.English] = "Object Inspector", [Language.German] = "Objekt-Inspektor" },
